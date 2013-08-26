@@ -102,13 +102,13 @@ namespace Poupou.SvgPathConverter {
 		{
 			formatter.Prologue (name);
 
-            PointF start = PointF.Empty;
+			PointF start = PointF.Empty;
 			PointF cp = new PointF (0, 0);
-            PointF cp1 = PointF.Empty,
-                cp2 = PointF.Empty,
-                cp3 = PointF.Empty;
-            PointF qbzp = PointF.Empty,
-                cbzp = PointF.Empty;
+			PointF cp1 = PointF.Empty,
+				cp2 = PointF.Empty,
+				cp3 = PointF.Empty;
+			PointF qbzp = PointF.Empty,
+				cbzp = PointF.Empty;
 			int fill_rule = 0;
 			int pos = 0;
 			bool cbz = false;

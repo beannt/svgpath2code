@@ -23,7 +23,7 @@ namespace Poupou.SvgPathConverter {
 		
 		public void Prologue (string name)
 		{
-			writer.WriteLine ("\static CGPath {0}_path ()", name);
+			writer.WriteLine ("\tstatic CGPath {0}_path ()", name);
 			writer.WriteLine ("\t{");
             writer.WriteLine("\t\tCGPath p = new CGPath();");
 		}

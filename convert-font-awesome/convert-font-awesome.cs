@@ -50,27 +50,42 @@ class Program {
 		writer.WriteLine ("namespace Poupou.Awesome.Demo {");
 		writer.WriteLine ();
 		writer.WriteLine ("\t[Preserve]");
-		writer.WriteLine ("\tpublic partial class Elements {");
+		writer.WriteLine("\tpublic partial class AwesomeIcons {");
 
-		Dictionary<string,string> names = new Dictionary<string,string> ();
-        string[] lines = File.ReadLines(css_file).ToArray();
+		Dictionary<string, string> names = new Dictionary<string, string>();
+		string[] lines = File.ReadLines(css_file).ToArray();
 		for (int i = 0; i < lines.Length; i++) {
-            string line = lines[i];
-			if (!line.StartsWith (".icon-", StringComparison.Ordinal))
-				continue;
-			int p = line.IndexOf (':');
+			string line = lines[i];
+			// get value first
+			int p = line.IndexOf("content: \"\\", StringComparison.Ordinal);
 			if (p == -1)
 				continue;
-			string name = line.Substring (1, p - 1).Replace ('-', '_');
-            line = lines[++i];
-            p = line.IndexOf("content: \"\\", StringComparison.Ordinal);
-			if (p == -1)
-				continue;
-			string value = line.Substring (p + 11, 4);
-			writer.WriteLine ("\t\t// {0} : {1}", name, value);
-            writer.WriteLine("\t\tpublic static UIImage {0} = {{ get {{ return Get ({0}_path); }} }}", name);
-			writer.WriteLine ();
-			names[value] = name;
+			string value = line.Substring(p + 11, 4);
+
+			// get names
+			string name = null;
+			if (names.ContainsKey(value))
+				name = names[value];
+			for (int j = i - 1; j >= 0; j--)
+			{
+				line = lines[j];
+				if (!line.StartsWith(".icon-", StringComparison.Ordinal))
+					break;
+
+				p = line.IndexOf(':');
+				if (p == -1)
+					break;
+				string curName = line.Substring(1, p - 1).Replace('-', '_');
+				if (name == null)
+				{
+					name = curName;
+					names.Add(value, name);
+				}
+
+				writer.WriteLine("\t\t// {0} : {1}", name, value);
+				writer.WriteLine("\t\tpublic static UIImage {0} {{ get {{ return Get ({1}_path); }} }}", curName, name);
+				writer.WriteLine();
+			}
 		}
 		writer.WriteLine ("\t\t// total: {0}", names.Count);
 		writer.WriteLine ();
@@ -86,12 +101,12 @@ class Program {
 				continue;
 			string id = line.Substring (19, 4);
 			string name;
-			if (!names.TryGetValue (id, out name))
+			if (!names.TryGetValue(id, out name))
 				continue;
 			int p = line.IndexOf (" d=\"") + 4;
 			int e = line.LastIndexOf ('"');
 			string data = line.Substring (p, e - p);
-			parser.Parse (data, name);
+			parser.Parse(data, name);
 		}
 		writer.WriteLine ("\t}");
 		writer.WriteLine ("}");

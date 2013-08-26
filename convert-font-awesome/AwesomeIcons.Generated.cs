@@ -8,1044 +8,1146 @@ using MonoTouch.UIKit;
 namespace Poupou.Awesome.Demo {
 
 	[Preserve]
-	public partial class Elements {
+	public partial class AwesomeIcons {
 		// icon_glass : f000
-		public static UIImage icon_glass = { get { return Get (icon_glass); } }
+		public static UIImage icon_glass { get { return Get (icon_glass_path); } }
 
 		// icon_music : f001
-		public static UIImage icon_music = { get { return Get (icon_music); } }
+		public static UIImage icon_music { get { return Get (icon_music_path); } }
 
 		// icon_search : f002
-		public static UIImage icon_search = { get { return Get (icon_search); } }
+		public static UIImage icon_search { get { return Get (icon_search_path); } }
 
 		// icon_envelope_alt : f003
-		public static UIImage icon_envelope_alt = { get { return Get (icon_envelope_alt); } }
+		public static UIImage icon_envelope_alt { get { return Get (icon_envelope_alt_path); } }
 
 		// icon_heart : f004
-		public static UIImage icon_heart = { get { return Get (icon_heart); } }
+		public static UIImage icon_heart { get { return Get (icon_heart_path); } }
 
 		// icon_star : f005
-		public static UIImage icon_star = { get { return Get (icon_star); } }
+		public static UIImage icon_star { get { return Get (icon_star_path); } }
 
 		// icon_star_empty : f006
-		public static UIImage icon_star_empty = { get { return Get (icon_star_empty); } }
+		public static UIImage icon_star_empty { get { return Get (icon_star_empty_path); } }
 
 		// icon_user : f007
-		public static UIImage icon_user = { get { return Get (icon_user); } }
+		public static UIImage icon_user { get { return Get (icon_user_path); } }
 
 		// icon_film : f008
-		public static UIImage icon_film = { get { return Get (icon_film); } }
+		public static UIImage icon_film { get { return Get (icon_film_path); } }
 
 		// icon_th_large : f009
-		public static UIImage icon_th_large = { get { return Get (icon_th_large); } }
+		public static UIImage icon_th_large { get { return Get (icon_th_large_path); } }
 
 		// icon_th : f00a
-		public static UIImage icon_th = { get { return Get (icon_th); } }
+		public static UIImage icon_th { get { return Get (icon_th_path); } }
 
 		// icon_th_list : f00b
-		public static UIImage icon_th_list = { get { return Get (icon_th_list); } }
+		public static UIImage icon_th_list { get { return Get (icon_th_list_path); } }
 
 		// icon_ok : f00c
-		public static UIImage icon_ok = { get { return Get (icon_ok); } }
+		public static UIImage icon_ok { get { return Get (icon_ok_path); } }
 
 		// icon_remove : f00d
-		public static UIImage icon_remove = { get { return Get (icon_remove); } }
+		public static UIImage icon_remove { get { return Get (icon_remove_path); } }
 
 		// icon_zoom_in : f00e
-		public static UIImage icon_zoom_in = { get { return Get (icon_zoom_in); } }
+		public static UIImage icon_zoom_in { get { return Get (icon_zoom_in_path); } }
 
 		// icon_zoom_out : f010
-		public static UIImage icon_zoom_out = { get { return Get (icon_zoom_out); } }
+		public static UIImage icon_zoom_out { get { return Get (icon_zoom_out_path); } }
+
+		// icon_off : f011
+		public static UIImage icon_off { get { return Get (icon_off_path); } }
+
+		// icon_off : f011
+		public static UIImage icon_power_off { get { return Get (icon_off_path); } }
 
 		// icon_signal : f012
-		public static UIImage icon_signal = { get { return Get (icon_signal); } }
+		public static UIImage icon_signal { get { return Get (icon_signal_path); } }
+
+		// icon_cog : f013
+		public static UIImage icon_cog { get { return Get (icon_cog_path); } }
+
+		// icon_cog : f013
+		public static UIImage icon_gear { get { return Get (icon_cog_path); } }
 
 		// icon_trash : f014
-		public static UIImage icon_trash = { get { return Get (icon_trash); } }
+		public static UIImage icon_trash { get { return Get (icon_trash_path); } }
 
 		// icon_home : f015
-		public static UIImage icon_home = { get { return Get (icon_home); } }
+		public static UIImage icon_home { get { return Get (icon_home_path); } }
 
 		// icon_file_alt : f016
-		public static UIImage icon_file_alt = { get { return Get (icon_file_alt); } }
+		public static UIImage icon_file_alt { get { return Get (icon_file_alt_path); } }
 
 		// icon_time : f017
-		public static UIImage icon_time = { get { return Get (icon_time); } }
+		public static UIImage icon_time { get { return Get (icon_time_path); } }
 
 		// icon_road : f018
-		public static UIImage icon_road = { get { return Get (icon_road); } }
+		public static UIImage icon_road { get { return Get (icon_road_path); } }
 
 		// icon_download_alt : f019
-		public static UIImage icon_download_alt = { get { return Get (icon_download_alt); } }
+		public static UIImage icon_download_alt { get { return Get (icon_download_alt_path); } }
 
 		// icon_download : f01a
-		public static UIImage icon_download = { get { return Get (icon_download); } }
+		public static UIImage icon_download { get { return Get (icon_download_path); } }
 
 		// icon_upload : f01b
-		public static UIImage icon_upload = { get { return Get (icon_upload); } }
+		public static UIImage icon_upload { get { return Get (icon_upload_path); } }
 
 		// icon_inbox : f01c
-		public static UIImage icon_inbox = { get { return Get (icon_inbox); } }
+		public static UIImage icon_inbox { get { return Get (icon_inbox_path); } }
 
 		// icon_play_circle : f01d
-		public static UIImage icon_play_circle = { get { return Get (icon_play_circle); } }
+		public static UIImage icon_play_circle { get { return Get (icon_play_circle_path); } }
+
+		// icon_repeat : f01e
+		public static UIImage icon_repeat { get { return Get (icon_repeat_path); } }
+
+		// icon_repeat : f01e
+		public static UIImage icon_rotate_right { get { return Get (icon_repeat_path); } }
 
 		// icon_refresh : f021
-		public static UIImage icon_refresh = { get { return Get (icon_refresh); } }
+		public static UIImage icon_refresh { get { return Get (icon_refresh_path); } }
 
 		// icon_list_alt : f022
-		public static UIImage icon_list_alt = { get { return Get (icon_list_alt); } }
+		public static UIImage icon_list_alt { get { return Get (icon_list_alt_path); } }
 
 		// icon_lock : f023
-		public static UIImage icon_lock = { get { return Get (icon_lock); } }
+		public static UIImage icon_lock { get { return Get (icon_lock_path); } }
 
 		// icon_flag : f024
-		public static UIImage icon_flag = { get { return Get (icon_flag); } }
+		public static UIImage icon_flag { get { return Get (icon_flag_path); } }
 
 		// icon_headphones : f025
-		public static UIImage icon_headphones = { get { return Get (icon_headphones); } }
+		public static UIImage icon_headphones { get { return Get (icon_headphones_path); } }
 
 		// icon_volume_off : f026
-		public static UIImage icon_volume_off = { get { return Get (icon_volume_off); } }
+		public static UIImage icon_volume_off { get { return Get (icon_volume_off_path); } }
 
 		// icon_volume_down : f027
-		public static UIImage icon_volume_down = { get { return Get (icon_volume_down); } }
+		public static UIImage icon_volume_down { get { return Get (icon_volume_down_path); } }
 
 		// icon_volume_up : f028
-		public static UIImage icon_volume_up = { get { return Get (icon_volume_up); } }
+		public static UIImage icon_volume_up { get { return Get (icon_volume_up_path); } }
 
 		// icon_qrcode : f029
-		public static UIImage icon_qrcode = { get { return Get (icon_qrcode); } }
+		public static UIImage icon_qrcode { get { return Get (icon_qrcode_path); } }
 
 		// icon_barcode : f02a
-		public static UIImage icon_barcode = { get { return Get (icon_barcode); } }
+		public static UIImage icon_barcode { get { return Get (icon_barcode_path); } }
 
 		// icon_tag : f02b
-		public static UIImage icon_tag = { get { return Get (icon_tag); } }
+		public static UIImage icon_tag { get { return Get (icon_tag_path); } }
 
 		// icon_tags : f02c
-		public static UIImage icon_tags = { get { return Get (icon_tags); } }
+		public static UIImage icon_tags { get { return Get (icon_tags_path); } }
 
 		// icon_book : f02d
-		public static UIImage icon_book = { get { return Get (icon_book); } }
+		public static UIImage icon_book { get { return Get (icon_book_path); } }
 
 		// icon_bookmark : f02e
-		public static UIImage icon_bookmark = { get { return Get (icon_bookmark); } }
+		public static UIImage icon_bookmark { get { return Get (icon_bookmark_path); } }
 
 		// icon_print : f02f
-		public static UIImage icon_print = { get { return Get (icon_print); } }
+		public static UIImage icon_print { get { return Get (icon_print_path); } }
 
 		// icon_camera : f030
-		public static UIImage icon_camera = { get { return Get (icon_camera); } }
+		public static UIImage icon_camera { get { return Get (icon_camera_path); } }
 
 		// icon_font : f031
-		public static UIImage icon_font = { get { return Get (icon_font); } }
+		public static UIImage icon_font { get { return Get (icon_font_path); } }
 
 		// icon_bold : f032
-		public static UIImage icon_bold = { get { return Get (icon_bold); } }
+		public static UIImage icon_bold { get { return Get (icon_bold_path); } }
 
 		// icon_italic : f033
-		public static UIImage icon_italic = { get { return Get (icon_italic); } }
+		public static UIImage icon_italic { get { return Get (icon_italic_path); } }
 
 		// icon_text_height : f034
-		public static UIImage icon_text_height = { get { return Get (icon_text_height); } }
+		public static UIImage icon_text_height { get { return Get (icon_text_height_path); } }
 
 		// icon_text_width : f035
-		public static UIImage icon_text_width = { get { return Get (icon_text_width); } }
+		public static UIImage icon_text_width { get { return Get (icon_text_width_path); } }
 
 		// icon_align_left : f036
-		public static UIImage icon_align_left = { get { return Get (icon_align_left); } }
+		public static UIImage icon_align_left { get { return Get (icon_align_left_path); } }
 
 		// icon_align_center : f037
-		public static UIImage icon_align_center = { get { return Get (icon_align_center); } }
+		public static UIImage icon_align_center { get { return Get (icon_align_center_path); } }
 
 		// icon_align_right : f038
-		public static UIImage icon_align_right = { get { return Get (icon_align_right); } }
+		public static UIImage icon_align_right { get { return Get (icon_align_right_path); } }
 
 		// icon_align_justify : f039
-		public static UIImage icon_align_justify = { get { return Get (icon_align_justify); } }
+		public static UIImage icon_align_justify { get { return Get (icon_align_justify_path); } }
 
 		// icon_list : f03a
-		public static UIImage icon_list = { get { return Get (icon_list); } }
+		public static UIImage icon_list { get { return Get (icon_list_path); } }
 
 		// icon_indent_left : f03b
-		public static UIImage icon_indent_left = { get { return Get (icon_indent_left); } }
+		public static UIImage icon_indent_left { get { return Get (icon_indent_left_path); } }
 
 		// icon_indent_right : f03c
-		public static UIImage icon_indent_right = { get { return Get (icon_indent_right); } }
+		public static UIImage icon_indent_right { get { return Get (icon_indent_right_path); } }
 
 		// icon_facetime_video : f03d
-		public static UIImage icon_facetime_video = { get { return Get (icon_facetime_video); } }
+		public static UIImage icon_facetime_video { get { return Get (icon_facetime_video_path); } }
 
 		// icon_picture : f03e
-		public static UIImage icon_picture = { get { return Get (icon_picture); } }
+		public static UIImage icon_picture { get { return Get (icon_picture_path); } }
 
 		// icon_pencil : f040
-		public static UIImage icon_pencil = { get { return Get (icon_pencil); } }
+		public static UIImage icon_pencil { get { return Get (icon_pencil_path); } }
 
 		// icon_map_marker : f041
-		public static UIImage icon_map_marker = { get { return Get (icon_map_marker); } }
+		public static UIImage icon_map_marker { get { return Get (icon_map_marker_path); } }
 
 		// icon_adjust : f042
-		public static UIImage icon_adjust = { get { return Get (icon_adjust); } }
+		public static UIImage icon_adjust { get { return Get (icon_adjust_path); } }
 
 		// icon_tint : f043
-		public static UIImage icon_tint = { get { return Get (icon_tint); } }
+		public static UIImage icon_tint { get { return Get (icon_tint_path); } }
 
 		// icon_edit : f044
-		public static UIImage icon_edit = { get { return Get (icon_edit); } }
+		public static UIImage icon_edit { get { return Get (icon_edit_path); } }
 
 		// icon_share : f045
-		public static UIImage icon_share = { get { return Get (icon_share); } }
+		public static UIImage icon_share { get { return Get (icon_share_path); } }
 
 		// icon_check : f046
-		public static UIImage icon_check = { get { return Get (icon_check); } }
+		public static UIImage icon_check { get { return Get (icon_check_path); } }
 
 		// icon_move : f047
-		public static UIImage icon_move = { get { return Get (icon_move); } }
+		public static UIImage icon_move { get { return Get (icon_move_path); } }
 
 		// icon_step_backward : f048
-		public static UIImage icon_step_backward = { get { return Get (icon_step_backward); } }
+		public static UIImage icon_step_backward { get { return Get (icon_step_backward_path); } }
 
 		// icon_fast_backward : f049
-		public static UIImage icon_fast_backward = { get { return Get (icon_fast_backward); } }
+		public static UIImage icon_fast_backward { get { return Get (icon_fast_backward_path); } }
 
 		// icon_backward : f04a
-		public static UIImage icon_backward = { get { return Get (icon_backward); } }
+		public static UIImage icon_backward { get { return Get (icon_backward_path); } }
 
 		// icon_play : f04b
-		public static UIImage icon_play = { get { return Get (icon_play); } }
+		public static UIImage icon_play { get { return Get (icon_play_path); } }
 
 		// icon_pause : f04c
-		public static UIImage icon_pause = { get { return Get (icon_pause); } }
+		public static UIImage icon_pause { get { return Get (icon_pause_path); } }
 
 		// icon_stop : f04d
-		public static UIImage icon_stop = { get { return Get (icon_stop); } }
+		public static UIImage icon_stop { get { return Get (icon_stop_path); } }
 
 		// icon_forward : f04e
-		public static UIImage icon_forward = { get { return Get (icon_forward); } }
+		public static UIImage icon_forward { get { return Get (icon_forward_path); } }
 
 		// icon_fast_forward : f050
-		public static UIImage icon_fast_forward = { get { return Get (icon_fast_forward); } }
+		public static UIImage icon_fast_forward { get { return Get (icon_fast_forward_path); } }
 
 		// icon_step_forward : f051
-		public static UIImage icon_step_forward = { get { return Get (icon_step_forward); } }
+		public static UIImage icon_step_forward { get { return Get (icon_step_forward_path); } }
 
 		// icon_eject : f052
-		public static UIImage icon_eject = { get { return Get (icon_eject); } }
+		public static UIImage icon_eject { get { return Get (icon_eject_path); } }
 
 		// icon_chevron_left : f053
-		public static UIImage icon_chevron_left = { get { return Get (icon_chevron_left); } }
+		public static UIImage icon_chevron_left { get { return Get (icon_chevron_left_path); } }
 
 		// icon_chevron_right : f054
-		public static UIImage icon_chevron_right = { get { return Get (icon_chevron_right); } }
+		public static UIImage icon_chevron_right { get { return Get (icon_chevron_right_path); } }
 
 		// icon_plus_sign : f055
-		public static UIImage icon_plus_sign = { get { return Get (icon_plus_sign); } }
+		public static UIImage icon_plus_sign { get { return Get (icon_plus_sign_path); } }
 
 		// icon_minus_sign : f056
-		public static UIImage icon_minus_sign = { get { return Get (icon_minus_sign); } }
+		public static UIImage icon_minus_sign { get { return Get (icon_minus_sign_path); } }
 
 		// icon_remove_sign : f057
-		public static UIImage icon_remove_sign = { get { return Get (icon_remove_sign); } }
+		public static UIImage icon_remove_sign { get { return Get (icon_remove_sign_path); } }
 
 		// icon_ok_sign : f058
-		public static UIImage icon_ok_sign = { get { return Get (icon_ok_sign); } }
+		public static UIImage icon_ok_sign { get { return Get (icon_ok_sign_path); } }
 
 		// icon_question_sign : f059
-		public static UIImage icon_question_sign = { get { return Get (icon_question_sign); } }
+		public static UIImage icon_question_sign { get { return Get (icon_question_sign_path); } }
 
 		// icon_info_sign : f05a
-		public static UIImage icon_info_sign = { get { return Get (icon_info_sign); } }
+		public static UIImage icon_info_sign { get { return Get (icon_info_sign_path); } }
 
 		// icon_screenshot : f05b
-		public static UIImage icon_screenshot = { get { return Get (icon_screenshot); } }
+		public static UIImage icon_screenshot { get { return Get (icon_screenshot_path); } }
 
 		// icon_remove_circle : f05c
-		public static UIImage icon_remove_circle = { get { return Get (icon_remove_circle); } }
+		public static UIImage icon_remove_circle { get { return Get (icon_remove_circle_path); } }
 
 		// icon_ok_circle : f05d
-		public static UIImage icon_ok_circle = { get { return Get (icon_ok_circle); } }
+		public static UIImage icon_ok_circle { get { return Get (icon_ok_circle_path); } }
 
 		// icon_ban_circle : f05e
-		public static UIImage icon_ban_circle = { get { return Get (icon_ban_circle); } }
+		public static UIImage icon_ban_circle { get { return Get (icon_ban_circle_path); } }
 
 		// icon_arrow_left : f060
-		public static UIImage icon_arrow_left = { get { return Get (icon_arrow_left); } }
+		public static UIImage icon_arrow_left { get { return Get (icon_arrow_left_path); } }
 
 		// icon_arrow_right : f061
-		public static UIImage icon_arrow_right = { get { return Get (icon_arrow_right); } }
+		public static UIImage icon_arrow_right { get { return Get (icon_arrow_right_path); } }
 
 		// icon_arrow_up : f062
-		public static UIImage icon_arrow_up = { get { return Get (icon_arrow_up); } }
+		public static UIImage icon_arrow_up { get { return Get (icon_arrow_up_path); } }
 
 		// icon_arrow_down : f063
-		public static UIImage icon_arrow_down = { get { return Get (icon_arrow_down); } }
+		public static UIImage icon_arrow_down { get { return Get (icon_arrow_down_path); } }
+
+		// icon_share_alt : f064
+		public static UIImage icon_share_alt { get { return Get (icon_share_alt_path); } }
+
+		// icon_share_alt : f064
+		public static UIImage icon_mail_forward { get { return Get (icon_share_alt_path); } }
 
 		// icon_resize_full : f065
-		public static UIImage icon_resize_full = { get { return Get (icon_resize_full); } }
+		public static UIImage icon_resize_full { get { return Get (icon_resize_full_path); } }
 
 		// icon_resize_small : f066
-		public static UIImage icon_resize_small = { get { return Get (icon_resize_small); } }
+		public static UIImage icon_resize_small { get { return Get (icon_resize_small_path); } }
 
 		// icon_plus : f067
-		public static UIImage icon_plus = { get { return Get (icon_plus); } }
+		public static UIImage icon_plus { get { return Get (icon_plus_path); } }
 
 		// icon_minus : f068
-		public static UIImage icon_minus = { get { return Get (icon_minus); } }
+		public static UIImage icon_minus { get { return Get (icon_minus_path); } }
 
 		// icon_asterisk : f069
-		public static UIImage icon_asterisk = { get { return Get (icon_asterisk); } }
+		public static UIImage icon_asterisk { get { return Get (icon_asterisk_path); } }
 
 		// icon_exclamation_sign : f06a
-		public static UIImage icon_exclamation_sign = { get { return Get (icon_exclamation_sign); } }
+		public static UIImage icon_exclamation_sign { get { return Get (icon_exclamation_sign_path); } }
 
 		// icon_gift : f06b
-		public static UIImage icon_gift = { get { return Get (icon_gift); } }
+		public static UIImage icon_gift { get { return Get (icon_gift_path); } }
 
 		// icon_leaf : f06c
-		public static UIImage icon_leaf = { get { return Get (icon_leaf); } }
+		public static UIImage icon_leaf { get { return Get (icon_leaf_path); } }
 
 		// icon_fire : f06d
-		public static UIImage icon_fire = { get { return Get (icon_fire); } }
+		public static UIImage icon_fire { get { return Get (icon_fire_path); } }
 
 		// icon_eye_open : f06e
-		public static UIImage icon_eye_open = { get { return Get (icon_eye_open); } }
+		public static UIImage icon_eye_open { get { return Get (icon_eye_open_path); } }
 
 		// icon_eye_close : f070
-		public static UIImage icon_eye_close = { get { return Get (icon_eye_close); } }
+		public static UIImage icon_eye_close { get { return Get (icon_eye_close_path); } }
 
 		// icon_warning_sign : f071
-		public static UIImage icon_warning_sign = { get { return Get (icon_warning_sign); } }
+		public static UIImage icon_warning_sign { get { return Get (icon_warning_sign_path); } }
 
 		// icon_plane : f072
-		public static UIImage icon_plane = { get { return Get (icon_plane); } }
+		public static UIImage icon_plane { get { return Get (icon_plane_path); } }
 
 		// icon_calendar : f073
-		public static UIImage icon_calendar = { get { return Get (icon_calendar); } }
+		public static UIImage icon_calendar { get { return Get (icon_calendar_path); } }
 
 		// icon_random : f074
-		public static UIImage icon_random = { get { return Get (icon_random); } }
+		public static UIImage icon_random { get { return Get (icon_random_path); } }
 
 		// icon_comment : f075
-		public static UIImage icon_comment = { get { return Get (icon_comment); } }
+		public static UIImage icon_comment { get { return Get (icon_comment_path); } }
 
 		// icon_magnet : f076
-		public static UIImage icon_magnet = { get { return Get (icon_magnet); } }
+		public static UIImage icon_magnet { get { return Get (icon_magnet_path); } }
 
 		// icon_chevron_up : f077
-		public static UIImage icon_chevron_up = { get { return Get (icon_chevron_up); } }
+		public static UIImage icon_chevron_up { get { return Get (icon_chevron_up_path); } }
 
 		// icon_chevron_down : f078
-		public static UIImage icon_chevron_down = { get { return Get (icon_chevron_down); } }
+		public static UIImage icon_chevron_down { get { return Get (icon_chevron_down_path); } }
 
 		// icon_retweet : f079
-		public static UIImage icon_retweet = { get { return Get (icon_retweet); } }
+		public static UIImage icon_retweet { get { return Get (icon_retweet_path); } }
 
 		// icon_shopping_cart : f07a
-		public static UIImage icon_shopping_cart = { get { return Get (icon_shopping_cart); } }
+		public static UIImage icon_shopping_cart { get { return Get (icon_shopping_cart_path); } }
 
 		// icon_folder_close : f07b
-		public static UIImage icon_folder_close = { get { return Get (icon_folder_close); } }
+		public static UIImage icon_folder_close { get { return Get (icon_folder_close_path); } }
 
 		// icon_folder_open : f07c
-		public static UIImage icon_folder_open = { get { return Get (icon_folder_open); } }
+		public static UIImage icon_folder_open { get { return Get (icon_folder_open_path); } }
 
 		// icon_resize_vertical : f07d
-		public static UIImage icon_resize_vertical = { get { return Get (icon_resize_vertical); } }
+		public static UIImage icon_resize_vertical { get { return Get (icon_resize_vertical_path); } }
 
 		// icon_resize_horizontal : f07e
-		public static UIImage icon_resize_horizontal = { get { return Get (icon_resize_horizontal); } }
+		public static UIImage icon_resize_horizontal { get { return Get (icon_resize_horizontal_path); } }
 
 		// icon_bar_chart : f080
-		public static UIImage icon_bar_chart = { get { return Get (icon_bar_chart); } }
+		public static UIImage icon_bar_chart { get { return Get (icon_bar_chart_path); } }
 
 		// icon_twitter_sign : f081
-		public static UIImage icon_twitter_sign = { get { return Get (icon_twitter_sign); } }
+		public static UIImage icon_twitter_sign { get { return Get (icon_twitter_sign_path); } }
 
 		// icon_facebook_sign : f082
-		public static UIImage icon_facebook_sign = { get { return Get (icon_facebook_sign); } }
+		public static UIImage icon_facebook_sign { get { return Get (icon_facebook_sign_path); } }
 
 		// icon_camera_retro : f083
-		public static UIImage icon_camera_retro = { get { return Get (icon_camera_retro); } }
+		public static UIImage icon_camera_retro { get { return Get (icon_camera_retro_path); } }
 
 		// icon_key : f084
-		public static UIImage icon_key = { get { return Get (icon_key); } }
+		public static UIImage icon_key { get { return Get (icon_key_path); } }
+
+		// icon_cogs : f085
+		public static UIImage icon_cogs { get { return Get (icon_cogs_path); } }
+
+		// icon_cogs : f085
+		public static UIImage icon_gears { get { return Get (icon_cogs_path); } }
 
 		// icon_comments : f086
-		public static UIImage icon_comments = { get { return Get (icon_comments); } }
+		public static UIImage icon_comments { get { return Get (icon_comments_path); } }
 
 		// icon_thumbs_up_alt : f087
-		public static UIImage icon_thumbs_up_alt = { get { return Get (icon_thumbs_up_alt); } }
+		public static UIImage icon_thumbs_up_alt { get { return Get (icon_thumbs_up_alt_path); } }
 
 		// icon_thumbs_down_alt : f088
-		public static UIImage icon_thumbs_down_alt = { get { return Get (icon_thumbs_down_alt); } }
+		public static UIImage icon_thumbs_down_alt { get { return Get (icon_thumbs_down_alt_path); } }
 
 		// icon_star_half : f089
-		public static UIImage icon_star_half = { get { return Get (icon_star_half); } }
+		public static UIImage icon_star_half { get { return Get (icon_star_half_path); } }
 
 		// icon_heart_empty : f08a
-		public static UIImage icon_heart_empty = { get { return Get (icon_heart_empty); } }
+		public static UIImage icon_heart_empty { get { return Get (icon_heart_empty_path); } }
 
 		// icon_signout : f08b
-		public static UIImage icon_signout = { get { return Get (icon_signout); } }
+		public static UIImage icon_signout { get { return Get (icon_signout_path); } }
 
 		// icon_linkedin_sign : f08c
-		public static UIImage icon_linkedin_sign = { get { return Get (icon_linkedin_sign); } }
+		public static UIImage icon_linkedin_sign { get { return Get (icon_linkedin_sign_path); } }
 
 		// icon_pushpin : f08d
-		public static UIImage icon_pushpin = { get { return Get (icon_pushpin); } }
+		public static UIImage icon_pushpin { get { return Get (icon_pushpin_path); } }
 
 		// icon_external_link : f08e
-		public static UIImage icon_external_link = { get { return Get (icon_external_link); } }
+		public static UIImage icon_external_link { get { return Get (icon_external_link_path); } }
 
 		// icon_signin : f090
-		public static UIImage icon_signin = { get { return Get (icon_signin); } }
+		public static UIImage icon_signin { get { return Get (icon_signin_path); } }
 
 		// icon_trophy : f091
-		public static UIImage icon_trophy = { get { return Get (icon_trophy); } }
+		public static UIImage icon_trophy { get { return Get (icon_trophy_path); } }
 
 		// icon_github_sign : f092
-		public static UIImage icon_github_sign = { get { return Get (icon_github_sign); } }
+		public static UIImage icon_github_sign { get { return Get (icon_github_sign_path); } }
 
 		// icon_upload_alt : f093
-		public static UIImage icon_upload_alt = { get { return Get (icon_upload_alt); } }
+		public static UIImage icon_upload_alt { get { return Get (icon_upload_alt_path); } }
 
 		// icon_lemon : f094
-		public static UIImage icon_lemon = { get { return Get (icon_lemon); } }
+		public static UIImage icon_lemon { get { return Get (icon_lemon_path); } }
 
 		// icon_phone : f095
-		public static UIImage icon_phone = { get { return Get (icon_phone); } }
+		public static UIImage icon_phone { get { return Get (icon_phone_path); } }
+
+		// icon_check_empty : f096
+		public static UIImage icon_check_empty { get { return Get (icon_check_empty_path); } }
+
+		// icon_check_empty : f096
+		public static UIImage icon_unchecked { get { return Get (icon_check_empty_path); } }
 
 		// icon_bookmark_empty : f097
-		public static UIImage icon_bookmark_empty = { get { return Get (icon_bookmark_empty); } }
+		public static UIImage icon_bookmark_empty { get { return Get (icon_bookmark_empty_path); } }
 
 		// icon_phone_sign : f098
-		public static UIImage icon_phone_sign = { get { return Get (icon_phone_sign); } }
+		public static UIImage icon_phone_sign { get { return Get (icon_phone_sign_path); } }
 
 		// icon_twitter : f099
-		public static UIImage icon_twitter = { get { return Get (icon_twitter); } }
+		public static UIImage icon_twitter { get { return Get (icon_twitter_path); } }
 
 		// icon_facebook : f09a
-		public static UIImage icon_facebook = { get { return Get (icon_facebook); } }
+		public static UIImage icon_facebook { get { return Get (icon_facebook_path); } }
 
 		// icon_github : f09b
-		public static UIImage icon_github = { get { return Get (icon_github); } }
+		public static UIImage icon_github { get { return Get (icon_github_path); } }
 
 		// icon_unlock : f09c
-		public static UIImage icon_unlock = { get { return Get (icon_unlock); } }
+		public static UIImage icon_unlock { get { return Get (icon_unlock_path); } }
 
 		// icon_credit_card : f09d
-		public static UIImage icon_credit_card = { get { return Get (icon_credit_card); } }
+		public static UIImage icon_credit_card { get { return Get (icon_credit_card_path); } }
 
 		// icon_rss : f09e
-		public static UIImage icon_rss = { get { return Get (icon_rss); } }
+		public static UIImage icon_rss { get { return Get (icon_rss_path); } }
 
 		// icon_hdd : f0a0
-		public static UIImage icon_hdd = { get { return Get (icon_hdd); } }
+		public static UIImage icon_hdd { get { return Get (icon_hdd_path); } }
 
 		// icon_bullhorn : f0a1
-		public static UIImage icon_bullhorn = { get { return Get (icon_bullhorn); } }
+		public static UIImage icon_bullhorn { get { return Get (icon_bullhorn_path); } }
 
 		// icon_bell : f0a2
-		public static UIImage icon_bell = { get { return Get (icon_bell); } }
+		public static UIImage icon_bell { get { return Get (icon_bell_path); } }
 
 		// icon_certificate : f0a3
-		public static UIImage icon_certificate = { get { return Get (icon_certificate); } }
+		public static UIImage icon_certificate { get { return Get (icon_certificate_path); } }
 
 		// icon_hand_right : f0a4
-		public static UIImage icon_hand_right = { get { return Get (icon_hand_right); } }
+		public static UIImage icon_hand_right { get { return Get (icon_hand_right_path); } }
 
 		// icon_hand_left : f0a5
-		public static UIImage icon_hand_left = { get { return Get (icon_hand_left); } }
+		public static UIImage icon_hand_left { get { return Get (icon_hand_left_path); } }
 
 		// icon_hand_up : f0a6
-		public static UIImage icon_hand_up = { get { return Get (icon_hand_up); } }
+		public static UIImage icon_hand_up { get { return Get (icon_hand_up_path); } }
 
 		// icon_hand_down : f0a7
-		public static UIImage icon_hand_down = { get { return Get (icon_hand_down); } }
+		public static UIImage icon_hand_down { get { return Get (icon_hand_down_path); } }
 
 		// icon_circle_arrow_left : f0a8
-		public static UIImage icon_circle_arrow_left = { get { return Get (icon_circle_arrow_left); } }
+		public static UIImage icon_circle_arrow_left { get { return Get (icon_circle_arrow_left_path); } }
 
 		// icon_circle_arrow_right : f0a9
-		public static UIImage icon_circle_arrow_right = { get { return Get (icon_circle_arrow_right); } }
+		public static UIImage icon_circle_arrow_right { get { return Get (icon_circle_arrow_right_path); } }
 
 		// icon_circle_arrow_up : f0aa
-		public static UIImage icon_circle_arrow_up = { get { return Get (icon_circle_arrow_up); } }
+		public static UIImage icon_circle_arrow_up { get { return Get (icon_circle_arrow_up_path); } }
 
 		// icon_circle_arrow_down : f0ab
-		public static UIImage icon_circle_arrow_down = { get { return Get (icon_circle_arrow_down); } }
+		public static UIImage icon_circle_arrow_down { get { return Get (icon_circle_arrow_down_path); } }
 
 		// icon_globe : f0ac
-		public static UIImage icon_globe = { get { return Get (icon_globe); } }
+		public static UIImage icon_globe { get { return Get (icon_globe_path); } }
 
 		// icon_wrench : f0ad
-		public static UIImage icon_wrench = { get { return Get (icon_wrench); } }
+		public static UIImage icon_wrench { get { return Get (icon_wrench_path); } }
 
 		// icon_tasks : f0ae
-		public static UIImage icon_tasks = { get { return Get (icon_tasks); } }
+		public static UIImage icon_tasks { get { return Get (icon_tasks_path); } }
 
 		// icon_filter : f0b0
-		public static UIImage icon_filter = { get { return Get (icon_filter); } }
+		public static UIImage icon_filter { get { return Get (icon_filter_path); } }
 
 		// icon_briefcase : f0b1
-		public static UIImage icon_briefcase = { get { return Get (icon_briefcase); } }
+		public static UIImage icon_briefcase { get { return Get (icon_briefcase_path); } }
 
 		// icon_fullscreen : f0b2
-		public static UIImage icon_fullscreen = { get { return Get (icon_fullscreen); } }
+		public static UIImage icon_fullscreen { get { return Get (icon_fullscreen_path); } }
 
 		// icon_group : f0c0
-		public static UIImage icon_group = { get { return Get (icon_group); } }
+		public static UIImage icon_group { get { return Get (icon_group_path); } }
 
 		// icon_link : f0c1
-		public static UIImage icon_link = { get { return Get (icon_link); } }
+		public static UIImage icon_link { get { return Get (icon_link_path); } }
 
 		// icon_cloud : f0c2
-		public static UIImage icon_cloud = { get { return Get (icon_cloud); } }
+		public static UIImage icon_cloud { get { return Get (icon_cloud_path); } }
 
 		// icon_beaker : f0c3
-		public static UIImage icon_beaker = { get { return Get (icon_beaker); } }
+		public static UIImage icon_beaker { get { return Get (icon_beaker_path); } }
 
 		// icon_cut : f0c4
-		public static UIImage icon_cut = { get { return Get (icon_cut); } }
+		public static UIImage icon_cut { get { return Get (icon_cut_path); } }
 
 		// icon_copy : f0c5
-		public static UIImage icon_copy = { get { return Get (icon_copy); } }
+		public static UIImage icon_copy { get { return Get (icon_copy_path); } }
+
+		// icon_paper_clip : f0c6
+		public static UIImage icon_paper_clip { get { return Get (icon_paper_clip_path); } }
+
+		// icon_paper_clip : f0c6
+		public static UIImage icon_paperclip { get { return Get (icon_paper_clip_path); } }
 
 		// icon_save : f0c7
-		public static UIImage icon_save = { get { return Get (icon_save); } }
+		public static UIImage icon_save { get { return Get (icon_save_path); } }
 
 		// icon_sign_blank : f0c8
-		public static UIImage icon_sign_blank = { get { return Get (icon_sign_blank); } }
+		public static UIImage icon_sign_blank { get { return Get (icon_sign_blank_path); } }
 
 		// icon_reorder : f0c9
-		public static UIImage icon_reorder = { get { return Get (icon_reorder); } }
+		public static UIImage icon_reorder { get { return Get (icon_reorder_path); } }
 
 		// icon_list_ul : f0ca
-		public static UIImage icon_list_ul = { get { return Get (icon_list_ul); } }
+		public static UIImage icon_list_ul { get { return Get (icon_list_ul_path); } }
 
 		// icon_list_ol : f0cb
-		public static UIImage icon_list_ol = { get { return Get (icon_list_ol); } }
+		public static UIImage icon_list_ol { get { return Get (icon_list_ol_path); } }
 
 		// icon_strikethrough : f0cc
-		public static UIImage icon_strikethrough = { get { return Get (icon_strikethrough); } }
+		public static UIImage icon_strikethrough { get { return Get (icon_strikethrough_path); } }
 
 		// icon_underline : f0cd
-		public static UIImage icon_underline = { get { return Get (icon_underline); } }
+		public static UIImage icon_underline { get { return Get (icon_underline_path); } }
 
 		// icon_table : f0ce
-		public static UIImage icon_table = { get { return Get (icon_table); } }
+		public static UIImage icon_table { get { return Get (icon_table_path); } }
 
 		// icon_magic : f0d0
-		public static UIImage icon_magic = { get { return Get (icon_magic); } }
+		public static UIImage icon_magic { get { return Get (icon_magic_path); } }
 
 		// icon_truck : f0d1
-		public static UIImage icon_truck = { get { return Get (icon_truck); } }
+		public static UIImage icon_truck { get { return Get (icon_truck_path); } }
 
 		// icon_pinterest : f0d2
-		public static UIImage icon_pinterest = { get { return Get (icon_pinterest); } }
+		public static UIImage icon_pinterest { get { return Get (icon_pinterest_path); } }
 
 		// icon_pinterest_sign : f0d3
-		public static UIImage icon_pinterest_sign = { get { return Get (icon_pinterest_sign); } }
+		public static UIImage icon_pinterest_sign { get { return Get (icon_pinterest_sign_path); } }
 
 		// icon_google_plus_sign : f0d4
-		public static UIImage icon_google_plus_sign = { get { return Get (icon_google_plus_sign); } }
+		public static UIImage icon_google_plus_sign { get { return Get (icon_google_plus_sign_path); } }
 
 		// icon_google_plus : f0d5
-		public static UIImage icon_google_plus = { get { return Get (icon_google_plus); } }
+		public static UIImage icon_google_plus { get { return Get (icon_google_plus_path); } }
 
 		// icon_money : f0d6
-		public static UIImage icon_money = { get { return Get (icon_money); } }
+		public static UIImage icon_money { get { return Get (icon_money_path); } }
 
 		// icon_caret_down : f0d7
-		public static UIImage icon_caret_down = { get { return Get (icon_caret_down); } }
+		public static UIImage icon_caret_down { get { return Get (icon_caret_down_path); } }
 
 		// icon_caret_up : f0d8
-		public static UIImage icon_caret_up = { get { return Get (icon_caret_up); } }
+		public static UIImage icon_caret_up { get { return Get (icon_caret_up_path); } }
 
 		// icon_caret_left : f0d9
-		public static UIImage icon_caret_left = { get { return Get (icon_caret_left); } }
+		public static UIImage icon_caret_left { get { return Get (icon_caret_left_path); } }
 
 		// icon_caret_right : f0da
-		public static UIImage icon_caret_right = { get { return Get (icon_caret_right); } }
+		public static UIImage icon_caret_right { get { return Get (icon_caret_right_path); } }
 
 		// icon_columns : f0db
-		public static UIImage icon_columns = { get { return Get (icon_columns); } }
+		public static UIImage icon_columns { get { return Get (icon_columns_path); } }
 
 		// icon_sort : f0dc
-		public static UIImage icon_sort = { get { return Get (icon_sort); } }
+		public static UIImage icon_sort { get { return Get (icon_sort_path); } }
 
 		// icon_sort_down : f0dd
-		public static UIImage icon_sort_down = { get { return Get (icon_sort_down); } }
+		public static UIImage icon_sort_down { get { return Get (icon_sort_down_path); } }
 
 		// icon_sort_up : f0de
-		public static UIImage icon_sort_up = { get { return Get (icon_sort_up); } }
+		public static UIImage icon_sort_up { get { return Get (icon_sort_up_path); } }
 
 		// icon_envelope : f0e0
-		public static UIImage icon_envelope = { get { return Get (icon_envelope); } }
+		public static UIImage icon_envelope { get { return Get (icon_envelope_path); } }
 
 		// icon_linkedin : f0e1
-		public static UIImage icon_linkedin = { get { return Get (icon_linkedin); } }
+		public static UIImage icon_linkedin { get { return Get (icon_linkedin_path); } }
+
+		// icon_undo : f0e2
+		public static UIImage icon_undo { get { return Get (icon_undo_path); } }
+
+		// icon_undo : f0e2
+		public static UIImage icon_rotate_left { get { return Get (icon_undo_path); } }
 
 		// icon_legal : f0e3
-		public static UIImage icon_legal = { get { return Get (icon_legal); } }
+		public static UIImage icon_legal { get { return Get (icon_legal_path); } }
 
 		// icon_dashboard : f0e4
-		public static UIImage icon_dashboard = { get { return Get (icon_dashboard); } }
+		public static UIImage icon_dashboard { get { return Get (icon_dashboard_path); } }
 
 		// icon_comment_alt : f0e5
-		public static UIImage icon_comment_alt = { get { return Get (icon_comment_alt); } }
+		public static UIImage icon_comment_alt { get { return Get (icon_comment_alt_path); } }
 
 		// icon_comments_alt : f0e6
-		public static UIImage icon_comments_alt = { get { return Get (icon_comments_alt); } }
+		public static UIImage icon_comments_alt { get { return Get (icon_comments_alt_path); } }
 
 		// icon_bolt : f0e7
-		public static UIImage icon_bolt = { get { return Get (icon_bolt); } }
+		public static UIImage icon_bolt { get { return Get (icon_bolt_path); } }
 
 		// icon_sitemap : f0e8
-		public static UIImage icon_sitemap = { get { return Get (icon_sitemap); } }
+		public static UIImage icon_sitemap { get { return Get (icon_sitemap_path); } }
 
 		// icon_umbrella : f0e9
-		public static UIImage icon_umbrella = { get { return Get (icon_umbrella); } }
+		public static UIImage icon_umbrella { get { return Get (icon_umbrella_path); } }
 
 		// icon_paste : f0ea
-		public static UIImage icon_paste = { get { return Get (icon_paste); } }
+		public static UIImage icon_paste { get { return Get (icon_paste_path); } }
 
 		// icon_lightbulb : f0eb
-		public static UIImage icon_lightbulb = { get { return Get (icon_lightbulb); } }
+		public static UIImage icon_lightbulb { get { return Get (icon_lightbulb_path); } }
 
 		// icon_exchange : f0ec
-		public static UIImage icon_exchange = { get { return Get (icon_exchange); } }
+		public static UIImage icon_exchange { get { return Get (icon_exchange_path); } }
 
 		// icon_cloud_download : f0ed
-		public static UIImage icon_cloud_download = { get { return Get (icon_cloud_download); } }
+		public static UIImage icon_cloud_download { get { return Get (icon_cloud_download_path); } }
 
 		// icon_cloud_upload : f0ee
-		public static UIImage icon_cloud_upload = { get { return Get (icon_cloud_upload); } }
+		public static UIImage icon_cloud_upload { get { return Get (icon_cloud_upload_path); } }
 
 		// icon_user_md : f0f0
-		public static UIImage icon_user_md = { get { return Get (icon_user_md); } }
+		public static UIImage icon_user_md { get { return Get (icon_user_md_path); } }
 
 		// icon_stethoscope : f0f1
-		public static UIImage icon_stethoscope = { get { return Get (icon_stethoscope); } }
+		public static UIImage icon_stethoscope { get { return Get (icon_stethoscope_path); } }
 
 		// icon_suitcase : f0f2
-		public static UIImage icon_suitcase = { get { return Get (icon_suitcase); } }
+		public static UIImage icon_suitcase { get { return Get (icon_suitcase_path); } }
 
 		// icon_bell_alt : f0f3
-		public static UIImage icon_bell_alt = { get { return Get (icon_bell_alt); } }
+		public static UIImage icon_bell_alt { get { return Get (icon_bell_alt_path); } }
 
 		// icon_coffee : f0f4
-		public static UIImage icon_coffee = { get { return Get (icon_coffee); } }
+		public static UIImage icon_coffee { get { return Get (icon_coffee_path); } }
 
 		// icon_food : f0f5
-		public static UIImage icon_food = { get { return Get (icon_food); } }
+		public static UIImage icon_food { get { return Get (icon_food_path); } }
 
 		// icon_file_text_alt : f0f6
-		public static UIImage icon_file_text_alt = { get { return Get (icon_file_text_alt); } }
+		public static UIImage icon_file_text_alt { get { return Get (icon_file_text_alt_path); } }
 
 		// icon_building : f0f7
-		public static UIImage icon_building = { get { return Get (icon_building); } }
+		public static UIImage icon_building { get { return Get (icon_building_path); } }
 
 		// icon_hospital : f0f8
-		public static UIImage icon_hospital = { get { return Get (icon_hospital); } }
+		public static UIImage icon_hospital { get { return Get (icon_hospital_path); } }
 
 		// icon_ambulance : f0f9
-		public static UIImage icon_ambulance = { get { return Get (icon_ambulance); } }
+		public static UIImage icon_ambulance { get { return Get (icon_ambulance_path); } }
 
 		// icon_medkit : f0fa
-		public static UIImage icon_medkit = { get { return Get (icon_medkit); } }
+		public static UIImage icon_medkit { get { return Get (icon_medkit_path); } }
 
 		// icon_fighter_jet : f0fb
-		public static UIImage icon_fighter_jet = { get { return Get (icon_fighter_jet); } }
+		public static UIImage icon_fighter_jet { get { return Get (icon_fighter_jet_path); } }
 
 		// icon_beer : f0fc
-		public static UIImage icon_beer = { get { return Get (icon_beer); } }
+		public static UIImage icon_beer { get { return Get (icon_beer_path); } }
 
 		// icon_h_sign : f0fd
-		public static UIImage icon_h_sign = { get { return Get (icon_h_sign); } }
+		public static UIImage icon_h_sign { get { return Get (icon_h_sign_path); } }
 
 		// icon_plus_sign_alt : f0fe
-		public static UIImage icon_plus_sign_alt = { get { return Get (icon_plus_sign_alt); } }
+		public static UIImage icon_plus_sign_alt { get { return Get (icon_plus_sign_alt_path); } }
 
 		// icon_double_angle_left : f100
-		public static UIImage icon_double_angle_left = { get { return Get (icon_double_angle_left); } }
+		public static UIImage icon_double_angle_left { get { return Get (icon_double_angle_left_path); } }
 
 		// icon_double_angle_right : f101
-		public static UIImage icon_double_angle_right = { get { return Get (icon_double_angle_right); } }
+		public static UIImage icon_double_angle_right { get { return Get (icon_double_angle_right_path); } }
 
 		// icon_double_angle_up : f102
-		public static UIImage icon_double_angle_up = { get { return Get (icon_double_angle_up); } }
+		public static UIImage icon_double_angle_up { get { return Get (icon_double_angle_up_path); } }
 
 		// icon_double_angle_down : f103
-		public static UIImage icon_double_angle_down = { get { return Get (icon_double_angle_down); } }
+		public static UIImage icon_double_angle_down { get { return Get (icon_double_angle_down_path); } }
 
 		// icon_angle_left : f104
-		public static UIImage icon_angle_left = { get { return Get (icon_angle_left); } }
+		public static UIImage icon_angle_left { get { return Get (icon_angle_left_path); } }
 
 		// icon_angle_right : f105
-		public static UIImage icon_angle_right = { get { return Get (icon_angle_right); } }
+		public static UIImage icon_angle_right { get { return Get (icon_angle_right_path); } }
 
 		// icon_angle_up : f106
-		public static UIImage icon_angle_up = { get { return Get (icon_angle_up); } }
+		public static UIImage icon_angle_up { get { return Get (icon_angle_up_path); } }
 
 		// icon_angle_down : f107
-		public static UIImage icon_angle_down = { get { return Get (icon_angle_down); } }
+		public static UIImage icon_angle_down { get { return Get (icon_angle_down_path); } }
 
 		// icon_desktop : f108
-		public static UIImage icon_desktop = { get { return Get (icon_desktop); } }
+		public static UIImage icon_desktop { get { return Get (icon_desktop_path); } }
 
 		// icon_laptop : f109
-		public static UIImage icon_laptop = { get { return Get (icon_laptop); } }
+		public static UIImage icon_laptop { get { return Get (icon_laptop_path); } }
 
 		// icon_tablet : f10a
-		public static UIImage icon_tablet = { get { return Get (icon_tablet); } }
+		public static UIImage icon_tablet { get { return Get (icon_tablet_path); } }
 
 		// icon_mobile_phone : f10b
-		public static UIImage icon_mobile_phone = { get { return Get (icon_mobile_phone); } }
+		public static UIImage icon_mobile_phone { get { return Get (icon_mobile_phone_path); } }
 
 		// icon_circle_blank : f10c
-		public static UIImage icon_circle_blank = { get { return Get (icon_circle_blank); } }
+		public static UIImage icon_circle_blank { get { return Get (icon_circle_blank_path); } }
 
 		// icon_quote_left : f10d
-		public static UIImage icon_quote_left = { get { return Get (icon_quote_left); } }
+		public static UIImage icon_quote_left { get { return Get (icon_quote_left_path); } }
 
 		// icon_quote_right : f10e
-		public static UIImage icon_quote_right = { get { return Get (icon_quote_right); } }
+		public static UIImage icon_quote_right { get { return Get (icon_quote_right_path); } }
 
 		// icon_spinner : f110
-		public static UIImage icon_spinner = { get { return Get (icon_spinner); } }
+		public static UIImage icon_spinner { get { return Get (icon_spinner_path); } }
 
 		// icon_circle : f111
-		public static UIImage icon_circle = { get { return Get (icon_circle); } }
+		public static UIImage icon_circle { get { return Get (icon_circle_path); } }
+
+		// icon_reply : f112
+		public static UIImage icon_reply { get { return Get (icon_reply_path); } }
+
+		// icon_reply : f112
+		public static UIImage icon_mail_reply { get { return Get (icon_reply_path); } }
 
 		// icon_github_alt : f113
-		public static UIImage icon_github_alt = { get { return Get (icon_github_alt); } }
+		public static UIImage icon_github_alt { get { return Get (icon_github_alt_path); } }
 
 		// icon_folder_close_alt : f114
-		public static UIImage icon_folder_close_alt = { get { return Get (icon_folder_close_alt); } }
+		public static UIImage icon_folder_close_alt { get { return Get (icon_folder_close_alt_path); } }
 
 		// icon_folder_open_alt : f115
-		public static UIImage icon_folder_open_alt = { get { return Get (icon_folder_open_alt); } }
+		public static UIImage icon_folder_open_alt { get { return Get (icon_folder_open_alt_path); } }
 
 		// icon_expand_alt : f116
-		public static UIImage icon_expand_alt = { get { return Get (icon_expand_alt); } }
+		public static UIImage icon_expand_alt { get { return Get (icon_expand_alt_path); } }
 
 		// icon_collapse_alt : f117
-		public static UIImage icon_collapse_alt = { get { return Get (icon_collapse_alt); } }
+		public static UIImage icon_collapse_alt { get { return Get (icon_collapse_alt_path); } }
 
 		// icon_smile : f118
-		public static UIImage icon_smile = { get { return Get (icon_smile); } }
+		public static UIImage icon_smile { get { return Get (icon_smile_path); } }
 
 		// icon_frown : f119
-		public static UIImage icon_frown = { get { return Get (icon_frown); } }
+		public static UIImage icon_frown { get { return Get (icon_frown_path); } }
 
 		// icon_meh : f11a
-		public static UIImage icon_meh = { get { return Get (icon_meh); } }
+		public static UIImage icon_meh { get { return Get (icon_meh_path); } }
 
 		// icon_gamepad : f11b
-		public static UIImage icon_gamepad = { get { return Get (icon_gamepad); } }
+		public static UIImage icon_gamepad { get { return Get (icon_gamepad_path); } }
 
 		// icon_keyboard : f11c
-		public static UIImage icon_keyboard = { get { return Get (icon_keyboard); } }
+		public static UIImage icon_keyboard { get { return Get (icon_keyboard_path); } }
 
 		// icon_flag_alt : f11d
-		public static UIImage icon_flag_alt = { get { return Get (icon_flag_alt); } }
+		public static UIImage icon_flag_alt { get { return Get (icon_flag_alt_path); } }
 
 		// icon_flag_checkered : f11e
-		public static UIImage icon_flag_checkered = { get { return Get (icon_flag_checkered); } }
+		public static UIImage icon_flag_checkered { get { return Get (icon_flag_checkered_path); } }
 
 		// icon_terminal : f120
-		public static UIImage icon_terminal = { get { return Get (icon_terminal); } }
+		public static UIImage icon_terminal { get { return Get (icon_terminal_path); } }
 
 		// icon_code : f121
-		public static UIImage icon_code = { get { return Get (icon_code); } }
+		public static UIImage icon_code { get { return Get (icon_code_path); } }
 
 		// icon_reply_all : f122
-		public static UIImage icon_reply_all = { get { return Get (icon_reply_all); } }
+		public static UIImage icon_reply_all { get { return Get (icon_reply_all_path); } }
 
-		// icon_mail_reply_all : f122
-		public static UIImage icon_mail_reply_all = { get { return Get (icon_mail_reply_all); } }
+		// icon_reply_all : f122
+		public static UIImage icon_mail_reply_all { get { return Get (icon_reply_all_path); } }
+
+		// icon_star_half_empty : f123
+		public static UIImage icon_star_half_empty { get { return Get (icon_star_half_empty_path); } }
+
+		// icon_star_half_empty : f123
+		public static UIImage icon_star_half_full { get { return Get (icon_star_half_empty_path); } }
 
 		// icon_location_arrow : f124
-		public static UIImage icon_location_arrow = { get { return Get (icon_location_arrow); } }
+		public static UIImage icon_location_arrow { get { return Get (icon_location_arrow_path); } }
 
 		// icon_crop : f125
-		public static UIImage icon_crop = { get { return Get (icon_crop); } }
+		public static UIImage icon_crop { get { return Get (icon_crop_path); } }
 
 		// icon_code_fork : f126
-		public static UIImage icon_code_fork = { get { return Get (icon_code_fork); } }
+		public static UIImage icon_code_fork { get { return Get (icon_code_fork_path); } }
 
 		// icon_unlink : f127
-		public static UIImage icon_unlink = { get { return Get (icon_unlink); } }
+		public static UIImage icon_unlink { get { return Get (icon_unlink_path); } }
 
 		// icon_question : f128
-		public static UIImage icon_question = { get { return Get (icon_question); } }
+		public static UIImage icon_question { get { return Get (icon_question_path); } }
 
 		// icon_info : f129
-		public static UIImage icon_info = { get { return Get (icon_info); } }
+		public static UIImage icon_info { get { return Get (icon_info_path); } }
 
 		// icon_exclamation : f12a
-		public static UIImage icon_exclamation = { get { return Get (icon_exclamation); } }
+		public static UIImage icon_exclamation { get { return Get (icon_exclamation_path); } }
 
 		// icon_superscript : f12b
-		public static UIImage icon_superscript = { get { return Get (icon_superscript); } }
+		public static UIImage icon_superscript { get { return Get (icon_superscript_path); } }
 
 		// icon_subscript : f12c
-		public static UIImage icon_subscript = { get { return Get (icon_subscript); } }
+		public static UIImage icon_subscript { get { return Get (icon_subscript_path); } }
 
 		// icon_eraser : f12d
-		public static UIImage icon_eraser = { get { return Get (icon_eraser); } }
+		public static UIImage icon_eraser { get { return Get (icon_eraser_path); } }
 
 		// icon_puzzle_piece : f12e
-		public static UIImage icon_puzzle_piece = { get { return Get (icon_puzzle_piece); } }
+		public static UIImage icon_puzzle_piece { get { return Get (icon_puzzle_piece_path); } }
 
 		// icon_microphone : f130
-		public static UIImage icon_microphone = { get { return Get (icon_microphone); } }
+		public static UIImage icon_microphone { get { return Get (icon_microphone_path); } }
 
 		// icon_microphone_off : f131
-		public static UIImage icon_microphone_off = { get { return Get (icon_microphone_off); } }
+		public static UIImage icon_microphone_off { get { return Get (icon_microphone_off_path); } }
 
 		// icon_shield : f132
-		public static UIImage icon_shield = { get { return Get (icon_shield); } }
+		public static UIImage icon_shield { get { return Get (icon_shield_path); } }
 
 		// icon_calendar_empty : f133
-		public static UIImage icon_calendar_empty = { get { return Get (icon_calendar_empty); } }
+		public static UIImage icon_calendar_empty { get { return Get (icon_calendar_empty_path); } }
 
 		// icon_fire_extinguisher : f134
-		public static UIImage icon_fire_extinguisher = { get { return Get (icon_fire_extinguisher); } }
+		public static UIImage icon_fire_extinguisher { get { return Get (icon_fire_extinguisher_path); } }
 
 		// icon_rocket : f135
-		public static UIImage icon_rocket = { get { return Get (icon_rocket); } }
+		public static UIImage icon_rocket { get { return Get (icon_rocket_path); } }
 
 		// icon_maxcdn : f136
-		public static UIImage icon_maxcdn = { get { return Get (icon_maxcdn); } }
+		public static UIImage icon_maxcdn { get { return Get (icon_maxcdn_path); } }
 
 		// icon_chevron_sign_left : f137
-		public static UIImage icon_chevron_sign_left = { get { return Get (icon_chevron_sign_left); } }
+		public static UIImage icon_chevron_sign_left { get { return Get (icon_chevron_sign_left_path); } }
 
 		// icon_chevron_sign_right : f138
-		public static UIImage icon_chevron_sign_right = { get { return Get (icon_chevron_sign_right); } }
+		public static UIImage icon_chevron_sign_right { get { return Get (icon_chevron_sign_right_path); } }
 
 		// icon_chevron_sign_up : f139
-		public static UIImage icon_chevron_sign_up = { get { return Get (icon_chevron_sign_up); } }
+		public static UIImage icon_chevron_sign_up { get { return Get (icon_chevron_sign_up_path); } }
 
 		// icon_chevron_sign_down : f13a
-		public static UIImage icon_chevron_sign_down = { get { return Get (icon_chevron_sign_down); } }
+		public static UIImage icon_chevron_sign_down { get { return Get (icon_chevron_sign_down_path); } }
 
 		// icon_html5 : f13b
-		public static UIImage icon_html5 = { get { return Get (icon_html5); } }
+		public static UIImage icon_html5 { get { return Get (icon_html5_path); } }
 
 		// icon_css3 : f13c
-		public static UIImage icon_css3 = { get { return Get (icon_css3); } }
+		public static UIImage icon_css3 { get { return Get (icon_css3_path); } }
 
 		// icon_anchor : f13d
-		public static UIImage icon_anchor = { get { return Get (icon_anchor); } }
+		public static UIImage icon_anchor { get { return Get (icon_anchor_path); } }
 
 		// icon_unlock_alt : f13e
-		public static UIImage icon_unlock_alt = { get { return Get (icon_unlock_alt); } }
+		public static UIImage icon_unlock_alt { get { return Get (icon_unlock_alt_path); } }
 
 		// icon_bullseye : f140
-		public static UIImage icon_bullseye = { get { return Get (icon_bullseye); } }
+		public static UIImage icon_bullseye { get { return Get (icon_bullseye_path); } }
 
 		// icon_ellipsis_horizontal : f141
-		public static UIImage icon_ellipsis_horizontal = { get { return Get (icon_ellipsis_horizontal); } }
+		public static UIImage icon_ellipsis_horizontal { get { return Get (icon_ellipsis_horizontal_path); } }
 
 		// icon_ellipsis_vertical : f142
-		public static UIImage icon_ellipsis_vertical = { get { return Get (icon_ellipsis_vertical); } }
+		public static UIImage icon_ellipsis_vertical { get { return Get (icon_ellipsis_vertical_path); } }
 
 		// icon_rss_sign : f143
-		public static UIImage icon_rss_sign = { get { return Get (icon_rss_sign); } }
+		public static UIImage icon_rss_sign { get { return Get (icon_rss_sign_path); } }
 
 		// icon_play_sign : f144
-		public static UIImage icon_play_sign = { get { return Get (icon_play_sign); } }
+		public static UIImage icon_play_sign { get { return Get (icon_play_sign_path); } }
 
 		// icon_ticket : f145
-		public static UIImage icon_ticket = { get { return Get (icon_ticket); } }
+		public static UIImage icon_ticket { get { return Get (icon_ticket_path); } }
 
 		// icon_minus_sign_alt : f146
-		public static UIImage icon_minus_sign_alt = { get { return Get (icon_minus_sign_alt); } }
+		public static UIImage icon_minus_sign_alt { get { return Get (icon_minus_sign_alt_path); } }
 
 		// icon_check_minus : f147
-		public static UIImage icon_check_minus = { get { return Get (icon_check_minus); } }
+		public static UIImage icon_check_minus { get { return Get (icon_check_minus_path); } }
 
 		// icon_level_up : f148
-		public static UIImage icon_level_up = { get { return Get (icon_level_up); } }
+		public static UIImage icon_level_up { get { return Get (icon_level_up_path); } }
 
 		// icon_level_down : f149
-		public static UIImage icon_level_down = { get { return Get (icon_level_down); } }
+		public static UIImage icon_level_down { get { return Get (icon_level_down_path); } }
 
 		// icon_check_sign : f14a
-		public static UIImage icon_check_sign = { get { return Get (icon_check_sign); } }
+		public static UIImage icon_check_sign { get { return Get (icon_check_sign_path); } }
 
 		// icon_edit_sign : f14b
-		public static UIImage icon_edit_sign = { get { return Get (icon_edit_sign); } }
+		public static UIImage icon_edit_sign { get { return Get (icon_edit_sign_path); } }
 
 		// icon_external_link_sign : f14c
-		public static UIImage icon_external_link_sign = { get { return Get (icon_external_link_sign); } }
+		public static UIImage icon_external_link_sign { get { return Get (icon_external_link_sign_path); } }
 
 		// icon_share_sign : f14d
-		public static UIImage icon_share_sign = { get { return Get (icon_share_sign); } }
+		public static UIImage icon_share_sign { get { return Get (icon_share_sign_path); } }
 
 		// icon_compass : f14e
-		public static UIImage icon_compass = { get { return Get (icon_compass); } }
+		public static UIImage icon_compass { get { return Get (icon_compass_path); } }
 
 		// icon_collapse : f150
-		public static UIImage icon_collapse = { get { return Get (icon_collapse); } }
+		public static UIImage icon_collapse { get { return Get (icon_collapse_path); } }
 
 		// icon_collapse_top : f151
-		public static UIImage icon_collapse_top = { get { return Get (icon_collapse_top); } }
+		public static UIImage icon_collapse_top { get { return Get (icon_collapse_top_path); } }
 
 		// icon_expand : f152
-		public static UIImage icon_expand = { get { return Get (icon_expand); } }
+		public static UIImage icon_expand { get { return Get (icon_expand_path); } }
+
+		// icon_eur : f153
+		public static UIImage icon_eur { get { return Get (icon_eur_path); } }
+
+		// icon_eur : f153
+		public static UIImage icon_euro { get { return Get (icon_eur_path); } }
 
 		// icon_gbp : f154
-		public static UIImage icon_gbp = { get { return Get (icon_gbp); } }
+		public static UIImage icon_gbp { get { return Get (icon_gbp_path); } }
+
+		// icon_usd : f155
+		public static UIImage icon_usd { get { return Get (icon_usd_path); } }
+
+		// icon_usd : f155
+		public static UIImage icon_dollar { get { return Get (icon_usd_path); } }
+
+		// icon_inr : f156
+		public static UIImage icon_inr { get { return Get (icon_inr_path); } }
+
+		// icon_inr : f156
+		public static UIImage icon_rupee { get { return Get (icon_inr_path); } }
+
+		// icon_jpy : f157
+		public static UIImage icon_jpy { get { return Get (icon_jpy_path); } }
+
+		// icon_jpy : f157
+		public static UIImage icon_yen { get { return Get (icon_jpy_path); } }
+
+		// icon_cny : f158
+		public static UIImage icon_cny { get { return Get (icon_cny_path); } }
+
+		// icon_cny : f158
+		public static UIImage icon_renminbi { get { return Get (icon_cny_path); } }
+
+		// icon_krw : f159
+		public static UIImage icon_krw { get { return Get (icon_krw_path); } }
+
+		// icon_krw : f159
+		public static UIImage icon_won { get { return Get (icon_krw_path); } }
+
+		// icon_btc : f15a
+		public static UIImage icon_btc { get { return Get (icon_btc_path); } }
+
+		// icon_btc : f15a
+		public static UIImage icon_bitcoin { get { return Get (icon_btc_path); } }
 
 		// icon_file : f15b
-		public static UIImage icon_file = { get { return Get (icon_file); } }
+		public static UIImage icon_file { get { return Get (icon_file_path); } }
 
 		// icon_file_text : f15c
-		public static UIImage icon_file_text = { get { return Get (icon_file_text); } }
+		public static UIImage icon_file_text { get { return Get (icon_file_text_path); } }
 
 		// icon_sort_by_alphabet : f15d
-		public static UIImage icon_sort_by_alphabet = { get { return Get (icon_sort_by_alphabet); } }
+		public static UIImage icon_sort_by_alphabet { get { return Get (icon_sort_by_alphabet_path); } }
 
 		// icon_sort_by_alphabet_alt : f15e
-		public static UIImage icon_sort_by_alphabet_alt = { get { return Get (icon_sort_by_alphabet_alt); } }
+		public static UIImage icon_sort_by_alphabet_alt { get { return Get (icon_sort_by_alphabet_alt_path); } }
 
 		// icon_sort_by_attributes : f160
-		public static UIImage icon_sort_by_attributes = { get { return Get (icon_sort_by_attributes); } }
+		public static UIImage icon_sort_by_attributes { get { return Get (icon_sort_by_attributes_path); } }
 
 		// icon_sort_by_attributes_alt : f161
-		public static UIImage icon_sort_by_attributes_alt = { get { return Get (icon_sort_by_attributes_alt); } }
+		public static UIImage icon_sort_by_attributes_alt { get { return Get (icon_sort_by_attributes_alt_path); } }
 
 		// icon_sort_by_order : f162
-		public static UIImage icon_sort_by_order = { get { return Get (icon_sort_by_order); } }
+		public static UIImage icon_sort_by_order { get { return Get (icon_sort_by_order_path); } }
 
 		// icon_sort_by_order_alt : f163
-		public static UIImage icon_sort_by_order_alt = { get { return Get (icon_sort_by_order_alt); } }
+		public static UIImage icon_sort_by_order_alt { get { return Get (icon_sort_by_order_alt_path); } }
 
 		// icon_thumbs_up : f164
-		public static UIImage icon_thumbs_up = { get { return Get (icon_thumbs_up); } }
+		public static UIImage icon_thumbs_up { get { return Get (icon_thumbs_up_path); } }
 
 		// icon_thumbs_down : f165
-		public static UIImage icon_thumbs_down = { get { return Get (icon_thumbs_down); } }
+		public static UIImage icon_thumbs_down { get { return Get (icon_thumbs_down_path); } }
 
 		// icon_youtube_sign : f166
-		public static UIImage icon_youtube_sign = { get { return Get (icon_youtube_sign); } }
+		public static UIImage icon_youtube_sign { get { return Get (icon_youtube_sign_path); } }
 
 		// icon_youtube : f167
-		public static UIImage icon_youtube = { get { return Get (icon_youtube); } }
+		public static UIImage icon_youtube { get { return Get (icon_youtube_path); } }
 
 		// icon_xing : f168
-		public static UIImage icon_xing = { get { return Get (icon_xing); } }
+		public static UIImage icon_xing { get { return Get (icon_xing_path); } }
 
 		// icon_xing_sign : f169
-		public static UIImage icon_xing_sign = { get { return Get (icon_xing_sign); } }
+		public static UIImage icon_xing_sign { get { return Get (icon_xing_sign_path); } }
 
 		// icon_youtube_play : f16a
-		public static UIImage icon_youtube_play = { get { return Get (icon_youtube_play); } }
+		public static UIImage icon_youtube_play { get { return Get (icon_youtube_play_path); } }
 
 		// icon_dropbox : f16b
-		public static UIImage icon_dropbox = { get { return Get (icon_dropbox); } }
+		public static UIImage icon_dropbox { get { return Get (icon_dropbox_path); } }
 
 		// icon_stackexchange : f16c
-		public static UIImage icon_stackexchange = { get { return Get (icon_stackexchange); } }
+		public static UIImage icon_stackexchange { get { return Get (icon_stackexchange_path); } }
 
 		// icon_instagram : f16d
-		public static UIImage icon_instagram = { get { return Get (icon_instagram); } }
+		public static UIImage icon_instagram { get { return Get (icon_instagram_path); } }
 
 		// icon_flickr : f16e
-		public static UIImage icon_flickr = { get { return Get (icon_flickr); } }
+		public static UIImage icon_flickr { get { return Get (icon_flickr_path); } }
 
 		// icon_adn : f170
-		public static UIImage icon_adn = { get { return Get (icon_adn); } }
+		public static UIImage icon_adn { get { return Get (icon_adn_path); } }
 
 		// icon_bitbucket : f171
-		public static UIImage icon_bitbucket = { get { return Get (icon_bitbucket); } }
+		public static UIImage icon_bitbucket { get { return Get (icon_bitbucket_path); } }
 
 		// icon_bitbucket_sign : f172
-		public static UIImage icon_bitbucket_sign = { get { return Get (icon_bitbucket_sign); } }
+		public static UIImage icon_bitbucket_sign { get { return Get (icon_bitbucket_sign_path); } }
 
 		// icon_tumblr : f173
-		public static UIImage icon_tumblr = { get { return Get (icon_tumblr); } }
+		public static UIImage icon_tumblr { get { return Get (icon_tumblr_path); } }
 
 		// icon_tumblr_sign : f174
-		public static UIImage icon_tumblr_sign = { get { return Get (icon_tumblr_sign); } }
+		public static UIImage icon_tumblr_sign { get { return Get (icon_tumblr_sign_path); } }
 
 		// icon_long_arrow_down : f175
-		public static UIImage icon_long_arrow_down = { get { return Get (icon_long_arrow_down); } }
+		public static UIImage icon_long_arrow_down { get { return Get (icon_long_arrow_down_path); } }
 
 		// icon_long_arrow_up : f176
-		public static UIImage icon_long_arrow_up = { get { return Get (icon_long_arrow_up); } }
+		public static UIImage icon_long_arrow_up { get { return Get (icon_long_arrow_up_path); } }
 
 		// icon_long_arrow_left : f177
-		public static UIImage icon_long_arrow_left = { get { return Get (icon_long_arrow_left); } }
+		public static UIImage icon_long_arrow_left { get { return Get (icon_long_arrow_left_path); } }
 
 		// icon_long_arrow_right : f178
-		public static UIImage icon_long_arrow_right = { get { return Get (icon_long_arrow_right); } }
+		public static UIImage icon_long_arrow_right { get { return Get (icon_long_arrow_right_path); } }
 
 		// icon_apple : f179
-		public static UIImage icon_apple = { get { return Get (icon_apple); } }
+		public static UIImage icon_apple { get { return Get (icon_apple_path); } }
 
 		// icon_windows : f17a
-		public static UIImage icon_windows = { get { return Get (icon_windows); } }
+		public static UIImage icon_windows { get { return Get (icon_windows_path); } }
 
 		// icon_android : f17b
-		public static UIImage icon_android = { get { return Get (icon_android); } }
+		public static UIImage icon_android { get { return Get (icon_android_path); } }
 
 		// icon_linux : f17c
-		public static UIImage icon_linux = { get { return Get (icon_linux); } }
+		public static UIImage icon_linux { get { return Get (icon_linux_path); } }
 
 		// icon_dribbble : f17d
-		public static UIImage icon_dribbble = { get { return Get (icon_dribbble); } }
+		public static UIImage icon_dribbble { get { return Get (icon_dribbble_path); } }
 
 		// icon_skype : f17e
-		public static UIImage icon_skype = { get { return Get (icon_skype); } }
+		public static UIImage icon_skype { get { return Get (icon_skype_path); } }
 
 		// icon_foursquare : f180
-		public static UIImage icon_foursquare = { get { return Get (icon_foursquare); } }
+		public static UIImage icon_foursquare { get { return Get (icon_foursquare_path); } }
 
 		// icon_trello : f181
-		public static UIImage icon_trello = { get { return Get (icon_trello); } }
+		public static UIImage icon_trello { get { return Get (icon_trello_path); } }
 
 		// icon_female : f182
-		public static UIImage icon_female = { get { return Get (icon_female); } }
+		public static UIImage icon_female { get { return Get (icon_female_path); } }
 
 		// icon_male : f183
-		public static UIImage icon_male = { get { return Get (icon_male); } }
+		public static UIImage icon_male { get { return Get (icon_male_path); } }
 
 		// icon_gittip : f184
-		public static UIImage icon_gittip = { get { return Get (icon_gittip); } }
+		public static UIImage icon_gittip { get { return Get (icon_gittip_path); } }
 
 		// icon_sun : f185
-		public static UIImage icon_sun = { get { return Get (icon_sun); } }
+		public static UIImage icon_sun { get { return Get (icon_sun_path); } }
 
 		// icon_moon : f186
-		public static UIImage icon_moon = { get { return Get (icon_moon); } }
+		public static UIImage icon_moon { get { return Get (icon_moon_path); } }
 
 		// icon_archive : f187
-		public static UIImage icon_archive = { get { return Get (icon_archive); } }
+		public static UIImage icon_archive { get { return Get (icon_archive_path); } }
 
 		// icon_bug : f188
-		public static UIImage icon_bug = { get { return Get (icon_bug); } }
+		public static UIImage icon_bug { get { return Get (icon_bug_path); } }
 
 		// icon_vk : f189
-		public static UIImage icon_vk = { get { return Get (icon_vk); } }
+		public static UIImage icon_vk { get { return Get (icon_vk_path); } }
 
 		// icon_weibo : f18a
-		public static UIImage icon_weibo = { get { return Get (icon_weibo); } }
+		public static UIImage icon_weibo { get { return Get (icon_weibo_path); } }
 
 		// icon_renren : f18b
-		public static UIImage icon_renren = { get { return Get (icon_renren); } }
+		public static UIImage icon_renren { get { return Get (icon_renren_path); } }
 
-		// total: 343
+		// total: 360
 
-	public static CGPath icon_glass_path ()
+	static CGPath icon_glass_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1699f, 1350f);
 		p.AddQuadCurveToPoint (1699f, 1315f, 1656f, 1272f);
 		p.AddLineToPoint (1024f, 640f);
@@ -1076,9 +1178,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_music_path ()
+	static CGPath icon_music_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1536f, 1312f);
 		p.AddLineToPoint (1536f, 192f);
 		p.AddQuadCurveToPoint (1536f, 142f, 1502f, 103f);
@@ -1122,9 +1224,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_search_path ()
+	static CGPath icon_search_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1152f, 704f);
 		p.AddQuadCurveToPoint (1152f, 889f, 1020.5f, 1020.5f);
 		p.AddQuadCurveToPoint (889f, 1152f, 704f, 1152f);
@@ -1162,9 +1264,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_envelope_alt_path ()
+	static CGPath icon_envelope_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1664f, 32f);
 		p.AddLineToPoint (1664f, 800f);
 		p.AddQuadCurveToPoint (1632f, 764f, 1595f, 734f);
@@ -1235,9 +1337,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_heart_path ()
+	static CGPath icon_heart_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (896f, -128f);
 		p.AddQuadCurveToPoint (870f, -128f, 852f, -110f);
 		p.AddLineToPoint (228f, 492f);
@@ -1266,9 +1368,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_star_path ()
+	static CGPath icon_star_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1664f, 889f);
 		p.AddQuadCurveToPoint (1664f, 867f, 1638f, 841f);
 		p.AddLineToPoint (1275f, 487f);
@@ -1299,9 +1401,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_star_empty_path ()
+	static CGPath icon_star_empty_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1137f, 532f);
 		p.AddLineToPoint (1443f, 829f);
 		p.AddLineToPoint (1021f, 891f);
@@ -1343,9 +1445,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_user_path ()
+	static CGPath icon_user_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1408f, 131f);
 		p.AddQuadCurveToPoint (1408f, 11f, 1335f, -58.5f);
 		p.AddQuadCurveToPoint (1262f, -128f, 1141f, -128f);
@@ -1390,9 +1492,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_film_path ()
+	static CGPath icon_film_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, -64f);
 		p.AddLineToPoint (384f, 64f);
 		p.AddQuadCurveToPoint (384f, 90f, 365f, 109f);
@@ -1561,9 +1663,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_th_large_path ()
+	static CGPath icon_th_large_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 512f);
 		p.AddLineToPoint (768f, 128f);
 		p.AddQuadCurveToPoint (768f, 76f, 730f, 38f);
@@ -1627,9 +1729,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_th_path ()
+	static CGPath icon_th_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (512f, 288f);
 		p.AddLineToPoint (512f, 96f);
 		p.AddQuadCurveToPoint (512f, 56f, 484f, 28f);
@@ -1768,9 +1870,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_th_list_path ()
+	static CGPath icon_th_list_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (512f, 288f);
 		p.AddLineToPoint (512f, 96f);
 		p.AddQuadCurveToPoint (512f, 56f, 484f, 28f);
@@ -1864,9 +1966,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_ok_path ()
+	static CGPath icon_ok_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1671f, 970f);
 		p.AddQuadCurveToPoint (1671f, 930f, 1643f, 902f);
 		p.AddLineToPoint (919f, 178f);
@@ -1891,9 +1993,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_remove_path ()
+	static CGPath icon_remove_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1298f, 214f);
 		p.AddQuadCurveToPoint (1298f, 174f, 1270f, 146f);
 		p.AddLineToPoint (1134f, 10f);
@@ -1928,9 +2030,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_zoom_in_path ()
+	static CGPath icon_zoom_in_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 736f);
 		p.AddLineToPoint (1024f, 672f);
 		p.AddQuadCurveToPoint (1024f, 659f, 1014.5f, 649.5f);
@@ -1999,9 +2101,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_zoom_out_path ()
+	static CGPath icon_zoom_out_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 736f);
 		p.AddLineToPoint (1024f, 672f);
 		p.AddQuadCurveToPoint (1024f, 659f, 1014.5f, 649.5f);
@@ -2054,9 +2156,63 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_signal_path ()
+	static CGPath icon_off_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
+		p.MoveToPoint (1536f, 640f);
+		p.AddQuadCurveToPoint (1536f, 484f, 1475f, 342f);
+		p.AddQuadCurveToPoint (1414f, 200f, 1311f, 97f);
+		p.AddQuadCurveToPoint (1208f, -6f, 1066f, -67f);
+		p.AddQuadCurveToPoint (924f, -128f, 768f, -128f);
+		p.AddQuadCurveToPoint (612f, -128f, 470f, -67f);
+		p.AddQuadCurveToPoint (328f, -6f, 225f, 97f);
+		p.AddQuadCurveToPoint (122f, 200f, 61f, 342f);
+		p.AddQuadCurveToPoint (0f, 484f, 0f, 640f);
+		p.AddQuadCurveToPoint (0f, 822f, 80.5f, 983f);
+		p.AddQuadCurveToPoint (161f, 1144f, 307f, 1253f);
+		p.AddQuadCurveToPoint (350f, 1285f, 402.5f, 1278f);
+		p.AddQuadCurveToPoint (455f, 1271f, 486f, 1228f);
+		p.AddQuadCurveToPoint (518f, 1186f, 510.5f, 1133.5f);
+		p.AddQuadCurveToPoint (503f, 1081f, 461f, 1049f);
+		p.AddQuadCurveToPoint (363f, 975f, 309.5f, 868f);
+		p.AddQuadCurveToPoint (256f, 761f, 256f, 640f);
+		p.AddQuadCurveToPoint (256f, 536f, 296.5f, 441.5f);
+		p.AddQuadCurveToPoint (337f, 347f, 406f, 278f);
+		p.AddQuadCurveToPoint (475f, 209f, 569.5f, 168.5f);
+		p.AddQuadCurveToPoint (664f, 128f, 768f, 128f);
+		p.AddQuadCurveToPoint (872f, 128f, 966.5f, 168.5f);
+		p.AddQuadCurveToPoint (1061f, 209f, 1130f, 278f);
+		p.AddQuadCurveToPoint (1199f, 347f, 1239.5f, 441.5f);
+		p.AddQuadCurveToPoint (1280f, 536f, 1280f, 640f);
+		p.AddQuadCurveToPoint (1280f, 761f, 1226.5f, 868f);
+		p.AddQuadCurveToPoint (1173f, 975f, 1075f, 1049f);
+		p.AddQuadCurveToPoint (1033f, 1081f, 1025.5f, 1133.5f);
+		p.AddQuadCurveToPoint (1018f, 1186f, 1050f, 1228f);
+		p.AddQuadCurveToPoint (1081f, 1271f, 1134f, 1278f);
+		p.AddQuadCurveToPoint (1187f, 1285f, 1229f, 1253f);
+		p.AddQuadCurveToPoint (1375f, 1144f, 1455.5f, 983f);
+		p.AddQuadCurveToPoint (1536f, 822f, 1536f, 640f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1536f, 640f);
+		p.MoveToPoint (896f, 1408f);
+		p.AddLineToPoint (896f, 768f);
+		p.AddQuadCurveToPoint (896f, 716f, 858f, 678f);
+		p.AddQuadCurveToPoint (820f, 640f, 768f, 640f);
+		p.AddQuadCurveToPoint (716f, 640f, 678f, 678f);
+		p.AddQuadCurveToPoint (640f, 716f, 640f, 768f);
+		p.AddLineToPoint (640f, 1408f);
+		p.AddQuadCurveToPoint (640f, 1460f, 678f, 1498f);
+		p.AddQuadCurveToPoint (716f, 1536f, 768f, 1536f);
+		p.AddQuadCurveToPoint (820f, 1536f, 858f, 1498f);
+		p.AddQuadCurveToPoint (896f, 1460f, 896f, 1408f);
+		p.CloseSubpath ();
+		p.MoveToPoint (896f, 1408f);
+		return p;
+	}
+
+	static CGPath icon_signal_path ()
+	{
+		CGPath p = new CGPath();
 		p.MoveToPoint (256f, 96f);
 		p.AddLineToPoint (256f, -96f);
 		p.AddQuadCurveToPoint (256f, -110f, 247f, -119f);
@@ -2135,9 +2291,93 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_trash_path ()
+	static CGPath icon_cog_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
+		p.MoveToPoint (1024f, 640f);
+		p.AddQuadCurveToPoint (1024f, 746f, 949f, 821f);
+		p.AddQuadCurveToPoint (874f, 896f, 768f, 896f);
+		p.AddQuadCurveToPoint (662f, 896f, 587f, 821f);
+		p.AddQuadCurveToPoint (512f, 746f, 512f, 640f);
+		p.AddQuadCurveToPoint (512f, 534f, 587f, 459f);
+		p.AddQuadCurveToPoint (662f, 384f, 768f, 384f);
+		p.AddQuadCurveToPoint (874f, 384f, 949f, 459f);
+		p.AddQuadCurveToPoint (1024f, 534f, 1024f, 640f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1024f, 640f);
+		p.MoveToPoint (1536f, 749f);
+		p.AddLineToPoint (1536f, 527f);
+		p.AddQuadCurveToPoint (1536f, 515f, 1528f, 504f);
+		p.AddQuadCurveToPoint (1520f, 493f, 1508f, 491f);
+		p.AddLineToPoint (1323f, 463f);
+		p.AddQuadCurveToPoint (1304f, 409f, 1284f, 372f);
+		p.AddQuadCurveToPoint (1319f, 322f, 1391f, 234f);
+		p.AddQuadCurveToPoint (1401f, 222f, 1401f, 209f);
+		p.AddQuadCurveToPoint (1401f, 196f, 1392f, 186f);
+		p.AddQuadCurveToPoint (1365f, 149f, 1293f, 78f);
+		p.AddQuadCurveToPoint (1221f, 7f, 1199f, 7f);
+		p.AddQuadCurveToPoint (1187f, 7f, 1173f, 16f);
+		p.AddLineToPoint (1035f, 124f);
+		p.AddQuadCurveToPoint (991f, 101f, 944f, 86f);
+		p.AddQuadCurveToPoint (928f, -50f, 915f, -100f);
+		p.AddQuadCurveToPoint (908f, -128f, 879f, -128f);
+		p.AddLineToPoint (657f, -128f);
+		p.AddQuadCurveToPoint (643f, -128f, 632.5f, -119.5f);
+		p.AddQuadCurveToPoint (622f, -111f, 621f, -98f);
+		p.AddLineToPoint (593f, 86f);
+		p.AddQuadCurveToPoint (544f, 102f, 503f, 123f);
+		p.AddLineToPoint (362f, 16f);
+		p.AddQuadCurveToPoint (352f, 7f, 337f, 7f);
+		p.AddQuadCurveToPoint (323f, 7f, 312f, 18f);
+		p.AddQuadCurveToPoint (186f, 132f, 147f, 186f);
+		p.AddQuadCurveToPoint (140f, 196f, 140f, 209f);
+		p.AddQuadCurveToPoint (140f, 221f, 148f, 232f);
+		p.AddQuadCurveToPoint (163f, 253f, 199f, 298.5f);
+		p.AddQuadCurveToPoint (235f, 344f, 253f, 369f);
+		p.AddQuadCurveToPoint (226f, 419f, 212f, 468f);
+		p.AddLineToPoint (29f, 495f);
+		p.AddQuadCurveToPoint (16f, 497f, 8f, 507.5f);
+		p.AddQuadCurveToPoint (0f, 518f, 0f, 531f);
+		p.AddLineToPoint (0f, 753f);
+		p.AddQuadCurveToPoint (0f, 765f, 8f, 776f);
+		p.AddQuadCurveToPoint (16f, 787f, 27f, 789f);
+		p.AddLineToPoint (213f, 817f);
+		p.AddQuadCurveToPoint (227f, 863f, 252f, 909f);
+		p.AddQuadCurveToPoint (212f, 966f, 145f, 1047f);
+		p.AddQuadCurveToPoint (135f, 1059f, 135f, 1071f);
+		p.AddQuadCurveToPoint (135f, 1081f, 144f, 1094f);
+		p.AddQuadCurveToPoint (170f, 1130f, 242.5f, 1201.5f);
+		p.AddQuadCurveToPoint (315f, 1273f, 337f, 1273f);
+		p.AddQuadCurveToPoint (350f, 1273f, 363f, 1263f);
+		p.AddLineToPoint (501f, 1156f);
+		p.AddQuadCurveToPoint (545f, 1179f, 592f, 1194f);
+		p.AddQuadCurveToPoint (608f, 1330f, 621f, 1380f);
+		p.AddQuadCurveToPoint (628f, 1408f, 657f, 1408f);
+		p.AddLineToPoint (879f, 1408f);
+		p.AddQuadCurveToPoint (893f, 1408f, 903.5f, 1399.5f);
+		p.AddQuadCurveToPoint (914f, 1391f, 915f, 1378f);
+		p.AddLineToPoint (943f, 1194f);
+		p.AddQuadCurveToPoint (992f, 1178f, 1033f, 1157f);
+		p.AddLineToPoint (1175f, 1264f);
+		p.AddQuadCurveToPoint (1184f, 1273f, 1199f, 1273f);
+		p.AddQuadCurveToPoint (1212f, 1273f, 1224f, 1263f);
+		p.AddQuadCurveToPoint (1353f, 1144f, 1389f, 1093f);
+		p.AddQuadCurveToPoint (1396f, 1085f, 1396f, 1071f);
+		p.AddQuadCurveToPoint (1396f, 1059f, 1388f, 1048f);
+		p.AddQuadCurveToPoint (1373f, 1027f, 1337f, 981.5f);
+		p.AddQuadCurveToPoint (1301f, 936f, 1283f, 911f);
+		p.AddQuadCurveToPoint (1309f, 861f, 1324f, 813f);
+		p.AddLineToPoint (1507f, 785f);
+		p.AddQuadCurveToPoint (1520f, 783f, 1528f, 772.5f);
+		p.AddQuadCurveToPoint (1536f, 762f, 1536f, 749f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1536f, 749f);
+		return p;
+	}
+
+	static CGPath icon_trash_path ()
+	{
+		CGPath p = new CGPath();
 		p.MoveToPoint (512f, 800f);
 		p.AddLineToPoint (512f, 224f);
 		p.AddQuadCurveToPoint (512f, 210f, 503f, 201f);
@@ -2238,9 +2478,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_home_path ()
+	static CGPath icon_home_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1408f, 544f);
 		p.AddLineToPoint (1408f, 64f);
 		p.AddQuadCurveToPoint (1408f, 38f, 1389f, 19f);
@@ -2291,9 +2531,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_file_alt_path ()
+	static CGPath icon_file_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (128f, 0f);
 		p.AddLineToPoint (1152f, 0f);
 		p.AddLineToPoint (1152f, 768f);
@@ -2334,9 +2574,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_time_path ()
+	static CGPath icon_time_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (896f, 992f);
 		p.AddLineToPoint (896f, 544f);
 		p.AddQuadCurveToPoint (896f, 530f, 887f, 521f);
@@ -2389,9 +2629,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_road_path ()
+	static CGPath icon_road_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1111f, 540f);
 		p.AddLineToPoint (1111f, 544f);
 		p.AddLineToPoint (1087f, 864f);
@@ -2451,9 +2691,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_download_alt_path ()
+	static CGPath icon_download_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 192f);
 		p.AddQuadCurveToPoint (1280f, 218f, 1261f, 237f);
 		p.AddQuadCurveToPoint (1242f, 256f, 1216f, 256f);
@@ -2519,9 +2759,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_download_path ()
+	static CGPath icon_download_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1120f, 608f);
 		p.AddQuadCurveToPoint (1120f, 596f, 1110f, 584f);
 		p.AddLineToPoint (791f, 265f);
@@ -2576,9 +2816,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_upload_path ()
+	static CGPath icon_upload_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1118f, 660f);
 		p.AddQuadCurveToPoint (1110f, 640f, 1088f, 640f);
 		p.AddLineToPoint (896f, 640f);
@@ -2633,9 +2873,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_inbox_path ()
+	static CGPath icon_inbox_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1023f, 576f);
 		p.AddLineToPoint (1339f, 576f);
 		p.AddQuadCurveToPoint (1338f, 579f, 1336.5f, 584f);
@@ -2672,9 +2912,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_play_circle_path ()
+	static CGPath icon_play_circle_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1184f, 640f);
 		p.AddQuadCurveToPoint (1184f, 603f, 1152f, 585f);
 		p.AddLineToPoint (608f, 265f);
@@ -2721,9 +2961,56 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_refresh_path ()
+	static CGPath icon_repeat_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
+		p.MoveToPoint (1536f, 1280f);
+		p.AddLineToPoint (1536f, 832f);
+		p.AddQuadCurveToPoint (1536f, 806f, 1517f, 787f);
+		p.AddQuadCurveToPoint (1498f, 768f, 1472f, 768f);
+		p.AddLineToPoint (1024f, 768f);
+		p.AddQuadCurveToPoint (982f, 768f, 965f, 808f);
+		p.AddQuadCurveToPoint (948f, 847f, 979f, 877f);
+		p.AddLineToPoint (1117f, 1015f);
+		p.AddQuadCurveToPoint (969f, 1152f, 768f, 1152f);
+		p.AddQuadCurveToPoint (664f, 1152f, 569.5f, 1111.5f);
+		p.AddQuadCurveToPoint (475f, 1071f, 406f, 1002f);
+		p.AddQuadCurveToPoint (337f, 933f, 296.5f, 838.5f);
+		p.AddQuadCurveToPoint (256f, 744f, 256f, 640f);
+		p.AddQuadCurveToPoint (256f, 536f, 296.5f, 441.5f);
+		p.AddQuadCurveToPoint (337f, 347f, 406f, 278f);
+		p.AddQuadCurveToPoint (475f, 209f, 569.5f, 168.5f);
+		p.AddQuadCurveToPoint (664f, 128f, 768f, 128f);
+		p.AddQuadCurveToPoint (887f, 128f, 993f, 180f);
+		p.AddQuadCurveToPoint (1099f, 232f, 1172f, 327f);
+		p.AddQuadCurveToPoint (1179f, 337f, 1195f, 339f);
+		p.AddQuadCurveToPoint (1209f, 339f, 1220f, 330f);
+		p.AddLineToPoint (1357f, 192f);
+		p.AddQuadCurveToPoint (1366f, 184f, 1366.5f, 171.5f);
+		p.AddQuadCurveToPoint (1367f, 159f, 1359f, 149f);
+		p.AddQuadCurveToPoint (1250f, 17f, 1095f, -55.5f);
+		p.AddQuadCurveToPoint (940f, -128f, 768f, -128f);
+		p.AddQuadCurveToPoint (612f, -128f, 470f, -67f);
+		p.AddQuadCurveToPoint (328f, -6f, 225f, 97f);
+		p.AddQuadCurveToPoint (122f, 200f, 61f, 342f);
+		p.AddQuadCurveToPoint (0f, 484f, 0f, 640f);
+		p.AddQuadCurveToPoint (0f, 796f, 61f, 938f);
+		p.AddQuadCurveToPoint (122f, 1080f, 225f, 1183f);
+		p.AddQuadCurveToPoint (328f, 1286f, 470f, 1347f);
+		p.AddQuadCurveToPoint (612f, 1408f, 768f, 1408f);
+		p.AddQuadCurveToPoint (915f, 1408f, 1052.5f, 1352.5f);
+		p.AddQuadCurveToPoint (1190f, 1297f, 1297f, 1196f);
+		p.AddLineToPoint (1427f, 1325f);
+		p.AddQuadCurveToPoint (1456f, 1356f, 1497f, 1339f);
+		p.AddQuadCurveToPoint (1536f, 1322f, 1536f, 1280f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1536f, 1280f);
+		return p;
+	}
+
+	static CGPath icon_refresh_path ()
+	{
+		CGPath p = new CGPath();
 		p.MoveToPoint (1511f, 480f);
 		p.AddQuadCurveToPoint (1511f, 475f, 1510f, 473f);
 		p.AddQuadCurveToPoint (1446f, 205f, 1242f, 38.5f);
@@ -2784,9 +3071,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_list_alt_path ()
+	static CGPath icon_list_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 352f);
 		p.AddLineToPoint (384f, 288f);
 		p.AddQuadCurveToPoint (384f, 275f, 374.5f, 265.5f);
@@ -2910,9 +3197,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_lock_path ()
+	static CGPath icon_lock_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (320f, 768f);
 		p.AddLineToPoint (832f, 768f);
 		p.AddLineToPoint (832f, 960f);
@@ -2948,9 +3235,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_flag_path ()
+	static CGPath icon_flag_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (320f, 1280f);
 		p.AddQuadCurveToPoint (320f, 1208f, 256f, 1170f);
 		p.AddLineToPoint (256f, -96f);
@@ -2998,9 +3285,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_headphones_path ()
+	static CGPath icon_headphones_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1664f, 650f);
 		p.AddQuadCurveToPoint (1664f, 484f, 1604f, 336f);
 		p.AddLineToPoint (1584f, 287f);
@@ -3065,9 +3352,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_volume_off_path ()
+	static CGPath icon_volume_off_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 1184f);
 		p.AddLineToPoint (768f, 96f);
 		p.AddQuadCurveToPoint (768f, 70f, 749f, 51f);
@@ -3090,9 +3377,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_volume_down_path ()
+	static CGPath icon_volume_down_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 1184f);
 		p.AddLineToPoint (768f, 96f);
 		p.AddQuadCurveToPoint (768f, 70f, 749f, 51f);
@@ -3138,9 +3425,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_volume_up_path ()
+	static CGPath icon_volume_up_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 1184f);
 		p.AddLineToPoint (768f, 96f);
 		p.AddQuadCurveToPoint (768f, 70f, 749f, 51f);
@@ -3232,9 +3519,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_qrcode_path ()
+	static CGPath icon_qrcode_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 384f);
 		p.AddLineToPoint (384f, 256f);
 		p.AddLineToPoint (256f, 256f);
@@ -3330,9 +3617,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_barcode_path ()
+	static CGPath icon_barcode_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (63f, 0f);
 		p.AddLineToPoint (0f, 0f);
 		p.AddLineToPoint (0f, 1408f);
@@ -3448,9 +3735,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_tag_path ()
+	static CGPath icon_tag_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (448f, 1088f);
 		p.AddQuadCurveToPoint (448f, 1141f, 410.5f, 1178.5f);
 		p.AddQuadCurveToPoint (373f, 1216f, 320f, 1216f);
@@ -3483,9 +3770,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_tags_path ()
+	static CGPath icon_tags_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (448f, 1088f);
 		p.AddQuadCurveToPoint (448f, 1141f, 410.5f, 1178.5f);
 		p.AddQuadCurveToPoint (373f, 1216f, 320f, 1216f);
@@ -3537,9 +3824,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_book_path ()
+	static CGPath icon_book_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1639f, 1058f);
 		p.AddQuadCurveToPoint (1679f, 1001f, 1657f, 929f);
 		p.AddLineToPoint (1382f, 23f);
@@ -3633,9 +3920,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_bookmark_path ()
+	static CGPath icon_bookmark_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1164f, 1408f);
 		p.AddQuadCurveToPoint (1187f, 1408f, 1208f, 1399f);
 		p.AddQuadCurveToPoint (1241f, 1386f, 1260.5f, 1358f);
@@ -3661,9 +3948,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_print_path ()
+	static CGPath icon_print_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 0f);
 		p.AddLineToPoint (1280f, 0f);
 		p.AddLineToPoint (1280f, 256f);
@@ -3730,9 +4017,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_camera_path ()
+	static CGPath icon_camera_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (960f, 864f);
 		p.AddQuadCurveToPoint (1079f, 864f, 1163.5f, 779.5f);
 		p.AddQuadCurveToPoint (1248f, 695f, 1248f, 576f);
@@ -3781,9 +4068,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_font_path ()
+	static CGPath icon_font_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (725f, 977f);
 		p.AddLineToPoint (555f, 527f);
 		p.AddQuadCurveToPoint (628f, 526f, 708.5f, 525f);
@@ -3845,9 +4132,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_bold_path ()
+	static CGPath icon_bold_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (555f, 15f);
 		p.AddQuadCurveToPoint (631f, -17f, 695f, -17f);
 		p.AddQuadCurveToPoint (826f, -17f, 911f, 24f);
@@ -3920,9 +4207,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_italic_path ()
+	static CGPath icon_italic_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (0f, -126f);
 		p.AddLineToPoint (17f, -41f);
 		p.AddQuadCurveToPoint (21f, -40f, 94f, -21f);
@@ -3977,9 +4264,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_text_height_path ()
+	static CGPath icon_text_height_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (81f, 1407f);
 		p.AddLineToPoint (135f, 1380f);
 		p.AddQuadCurveToPoint (155f, 1375f, 346f, 1375f);
@@ -4081,9 +4368,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_text_width_path ()
+	static CGPath icon_text_width_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (81f, 1407f);
 		p.AddLineToPoint (135f, 1380f);
 		p.AddQuadCurveToPoint (155f, 1375f, 346f, 1375f);
@@ -4182,9 +4469,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_align_left_path ()
+	static CGPath icon_align_left_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1792f, 192f);
 		p.AddLineToPoint (1792f, 64f);
 		p.AddQuadCurveToPoint (1792f, 38f, 1773f, 19f);
@@ -4248,9 +4535,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_align_center_path ()
+	static CGPath icon_align_center_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1792f, 192f);
 		p.AddLineToPoint (1792f, 64f);
 		p.AddQuadCurveToPoint (1792f, 38f, 1773f, 19f);
@@ -4314,9 +4601,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_align_right_path ()
+	static CGPath icon_align_right_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1792f, 192f);
 		p.AddLineToPoint (1792f, 64f);
 		p.AddQuadCurveToPoint (1792f, 38f, 1773f, 19f);
@@ -4380,9 +4667,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_align_justify_path ()
+	static CGPath icon_align_justify_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1792f, 192f);
 		p.AddLineToPoint (1792f, 64f);
 		p.AddQuadCurveToPoint (1792f, 38f, 1773f, 19f);
@@ -4446,9 +4733,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_list_path ()
+	static CGPath icon_list_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (256f, 224f);
 		p.AddLineToPoint (256f, 32f);
 		p.AddQuadCurveToPoint (256f, 19f, 246.5f, 9.5f);
@@ -4572,9 +4859,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_indent_left_path ()
+	static CGPath icon_indent_left_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 992f);
 		p.AddLineToPoint (384f, 416f);
 		p.AddQuadCurveToPoint (384f, 403f, 374.5f, 393.5f);
@@ -4652,9 +4939,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_indent_right_path ()
+	static CGPath icon_indent_right_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (352f, 704f);
 		p.AddQuadCurveToPoint (352f, 690f, 343f, 681f);
 		p.AddLineToPoint (55f, 393f);
@@ -4732,9 +5019,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_facetime_video_path ()
+	static CGPath icon_facetime_video_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1792f, 1184f);
 		p.AddLineToPoint (1792f, 96f);
 		p.AddQuadCurveToPoint (1792f, 54f, 1753f, 37f);
@@ -4763,9 +5050,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_picture_path ()
+	static CGPath icon_picture_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 960f);
 		p.AddQuadCurveToPoint (640f, 880f, 584f, 824f);
 		p.AddQuadCurveToPoint (528f, 768f, 448f, 768f);
@@ -4819,9 +5106,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_pencil_path ()
+	static CGPath icon_pencil_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (363f, 0f);
 		p.AddLineToPoint (454f, 91f);
 		p.AddLineToPoint (219f, 326f);
@@ -4864,9 +5151,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_map_marker_path ()
+	static CGPath icon_map_marker_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 896f);
 		p.AddQuadCurveToPoint (768f, 1002f, 693f, 1077f);
 		p.AddQuadCurveToPoint (618f, 1152f, 512f, 1152f);
@@ -4896,9 +5183,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_adjust_path ()
+	static CGPath icon_adjust_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 96f);
 		p.AddLineToPoint (768f, 1184f);
 		p.AddQuadCurveToPoint (620f, 1184f, 495f, 1111f);
@@ -4927,9 +5214,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_tint_path ()
+	static CGPath icon_tint_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (512f, 384f);
 		p.AddQuadCurveToPoint (512f, 420f, 492f, 453f);
 		p.AddQuadCurveToPoint (491f, 454f, 476.5f, 475.5f);
@@ -4973,9 +5260,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_edit_path ()
+	static CGPath icon_edit_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (888f, 352f);
 		p.AddLineToPoint (1004f, 468f);
 		p.AddLineToPoint (852f, 620f);
@@ -5049,9 +5336,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_share_path ()
+	static CGPath icon_share_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1408f, 547f);
 		p.AddLineToPoint (1408f, 288f);
 		p.AddQuadCurveToPoint (1408f, 169f, 1323.5f, 84.5f);
@@ -5124,9 +5411,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_check_path ()
+	static CGPath icon_check_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1408f, 606f);
 		p.AddLineToPoint (1408f, 288f);
 		p.AddQuadCurveToPoint (1408f, 169f, 1323.5f, 84.5f);
@@ -5184,9 +5471,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_move_path ()
+	static CGPath icon_move_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1792f, 640f);
 		p.AddQuadCurveToPoint (1792f, 614f, 1773f, 595f);
 		p.AddLineToPoint (1517f, 339f);
@@ -5249,9 +5536,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_step_backward_path ()
+	static CGPath icon_step_backward_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (979f, 1395f);
 		p.AddQuadCurveToPoint (998f, 1414f, 1011f, 1408f);
 		p.AddQuadCurveToPoint (1024f, 1402f, 1024f, 1376f);
@@ -5279,9 +5566,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_fast_backward_path ()
+	static CGPath icon_fast_backward_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1747f, 1395f);
 		p.AddQuadCurveToPoint (1766f, 1414f, 1779f, 1408f);
 		p.AddQuadCurveToPoint (1792f, 1402f, 1792f, 1376f);
@@ -5319,9 +5606,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_backward_path ()
+	static CGPath icon_backward_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1619f, 1395f);
 		p.AddQuadCurveToPoint (1638f, 1414f, 1651f, 1408f);
 		p.AddQuadCurveToPoint (1664f, 1402f, 1664f, 1376f);
@@ -5346,9 +5633,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_play_path ()
+	static CGPath icon_play_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1384f, 609f);
 		p.AddLineToPoint (56f, -129f);
 		p.AddQuadCurveToPoint (33f, -142f, 16.5f, -132f);
@@ -5364,9 +5651,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_pause_path ()
+	static CGPath icon_pause_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1536f, 1344f);
 		p.AddLineToPoint (1536f, -64f);
 		p.AddQuadCurveToPoint (1536f, -90f, 1517f, -109f);
@@ -5400,9 +5687,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_stop_path ()
+	static CGPath icon_stop_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1536f, 1344f);
 		p.AddLineToPoint (1536f, -64f);
 		p.AddQuadCurveToPoint (1536f, -90f, 1517f, -109f);
@@ -5421,9 +5708,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_forward_path ()
+	static CGPath icon_forward_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (45f, -115f);
 		p.AddQuadCurveToPoint (26f, -134f, 13f, -128f);
 		p.AddQuadCurveToPoint (0f, -122f, 0f, -96f);
@@ -5448,9 +5735,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_fast_forward_path ()
+	static CGPath icon_fast_forward_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (45f, -115f);
 		p.AddQuadCurveToPoint (26f, -134f, 13f, -128f);
 		p.AddQuadCurveToPoint (0f, -122f, 0f, -96f);
@@ -5488,9 +5775,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_step_forward_path ()
+	static CGPath icon_step_forward_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (45f, -115f);
 		p.AddQuadCurveToPoint (26f, -134f, 13f, -128f);
 		p.AddQuadCurveToPoint (0f, -122f, 0f, -96f);
@@ -5518,9 +5805,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_eject_path ()
+	static CGPath icon_eject_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (14f, 557f);
 		p.AddLineToPoint (724f, 1267f);
 		p.AddQuadCurveToPoint (743f, 1286f, 769f, 1286f);
@@ -5551,9 +5838,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_chevron_left_path ()
+	static CGPath icon_chevron_left_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (742f, -37f);
 		p.AddLineToPoint (90f, 614f);
 		p.AddQuadCurveToPoint (53f, 651f, 53f, 704.5f);
@@ -5576,9 +5863,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_chevron_right_path ()
+	static CGPath icon_chevron_right_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1099f, 704f);
 		p.AddQuadCurveToPoint (1099f, 652f, 1062f, 613f);
 		p.AddLineToPoint (410f, -38f);
@@ -5601,9 +5888,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_plus_sign_path ()
+	static CGPath icon_plus_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1216f, 576f);
 		p.AddLineToPoint (1216f, 704f);
 		p.AddQuadCurveToPoint (1216f, 730f, 1197f, 749f);
@@ -5653,9 +5940,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_minus_sign_path ()
+	static CGPath icon_minus_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1216f, 576f);
 		p.AddLineToPoint (1216f, 704f);
 		p.AddQuadCurveToPoint (1216f, 730f, 1197f, 749f);
@@ -5689,9 +5976,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_remove_sign_path ()
+	static CGPath icon_remove_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1149f, 414f);
 		p.AddQuadCurveToPoint (1149f, 440f, 1130f, 459f);
 		p.AddLineToPoint (949f, 640f);
@@ -5741,9 +6028,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_ok_sign_path ()
+	static CGPath icon_ok_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1284f, 802f);
 		p.AddQuadCurveToPoint (1284f, 830f, 1266f, 848f);
 		p.AddLineToPoint (1175f, 938f);
@@ -5781,9 +6068,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_question_sign_path ()
+	static CGPath icon_question_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (896f, 160f);
 		p.AddLineToPoint (896f, 352f);
 		p.AddQuadCurveToPoint (896f, 366f, 887f, 375f);
@@ -5849,9 +6136,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_info_sign_path ()
+	static CGPath icon_info_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 160f);
 		p.AddLineToPoint (1024f, 320f);
 		p.AddQuadCurveToPoint (1024f, 334f, 1015f, 343f);
@@ -5912,9 +6199,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_screenshot_path ()
+	static CGPath icon_screenshot_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1197f, 512f);
 		p.AddLineToPoint (1088f, 512f);
 		p.AddQuadCurveToPoint (1062f, 512f, 1043f, 531f);
@@ -5996,9 +6283,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_remove_circle_path ()
+	static CGPath icon_remove_circle_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1097f, 457f);
 		p.AddLineToPoint (951f, 311f);
 		p.AddQuadCurveToPoint (941f, 301f, 928f, 301f);
@@ -6063,9 +6350,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_ok_circle_path ()
+	static CGPath icon_ok_circle_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1171f, 723f);
 		p.AddLineToPoint (749f, 301f);
 		p.AddQuadCurveToPoint (730f, 282f, 704f, 282f);
@@ -6118,9 +6405,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_ban_circle_path ()
+	static CGPath icon_ban_circle_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1312f, 643f);
 		p.AddQuadCurveToPoint (1312f, 804f, 1225f, 938f);
 		p.AddLineToPoint (471f, 185f);
@@ -6162,9 +6449,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_arrow_left_path ()
+	static CGPath icon_arrow_left_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1536f, 640f);
 		p.AddLineToPoint (1536f, 512f);
 		p.AddQuadCurveToPoint (1536f, 459f, 1503.5f, 421.5f);
@@ -6194,9 +6481,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_arrow_right_path ()
+	static CGPath icon_arrow_right_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1472f, 576f);
 		p.AddQuadCurveToPoint (1472f, 522f, 1435f, 485f);
 		p.AddLineToPoint (784f, -166f);
@@ -6226,9 +6513,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_arrow_up_path ()
+	static CGPath icon_arrow_up_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1611f, 565f);
 		p.AddQuadCurveToPoint (1611f, 514f, 1574f, 475f);
 		p.AddLineToPoint (1499f, 400f);
@@ -6258,9 +6545,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_arrow_down_path ()
+	static CGPath icon_arrow_down_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1611f, 704f);
 		p.AddQuadCurveToPoint (1611f, 651f, 1574f, 614f);
 		p.AddLineToPoint (923f, -38f);
@@ -6290,9 +6577,51 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_resize_full_path ()
+	static CGPath icon_share_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
+		p.MoveToPoint (1792f, 896f);
+		p.AddQuadCurveToPoint (1792f, 870f, 1773f, 851f);
+		p.AddLineToPoint (1261f, 339f);
+		p.AddQuadCurveToPoint (1242f, 320f, 1216f, 320f);
+		p.AddQuadCurveToPoint (1190f, 320f, 1171f, 339f);
+		p.AddQuadCurveToPoint (1152f, 358f, 1152f, 384f);
+		p.AddLineToPoint (1152f, 640f);
+		p.AddLineToPoint (928f, 640f);
+		p.AddQuadCurveToPoint (830f, 640f, 752.5f, 634f);
+		p.AddQuadCurveToPoint (675f, 628f, 598.5f, 612.5f);
+		p.AddQuadCurveToPoint (522f, 597f, 465.5f, 570f);
+		p.AddQuadCurveToPoint (409f, 543f, 360f, 500.5f);
+		p.AddQuadCurveToPoint (311f, 458f, 280f, 399.5f);
+		p.AddQuadCurveToPoint (249f, 341f, 231.5f, 261f);
+		p.AddQuadCurveToPoint (214f, 181f, 214f, 80f);
+		p.AddQuadCurveToPoint (214f, 25f, 219f, -43f);
+		p.AddQuadCurveToPoint (219f, -49f, 221.5f, -66.5f);
+		p.AddQuadCurveToPoint (224f, -84f, 224f, -93f);
+		p.AddQuadCurveToPoint (224f, -108f, 215.5f, -118f);
+		p.AddQuadCurveToPoint (207f, -128f, 192f, -128f);
+		p.AddQuadCurveToPoint (176f, -128f, 164f, -111f);
+		p.AddQuadCurveToPoint (157f, -102f, 151f, -89f);
+		p.AddQuadCurveToPoint (145f, -76f, 137.5f, -59f);
+		p.AddQuadCurveToPoint (130f, -42f, 127f, -35f);
+		p.AddQuadCurveToPoint (0f, 250f, 0f, 416f);
+		p.AddQuadCurveToPoint (0f, 615f, 53f, 749f);
+		p.AddQuadCurveToPoint (215f, 1152f, 928f, 1152f);
+		p.AddLineToPoint (1152f, 1152f);
+		p.AddLineToPoint (1152f, 1408f);
+		p.AddQuadCurveToPoint (1152f, 1434f, 1171f, 1453f);
+		p.AddQuadCurveToPoint (1190f, 1472f, 1216f, 1472f);
+		p.AddQuadCurveToPoint (1242f, 1472f, 1261f, 1453f);
+		p.AddLineToPoint (1773f, 941f);
+		p.AddQuadCurveToPoint (1792f, 922f, 1792f, 896f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1792f, 896f);
+		return p;
+	}
+
+	static CGPath icon_resize_full_path ()
+	{
+		CGPath p = new CGPath();
 		p.MoveToPoint (755f, 480f);
 		p.AddQuadCurveToPoint (755f, 467f, 745f, 457f);
 		p.AddLineToPoint (413f, 125f);
@@ -6340,9 +6669,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_resize_small_path ()
+	static CGPath icon_resize_small_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 576f);
 		p.AddLineToPoint (768f, 128f);
 		p.AddQuadCurveToPoint (768f, 102f, 749f, 83f);
@@ -6390,9 +6719,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_plus_path ()
+	static CGPath icon_plus_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1408f, 800f);
 		p.AddLineToPoint (1408f, 608f);
 		p.AddQuadCurveToPoint (1408f, 568f, 1380f, 540f);
@@ -6427,9 +6756,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_minus_path ()
+	static CGPath icon_minus_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1408f, 800f);
 		p.AddLineToPoint (1408f, 608f);
 		p.AddQuadCurveToPoint (1408f, 568f, 1380f, 540f);
@@ -6448,9 +6777,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_asterisk_path ()
+	static CGPath icon_asterisk_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1482f, 486f);
 		p.AddQuadCurveToPoint (1528f, 460f, 1541.5f, 408.5f);
 		p.AddQuadCurveToPoint (1555f, 357f, 1529f, 311f);
@@ -6498,9 +6827,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_exclamation_sign_path ()
+	static CGPath icon_exclamation_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 1408f);
 		p.AddQuadCurveToPoint (977f, 1408f, 1153.5f, 1305f);
 		p.AddQuadCurveToPoint (1330f, 1202f, 1433f, 1025.5f);
@@ -6549,9 +6878,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_gift_path ()
+	static CGPath icon_gift_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (928f, 180f);
 		p.AddLineToPoint (928f, 236f);
 		p.AddLineToPoint (928f, 704f);
@@ -6626,9 +6955,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_leaf_path ()
+	static CGPath icon_leaf_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 832f);
 		p.AddQuadCurveToPoint (1280f, 858f, 1261f, 877f);
 		p.AddQuadCurveToPoint (1242f, 896f, 1216f, 896f);
@@ -6696,9 +7025,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_fire_path ()
+	static CGPath icon_fire_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1408f, -160f);
 		p.AddLineToPoint (1408f, -224f);
 		p.AddQuadCurveToPoint (1408f, -237f, 1398.5f, -246.5f);
@@ -6750,9 +7079,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_eye_open_path ()
+	static CGPath icon_eye_open_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1664f, 576f);
 		p.AddQuadCurveToPoint (1512f, 812f, 1283f, 929f);
 		p.AddQuadCurveToPoint (1344f, 825f, 1344f, 704f);
@@ -6801,9 +7130,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_eye_close_path ()
+	static CGPath icon_eye_close_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (555f, 201f);
 		p.AddLineToPoint (633f, 342f);
 		p.AddQuadCurveToPoint (546f, 405f, 497f, 501f);
@@ -6879,9 +7208,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_warning_sign_path ()
+	static CGPath icon_warning_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 161f);
 		p.AddLineToPoint (1024f, 351f);
 		p.AddQuadCurveToPoint (1024f, 365f, 1014.5f, 374.5f);
@@ -6931,9 +7260,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_plane_path ()
+	static CGPath icon_plane_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1376f, 1376f);
 		p.AddQuadCurveToPoint (1420f, 1324f, 1388f, 1228f);
 		p.AddQuadCurveToPoint (1356f, 1132f, 1280f, 1056f);
@@ -6975,9 +7304,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_calendar_path ()
+	static CGPath icon_calendar_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (128f, -128f);
 		p.AddLineToPoint (416f, -128f);
 		p.AddLineToPoint (416f, 160f);
@@ -7126,9 +7455,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_random_path ()
+	static CGPath icon_random_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (666f, 1055f);
 		p.AddQuadCurveToPoint (606f, 963f, 529f, 782f);
 		p.AddQuadCurveToPoint (507f, 827f, 492f, 854.5f);
@@ -7229,9 +7558,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_comment_path ()
+	static CGPath icon_comment_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1792f, 640f);
 		p.AddQuadCurveToPoint (1792f, 466f, 1672f, 318.5f);
 		p.AddQuadCurveToPoint (1552f, 171f, 1346f, 85.5f);
@@ -7268,9 +7597,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_magnet_path ()
+	static CGPath icon_magnet_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1536f, 704f);
 		p.AddLineToPoint (1536f, 576f);
 		p.AddQuadCurveToPoint (1536f, 375f, 1437.5f, 214f);
@@ -7337,9 +7666,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_chevron_up_path ()
+	static CGPath icon_chevron_up_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1611f, 320f);
 		p.AddQuadCurveToPoint (1611f, 267f, 1574f, 230f);
 		p.AddLineToPoint (1499f, 155f);
@@ -7362,9 +7691,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_chevron_down_path ()
+	static CGPath icon_chevron_down_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1611f, 832f);
 		p.AddQuadCurveToPoint (1611f, 779f, 1574f, 742f);
 		p.AddLineToPoint (923f, 91f);
@@ -7387,9 +7716,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_retweet_path ()
+	static CGPath icon_retweet_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 32f);
 		p.AddQuadCurveToPoint (1280f, 19f, 1270.5f, 9.5f);
 		p.AddQuadCurveToPoint (1261f, 0f, 1248f, 0f);
@@ -7457,9 +7786,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_shopping_cart_path ()
+	static CGPath icon_shopping_cart_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 0f);
 		p.AddQuadCurveToPoint (640f, -53f, 602.5f, -90.5f);
 		p.AddQuadCurveToPoint (565f, -128f, 512f, -128f);
@@ -7523,9 +7852,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_folder_close_path ()
+	static CGPath icon_folder_close_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1664f, 928f);
 		p.AddLineToPoint (1664f, 224f);
 		p.AddQuadCurveToPoint (1664f, 132f, 1598f, 66f);
@@ -7548,9 +7877,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_folder_open_path ()
+	static CGPath icon_folder_open_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1879f, 584f);
 		p.AddQuadCurveToPoint (1879f, 553f, 1848f, 518f);
 		p.AddLineToPoint (1512f, 122f);
@@ -7592,9 +7921,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_resize_vertical_path ()
+	static CGPath icon_resize_vertical_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (704f, 1216f);
 		p.AddQuadCurveToPoint (704f, 1190f, 685f, 1171f);
 		p.AddQuadCurveToPoint (666f, 1152f, 640f, 1152f);
@@ -7627,9 +7956,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_resize_horizontal_path ()
+	static CGPath icon_resize_horizontal_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1792f, 640f);
 		p.AddQuadCurveToPoint (1792f, 614f, 1773f, 595f);
 		p.AddLineToPoint (1517f, 339f);
@@ -7662,9 +7991,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_bar_chart_path ()
+	static CGPath icon_bar_chart_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (512f, 512f);
 		p.AddLineToPoint (512f, 128f);
 		p.AddLineToPoint (256f, 128f);
@@ -7726,9 +8055,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_twitter_sign_path ()
+	static CGPath icon_twitter_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 926f);
 		p.AddQuadCurveToPoint (1224f, 901f, 1159f, 892f);
 		p.AddQuadCurveToPoint (1227f, 932f, 1252f, 1009f);
@@ -7779,9 +8108,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_facebook_sign_path ()
+	static CGPath icon_facebook_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1307f, 618f);
 		p.AddLineToPoint (1330f, 837f);
 		p.AddLineToPoint (1132f, 837f);
@@ -7821,9 +8150,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_camera_retro_path ()
+	static CGPath icon_camera_retro_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (928f, 704f);
 		p.AddQuadCurveToPoint (928f, 718f, 919f, 727f);
 		p.AddQuadCurveToPoint (910f, 736f, 896f, 736f);
@@ -7903,9 +8232,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_key_path ()
+	static CGPath icon_key_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (832f, 1024f);
 		p.AddQuadCurveToPoint (832f, 1104f, 776f, 1160f);
 		p.AddQuadCurveToPoint (720f, 1216f, 640f, 1216f);
@@ -7967,9 +8296,191 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_comments_path ()
+	static CGPath icon_cogs_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
+		p.MoveToPoint (896f, 640f);
+		p.AddQuadCurveToPoint (896f, 746f, 821f, 821f);
+		p.AddQuadCurveToPoint (746f, 896f, 640f, 896f);
+		p.AddQuadCurveToPoint (534f, 896f, 459f, 821f);
+		p.AddQuadCurveToPoint (384f, 746f, 384f, 640f);
+		p.AddQuadCurveToPoint (384f, 534f, 459f, 459f);
+		p.AddQuadCurveToPoint (534f, 384f, 640f, 384f);
+		p.AddQuadCurveToPoint (746f, 384f, 821f, 459f);
+		p.AddQuadCurveToPoint (896f, 534f, 896f, 640f);
+		p.CloseSubpath ();
+		p.MoveToPoint (896f, 640f);
+		p.MoveToPoint (1664f, 128f);
+		p.AddQuadCurveToPoint (1664f, 180f, 1626f, 218f);
+		p.AddQuadCurveToPoint (1588f, 256f, 1536f, 256f);
+		p.AddQuadCurveToPoint (1484f, 256f, 1446f, 218f);
+		p.AddQuadCurveToPoint (1408f, 180f, 1408f, 128f);
+		p.AddQuadCurveToPoint (1408f, 75f, 1445.5f, 37.5f);
+		p.AddQuadCurveToPoint (1483f, 0f, 1536f, 0f);
+		p.AddQuadCurveToPoint (1589f, 0f, 1626.5f, 37.5f);
+		p.AddQuadCurveToPoint (1664f, 75f, 1664f, 128f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1664f, 128f);
+		p.MoveToPoint (1664f, 1152f);
+		p.AddQuadCurveToPoint (1664f, 1204f, 1626f, 1242f);
+		p.AddQuadCurveToPoint (1588f, 1280f, 1536f, 1280f);
+		p.AddQuadCurveToPoint (1484f, 1280f, 1446f, 1242f);
+		p.AddQuadCurveToPoint (1408f, 1204f, 1408f, 1152f);
+		p.AddQuadCurveToPoint (1408f, 1099f, 1445.5f, 1061.5f);
+		p.AddQuadCurveToPoint (1483f, 1024f, 1536f, 1024f);
+		p.AddQuadCurveToPoint (1589f, 1024f, 1626.5f, 1061.5f);
+		p.AddQuadCurveToPoint (1664f, 1099f, 1664f, 1152f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1664f, 1152f);
+		p.MoveToPoint (1280f, 731f);
+		p.AddLineToPoint (1280f, 546f);
+		p.AddQuadCurveToPoint (1280f, 536f, 1273f, 526.5f);
+		p.AddQuadCurveToPoint (1266f, 517f, 1257f, 516f);
+		p.AddLineToPoint (1102f, 492f);
+		p.AddQuadCurveToPoint (1091f, 457f, 1070f, 416f);
+		p.AddQuadCurveToPoint (1104f, 368f, 1160f, 301f);
+		p.AddQuadCurveToPoint (1167f, 291f, 1167f, 281f);
+		p.AddQuadCurveToPoint (1167f, 269f, 1160f, 262f);
+		p.AddQuadCurveToPoint (1137f, 232f, 1077.5f, 172.5f);
+		p.AddQuadCurveToPoint (1018f, 113f, 999f, 113f);
+		p.AddQuadCurveToPoint (988f, 113f, 978f, 120f);
+		p.AddLineToPoint (863f, 210f);
+		p.AddQuadCurveToPoint (826f, 191f, 786f, 179f);
+		p.AddQuadCurveToPoint (775f, 71f, 763f, 24f);
+		p.AddQuadCurveToPoint (756f, 0f, 733f, 0f);
+		p.AddLineToPoint (547f, 0f);
+		p.AddQuadCurveToPoint (536f, 0f, 527f, 7.5f);
+		p.AddQuadCurveToPoint (518f, 15f, 517f, 25f);
+		p.AddLineToPoint (494f, 178f);
+		p.AddQuadCurveToPoint (460f, 188f, 419f, 209f);
+		p.AddLineToPoint (301f, 120f);
+		p.AddQuadCurveToPoint (294f, 113f, 281f, 113f);
+		p.AddQuadCurveToPoint (270f, 113f, 260f, 121f);
+		p.AddQuadCurveToPoint (116f, 254f, 116f, 281f);
+		p.AddQuadCurveToPoint (116f, 290f, 123f, 300f);
+		p.AddQuadCurveToPoint (133f, 314f, 164f, 353f);
+		p.AddQuadCurveToPoint (195f, 392f, 211f, 414f);
+		p.AddQuadCurveToPoint (188f, 458f, 176f, 496f);
+		p.AddLineToPoint (24f, 520f);
+		p.AddQuadCurveToPoint (14f, 521f, 7f, 529.5f);
+		p.AddQuadCurveToPoint (0f, 538f, 0f, 549f);
+		p.AddLineToPoint (0f, 734f);
+		p.AddQuadCurveToPoint (0f, 744f, 7f, 753.5f);
+		p.AddQuadCurveToPoint (14f, 763f, 23f, 764f);
+		p.AddLineToPoint (178f, 788f);
+		p.AddQuadCurveToPoint (189f, 823f, 210f, 864f);
+		p.AddQuadCurveToPoint (176f, 912f, 120f, 979f);
+		p.AddQuadCurveToPoint (113f, 990f, 113f, 999f);
+		p.AddQuadCurveToPoint (113f, 1011f, 120f, 1019f);
+		p.AddQuadCurveToPoint (142f, 1049f, 202f, 1108f);
+		p.AddQuadCurveToPoint (262f, 1167f, 281f, 1167f);
+		p.AddQuadCurveToPoint (292f, 1167f, 302f, 1160f);
+		p.AddLineToPoint (417f, 1070f);
+		p.AddQuadCurveToPoint (451f, 1088f, 494f, 1102f);
+		p.AddQuadCurveToPoint (505f, 1210f, 517f, 1256f);
+		p.AddQuadCurveToPoint (524f, 1280f, 547f, 1280f);
+		p.AddLineToPoint (733f, 1280f);
+		p.AddQuadCurveToPoint (744f, 1280f, 753f, 1272.5f);
+		p.AddQuadCurveToPoint (762f, 1265f, 763f, 1255f);
+		p.AddLineToPoint (786f, 1102f);
+		p.AddQuadCurveToPoint (820f, 1092f, 861f, 1071f);
+		p.AddLineToPoint (979f, 1160f);
+		p.AddQuadCurveToPoint (987f, 1167f, 999f, 1167f);
+		p.AddQuadCurveToPoint (1010f, 1167f, 1020f, 1159f);
+		p.AddQuadCurveToPoint (1164f, 1026f, 1164f, 999f);
+		p.AddQuadCurveToPoint (1164f, 990f, 1157f, 980f);
+		p.AddQuadCurveToPoint (1145f, 964f, 1115f, 926f);
+		p.AddQuadCurveToPoint (1085f, 888f, 1070f, 866f);
+		p.AddQuadCurveToPoint (1093f, 818f, 1104f, 784f);
+		p.AddLineToPoint (1256f, 761f);
+		p.AddQuadCurveToPoint (1266f, 759f, 1273f, 750.5f);
+		p.AddQuadCurveToPoint (1280f, 742f, 1280f, 731f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1280f, 731f);
+		p.MoveToPoint (1920f, 198f);
+		p.AddLineToPoint (1920f, 58f);
+		p.AddQuadCurveToPoint (1920f, 42f, 1771f, 27f);
+		p.AddQuadCurveToPoint (1759f, 0f, 1741f, -25f);
+		p.AddQuadCurveToPoint (1792f, -138f, 1792f, -163f);
+		p.AddQuadCurveToPoint (1792f, -167f, 1788f, -170f);
+		p.AddQuadCurveToPoint (1666f, -241f, 1664f, -241f);
+		p.AddQuadCurveToPoint (1656f, -241f, 1618f, -194f);
+		p.AddQuadCurveToPoint (1580f, -147f, 1566f, -126f);
+		p.AddQuadCurveToPoint (1546f, -128f, 1536f, -128f);
+		p.AddQuadCurveToPoint (1526f, -128f, 1506f, -126f);
+		p.AddQuadCurveToPoint (1492f, -147f, 1454f, -194f);
+		p.AddQuadCurveToPoint (1416f, -241f, 1408f, -241f);
+		p.AddQuadCurveToPoint (1406f, -241f, 1284f, -170f);
+		p.AddQuadCurveToPoint (1280f, -167f, 1280f, -163f);
+		p.AddQuadCurveToPoint (1280f, -138f, 1331f, -25f);
+		p.AddQuadCurveToPoint (1313f, 0f, 1301f, 27f);
+		p.AddQuadCurveToPoint (1152f, 42f, 1152f, 58f);
+		p.AddLineToPoint (1152f, 198f);
+		p.AddQuadCurveToPoint (1152f, 214f, 1301f, 229f);
+		p.AddQuadCurveToPoint (1314f, 258f, 1331f, 281f);
+		p.AddQuadCurveToPoint (1280f, 394f, 1280f, 419f);
+		p.AddQuadCurveToPoint (1280f, 423f, 1284f, 426f);
+		p.AddQuadCurveToPoint (1288f, 428f, 1319f, 446f);
+		p.AddQuadCurveToPoint (1350f, 464f, 1378f, 480f);
+		p.AddQuadCurveToPoint (1406f, 496f, 1408f, 496f);
+		p.AddQuadCurveToPoint (1416f, 496f, 1454f, 449.5f);
+		p.AddQuadCurveToPoint (1492f, 403f, 1506f, 382f);
+		p.AddQuadCurveToPoint (1526f, 384f, 1536f, 384f);
+		p.AddQuadCurveToPoint (1546f, 384f, 1566f, 382f);
+		p.AddQuadCurveToPoint (1617f, 453f, 1658f, 494f);
+		p.AddLineToPoint (1664f, 496f);
+		p.AddQuadCurveToPoint (1668f, 496f, 1788f, 426f);
+		p.AddQuadCurveToPoint (1792f, 423f, 1792f, 419f);
+		p.AddQuadCurveToPoint (1792f, 394f, 1741f, 281f);
+		p.AddQuadCurveToPoint (1758f, 258f, 1771f, 229f);
+		p.AddQuadCurveToPoint (1920f, 214f, 1920f, 198f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1920f, 198f);
+		p.MoveToPoint (1920f, 1222f);
+		p.AddLineToPoint (1920f, 1082f);
+		p.AddQuadCurveToPoint (1920f, 1066f, 1771f, 1051f);
+		p.AddQuadCurveToPoint (1759f, 1024f, 1741f, 999f);
+		p.AddQuadCurveToPoint (1792f, 886f, 1792f, 861f);
+		p.AddQuadCurveToPoint (1792f, 857f, 1788f, 854f);
+		p.AddQuadCurveToPoint (1666f, 783f, 1664f, 783f);
+		p.AddQuadCurveToPoint (1656f, 783f, 1618f, 830f);
+		p.AddQuadCurveToPoint (1580f, 877f, 1566f, 898f);
+		p.AddQuadCurveToPoint (1546f, 896f, 1536f, 896f);
+		p.AddQuadCurveToPoint (1526f, 896f, 1506f, 898f);
+		p.AddQuadCurveToPoint (1492f, 877f, 1454f, 830f);
+		p.AddQuadCurveToPoint (1416f, 783f, 1408f, 783f);
+		p.AddQuadCurveToPoint (1406f, 783f, 1284f, 854f);
+		p.AddQuadCurveToPoint (1280f, 857f, 1280f, 861f);
+		p.AddQuadCurveToPoint (1280f, 886f, 1331f, 999f);
+		p.AddQuadCurveToPoint (1313f, 1024f, 1301f, 1051f);
+		p.AddQuadCurveToPoint (1152f, 1066f, 1152f, 1082f);
+		p.AddLineToPoint (1152f, 1222f);
+		p.AddQuadCurveToPoint (1152f, 1238f, 1301f, 1253f);
+		p.AddQuadCurveToPoint (1314f, 1282f, 1331f, 1305f);
+		p.AddQuadCurveToPoint (1280f, 1418f, 1280f, 1443f);
+		p.AddQuadCurveToPoint (1280f, 1447f, 1284f, 1450f);
+		p.AddQuadCurveToPoint (1288f, 1452f, 1319f, 1470f);
+		p.AddQuadCurveToPoint (1350f, 1488f, 1378f, 1504f);
+		p.AddQuadCurveToPoint (1406f, 1520f, 1408f, 1520f);
+		p.AddQuadCurveToPoint (1416f, 1520f, 1454f, 1473.5f);
+		p.AddQuadCurveToPoint (1492f, 1427f, 1506f, 1406f);
+		p.AddQuadCurveToPoint (1526f, 1408f, 1536f, 1408f);
+		p.AddQuadCurveToPoint (1546f, 1408f, 1566f, 1406f);
+		p.AddQuadCurveToPoint (1617f, 1477f, 1658f, 1518f);
+		p.AddLineToPoint (1664f, 1520f);
+		p.AddQuadCurveToPoint (1668f, 1520f, 1788f, 1450f);
+		p.AddQuadCurveToPoint (1792f, 1447f, 1792f, 1443f);
+		p.AddQuadCurveToPoint (1792f, 1418f, 1741f, 1305f);
+		p.AddQuadCurveToPoint (1758f, 1282f, 1771f, 1253f);
+		p.AddQuadCurveToPoint (1920f, 1238f, 1920f, 1222f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1920f, 1222f);
+		return p;
+	}
+
+	static CGPath icon_comments_path ()
+	{
+		CGPath p = new CGPath();
 		p.MoveToPoint (1408f, 768f);
 		p.AddQuadCurveToPoint (1408f, 629f, 1314f, 511f);
 		p.AddQuadCurveToPoint (1220f, 393f, 1057.5f, 324.5f);
@@ -8038,9 +8549,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_thumbs_up_alt_path ()
+	static CGPath icon_thumbs_up_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (256f, 192f);
 		p.AddQuadCurveToPoint (256f, 218f, 237f, 237f);
 		p.AddQuadCurveToPoint (218f, 256f, 192f, 256f);
@@ -8132,9 +8643,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_thumbs_down_alt_path ()
+	static CGPath icon_thumbs_down_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (256f, 1088f);
 		p.AddQuadCurveToPoint (256f, 1114f, 237f, 1133f);
 		p.AddQuadCurveToPoint (218f, 1152f, 192f, 1152f);
@@ -8228,9 +8739,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_star_half_path ()
+	static CGPath icon_star_half_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (832f, 1504f);
 		p.AddLineToPoint (832f, 165f);
 		p.AddLineToPoint (383f, -71f);
@@ -8250,9 +8761,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_heart_empty_path ()
+	static CGPath icon_heart_empty_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1664f, 940f);
 		p.AddQuadCurveToPoint (1664f, 1021f, 1642.5f, 1083f);
 		p.AddQuadCurveToPoint (1621f, 1145f, 1587.5f, 1181.5f);
@@ -8308,9 +8819,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_signout_path ()
+	static CGPath icon_signout_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 96f);
 		p.AddQuadCurveToPoint (640f, 92f, 641f, 76f);
 		p.AddQuadCurveToPoint (642f, 60f, 641.5f, 49.5f);
@@ -8372,9 +8883,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_linkedin_sign_path ()
+	static CGPath icon_linkedin_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (237f, 122f);
 		p.AddLineToPoint (468f, 122f);
 		p.AddLineToPoint (468f, 816f);
@@ -8431,9 +8942,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_pushpin_path ()
+	static CGPath icon_pushpin_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (480f, 672f);
 		p.AddLineToPoint (480f, 1120f);
 		p.AddQuadCurveToPoint (480f, 1134f, 471f, 1143f);
@@ -8480,9 +8991,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_external_link_path ()
+	static CGPath icon_external_link_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1408f, 608f);
 		p.AddLineToPoint (1408f, 288f);
 		p.AddQuadCurveToPoint (1408f, 169f, 1323.5f, 84.5f);
@@ -8541,9 +9052,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_signin_path ()
+	static CGPath icon_signin_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1184f, 640f);
 		p.AddQuadCurveToPoint (1184f, 614f, 1165f, 595f);
 		p.AddLineToPoint (621f, 51f);
@@ -8605,9 +9116,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_trophy_path ()
+	static CGPath icon_trophy_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (458f, 653f);
 		p.AddQuadCurveToPoint (384f, 815f, 384f, 1024f);
 		p.AddLineToPoint (128f, 1024f);
@@ -8674,9 +9185,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_github_sign_path ()
+	static CGPath icon_github_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (394f, 184f);
 		p.AddQuadCurveToPoint (386f, 175f, 374f, 187f);
 		p.AddQuadCurveToPoint (361f, 198f, 370f, 206f);
@@ -8799,9 +9310,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_upload_alt_path ()
+	static CGPath icon_upload_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 64f);
 		p.AddQuadCurveToPoint (1280f, 90f, 1261f, 109f);
 		p.AddQuadCurveToPoint (1242f, 128f, 1216f, 128f);
@@ -8868,9 +9379,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_lemon_path ()
+	static CGPath icon_lemon_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1407f, 710f);
 		p.AddQuadCurveToPoint (1407f, 754f, 1400f, 823.5f);
 		p.AddQuadCurveToPoint (1393f, 893f, 1382f, 920f);
@@ -8949,9 +9460,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_phone_path ()
+	static CGPath icon_phone_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1408f, 296f);
 		p.AddQuadCurveToPoint (1408f, 269f, 1398f, 225.5f);
 		p.AddQuadCurveToPoint (1388f, 182f, 1377f, 157f);
@@ -9014,9 +9525,45 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_bookmark_empty_path ()
+	static CGPath icon_check_empty_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
+		p.MoveToPoint (1120f, 1280f);
+		p.AddLineToPoint (288f, 1280f);
+		p.AddQuadCurveToPoint (222f, 1280f, 175f, 1233f);
+		p.AddQuadCurveToPoint (128f, 1186f, 128f, 1120f);
+		p.AddLineToPoint (128f, 288f);
+		p.AddQuadCurveToPoint (128f, 222f, 175f, 175f);
+		p.AddQuadCurveToPoint (222f, 128f, 288f, 128f);
+		p.AddLineToPoint (1120f, 128f);
+		p.AddQuadCurveToPoint (1186f, 128f, 1233f, 175f);
+		p.AddQuadCurveToPoint (1280f, 222f, 1280f, 288f);
+		p.AddLineToPoint (1280f, 1120f);
+		p.AddQuadCurveToPoint (1280f, 1186f, 1233f, 1233f);
+		p.AddQuadCurveToPoint (1186f, 1280f, 1120f, 1280f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1120f, 1280f);
+		p.MoveToPoint (1408f, 1120f);
+		p.AddLineToPoint (1408f, 288f);
+		p.AddQuadCurveToPoint (1408f, 169f, 1323.5f, 84.5f);
+		p.AddQuadCurveToPoint (1239f, 0f, 1120f, 0f);
+		p.AddLineToPoint (288f, 0f);
+		p.AddQuadCurveToPoint (169f, 0f, 84.5f, 84.5f);
+		p.AddQuadCurveToPoint (0f, 169f, 0f, 288f);
+		p.AddLineToPoint (0f, 1120f);
+		p.AddQuadCurveToPoint (0f, 1239f, 84.5f, 1323.5f);
+		p.AddQuadCurveToPoint (169f, 1408f, 288f, 1408f);
+		p.AddLineToPoint (1120f, 1408f);
+		p.AddQuadCurveToPoint (1239f, 1408f, 1323.5f, 1323.5f);
+		p.AddQuadCurveToPoint (1408f, 1239f, 1408f, 1120f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1408f, 1120f);
+		return p;
+	}
+
+	static CGPath icon_bookmark_empty_path ()
+	{
+		CGPath p = new CGPath();
 		p.MoveToPoint (1152f, 1280f);
 		p.AddLineToPoint (128f, 1280f);
 		p.AddLineToPoint (128f, 38f);
@@ -9052,9 +9599,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_phone_sign_path ()
+	static CGPath icon_phone_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 343f);
 		p.AddQuadCurveToPoint (1280f, 354f, 1278f, 359f);
 		p.AddQuadCurveToPoint (1275f, 367f, 1239.5f, 388.5f);
@@ -9129,9 +9676,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_twitter_path ()
+	static CGPath icon_twitter_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1620f, 1128f);
 		p.AddQuadCurveToPoint (1553f, 1030f, 1458f, 961f);
 		p.AddQuadCurveToPoint (1459f, 947f, 1459f, 919f);
@@ -9168,9 +9715,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_facebook_path ()
+	static CGPath icon_facebook_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (511f, 980f);
 		p.AddLineToPoint (768f, 980f);
 		p.AddLineToPoint (738f, 696f);
@@ -9197,9 +9744,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_github_path ()
+	static CGPath icon_github_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1536f, 640f);
 		p.AddQuadCurveToPoint (1536f, 389f, 1389.5f, 188.5f);
 		p.AddQuadCurveToPoint (1243f, -12f, 1011f, -89f);
@@ -9267,9 +9814,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_unlock_path ()
+	static CGPath icon_unlock_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1664f, 960f);
 		p.AddLineToPoint (1664f, 704f);
 		p.AddQuadCurveToPoint (1664f, 678f, 1645f, 659f);
@@ -9306,9 +9853,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_credit_card_path ()
+	static CGPath icon_credit_card_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1760f, 1408f);
 		p.AddQuadCurveToPoint (1826f, 1408f, 1873f, 1361f);
 		p.AddQuadCurveToPoint (1920f, 1314f, 1920f, 1248f);
@@ -9363,9 +9910,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_rss_path ()
+	static CGPath icon_rss_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 192f);
 		p.AddQuadCurveToPoint (384f, 112f, 328f, 56f);
 		p.AddQuadCurveToPoint (272f, 0f, 192f, 0f);
@@ -9422,9 +9969,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_hdd_path ()
+	static CGPath icon_hdd_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1040f, 320f);
 		p.AddQuadCurveToPoint (1040f, 287f, 1016.5f, 263.5f);
 		p.AddQuadCurveToPoint (993f, 240f, 960f, 240f);
@@ -9494,9 +10041,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_bullhorn_path ()
+	static CGPath icon_bullhorn_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1664f, 896f);
 		p.AddQuadCurveToPoint (1717f, 896f, 1754.5f, 858.5f);
 		p.AddQuadCurveToPoint (1792f, 821f, 1792f, 768f);
@@ -9546,9 +10093,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_bell_path ()
+	static CGPath icon_bell_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (848f, -160f);
 		p.AddQuadCurveToPoint (848f, -144f, 832f, -144f);
 		p.AddQuadCurveToPoint (773f, -144f, 730.5f, -101.5f);
@@ -9600,9 +10147,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_certificate_path ()
+	static CGPath icon_certificate_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1376f, 640f);
 		p.AddLineToPoint (1514f, 505f);
 		p.AddQuadCurveToPoint (1544f, 477f, 1534f, 435f);
@@ -9657,9 +10204,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_hand_right_path ()
+	static CGPath icon_hand_right_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (256f, 192f);
 		p.AddQuadCurveToPoint (256f, 218f, 237f, 237f);
 		p.AddQuadCurveToPoint (218f, 256f, 192f, 256f);
@@ -9747,9 +10294,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_hand_left_path ()
+	static CGPath icon_hand_left_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1376f, 128f);
 		p.AddLineToPoint (1408f, 128f);
 		p.AddLineToPoint (1408f, 768f);
@@ -9848,9 +10395,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_hand_up_path ()
+	static CGPath icon_hand_up_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, -64f);
 		p.AddQuadCurveToPoint (1280f, -38f, 1261f, -19f);
 		p.AddQuadCurveToPoint (1242f, 0f, 1216f, 0f);
@@ -9938,9 +10485,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_hand_down_path ()
+	static CGPath icon_hand_down_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1408f, 576f);
 		p.AddQuadCurveToPoint (1408f, 660f, 1376f, 759f);
 		p.AddQuadCurveToPoint (1344f, 858f, 1312f, 953f);
@@ -10036,9 +10583,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_circle_arrow_left_path ()
+	static CGPath icon_circle_arrow_left_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 576f);
 		p.AddLineToPoint (1280f, 704f);
 		p.AddQuadCurveToPoint (1280f, 730f, 1261f, 749f);
@@ -10085,9 +10632,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_circle_arrow_right_path ()
+	static CGPath icon_circle_arrow_right_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1285f, 640f);
 		p.AddQuadCurveToPoint (1285f, 667f, 1267f, 685f);
 		p.AddLineToPoint (1176f, 776f);
@@ -10134,9 +10681,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_circle_arrow_up_path ()
+	static CGPath icon_circle_arrow_up_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1284f, 641f);
 		p.AddQuadCurveToPoint (1284f, 668f, 1266f, 686f);
 		p.AddLineToPoint (904f, 1048f);
@@ -10183,9 +10730,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_circle_arrow_down_path ()
+	static CGPath icon_circle_arrow_down_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1284f, 639f);
 		p.AddQuadCurveToPoint (1284f, 666f, 1266f, 684f);
 		p.AddLineToPoint (1175f, 775f);
@@ -10232,9 +10779,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_globe_path ()
+	static CGPath icon_globe_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 1408f);
 		p.AddQuadCurveToPoint (977f, 1408f, 1153.5f, 1305f);
 		p.AddQuadCurveToPoint (1330f, 1202f, 1433f, 1025.5f);
@@ -10611,9 +11158,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_wrench_path ()
+	static CGPath icon_wrench_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 64f);
 		p.AddQuadCurveToPoint (384f, 90f, 365f, 109f);
 		p.AddQuadCurveToPoint (346f, 128f, 320f, 128f);
@@ -10662,9 +11209,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_tasks_path ()
+	static CGPath icon_tasks_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 128f);
 		p.AddLineToPoint (1664f, 128f);
 		p.AddLineToPoint (1664f, 256f);
@@ -10734,9 +11281,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_filter_path ()
+	static CGPath icon_filter_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1403f, 1241f);
 		p.AddQuadCurveToPoint (1420f, 1200f, 1389f, 1171f);
 		p.AddLineToPoint (896f, 678f);
@@ -10757,9 +11304,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_briefcase_path ()
+	static CGPath icon_briefcase_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 1280f);
 		p.AddLineToPoint (1152f, 1280f);
 		p.AddLineToPoint (1152f, 1408f);
@@ -10815,9 +11362,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_fullscreen_path ()
+	static CGPath icon_fullscreen_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1283f, 995f);
 		p.AddLineToPoint (928f, 640f);
 		p.AddLineToPoint (1283f, 285f);
@@ -10873,9 +11420,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_group_path ()
+	static CGPath icon_group_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (593f, 640f);
 		p.AddQuadCurveToPoint (431f, 635f, 328f, 512f);
 		p.AddLineToPoint (194f, 512f);
@@ -10970,9 +11517,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_link_path ()
+	static CGPath icon_link_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1456f, 320f);
 		p.AddQuadCurveToPoint (1456f, 360f, 1428f, 388f);
 		p.AddLineToPoint (1220f, 596f);
@@ -11055,9 +11602,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_cloud_path ()
+	static CGPath icon_cloud_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1920f, 384f);
 		p.AddQuadCurveToPoint (1920f, 225f, 1807.5f, 112.5f);
 		p.AddQuadCurveToPoint (1695f, 0f, 1536f, 0f);
@@ -11082,9 +11629,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_beaker_path ()
+	static CGPath icon_beaker_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1527f, 88f);
 		p.AddQuadCurveToPoint (1583f, -1f, 1548.5f, -64.5f);
 		p.AddQuadCurveToPoint (1514f, -128f, 1408f, -128f);
@@ -11122,9 +11669,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_cut_path ()
+	static CGPath icon_cut_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (960f, 640f);
 		p.AddQuadCurveToPoint (986f, 640f, 1005f, 621f);
 		p.AddQuadCurveToPoint (1024f, 602f, 1024f, 576f);
@@ -11240,9 +11787,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_copy_path ()
+	static CGPath icon_copy_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1696f, 1152f);
 		p.AddQuadCurveToPoint (1736f, 1152f, 1764f, 1124f);
 		p.AddQuadCurveToPoint (1792f, 1096f, 1792f, 1056f);
@@ -11311,9 +11858,58 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_save_path ()
+	static CGPath icon_paper_clip_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
+		p.MoveToPoint (1404f, 151f);
+		p.AddQuadCurveToPoint (1404f, 34f, 1325f, -45f);
+		p.AddQuadCurveToPoint (1246f, -124f, 1129f, -124f);
+		p.AddQuadCurveToPoint (994f, -124f, 894f, -24f);
+		p.AddLineToPoint (117f, 752f);
+		p.AddQuadCurveToPoint (4f, 867f, 4f, 1023f);
+		p.AddQuadCurveToPoint (4f, 1182f, 114f, 1293f);
+		p.AddQuadCurveToPoint (224f, 1404f, 383f, 1404f);
+		p.AddQuadCurveToPoint (541f, 1404f, 656f, 1291f);
+		p.AddLineToPoint (1261f, 685f);
+		p.AddQuadCurveToPoint (1271f, 675f, 1271f, 663f);
+		p.AddQuadCurveToPoint (1271f, 647f, 1240.5f, 616.5f);
+		p.AddQuadCurveToPoint (1210f, 586f, 1194f, 586f);
+		p.AddQuadCurveToPoint (1181f, 586f, 1171f, 596f);
+		p.AddLineToPoint (565f, 1203f);
+		p.AddQuadCurveToPoint (486f, 1280f, 384f, 1280f);
+		p.AddQuadCurveToPoint (278f, 1280f, 205f, 1205f);
+		p.AddQuadCurveToPoint (132f, 1130f, 132f, 1024f);
+		p.AddQuadCurveToPoint (132f, 919f, 208f, 843f);
+		p.AddLineToPoint (984f, 66f);
+		p.AddQuadCurveToPoint (1047f, 3f, 1129f, 3f);
+		p.AddQuadCurveToPoint (1193f, 3f, 1235f, 45f);
+		p.AddQuadCurveToPoint (1277f, 87f, 1277f, 151f);
+		p.AddQuadCurveToPoint (1277f, 233f, 1214f, 296f);
+		p.AddLineToPoint (633f, 877f);
+		p.AddQuadCurveToPoint (607f, 901f, 573f, 901f);
+		p.AddQuadCurveToPoint (544f, 901f, 525f, 882f);
+		p.AddQuadCurveToPoint (506f, 863f, 506f, 834f);
+		p.AddQuadCurveToPoint (506f, 802f, 531f, 775f);
+		p.AddLineToPoint (941f, 365f);
+		p.AddQuadCurveToPoint (951f, 355f, 951f, 343f);
+		p.AddQuadCurveToPoint (951f, 327f, 920f, 296f);
+		p.AddQuadCurveToPoint (889f, 265f, 873f, 265f);
+		p.AddQuadCurveToPoint (861f, 265f, 851f, 275f);
+		p.AddLineToPoint (441f, 685f);
+		p.AddQuadCurveToPoint (378f, 746f, 378f, 834f);
+		p.AddQuadCurveToPoint (378f, 916f, 435f, 973f);
+		p.AddQuadCurveToPoint (492f, 1030f, 574f, 1030f);
+		p.AddQuadCurveToPoint (662f, 1030f, 723f, 967f);
+		p.AddLineToPoint (1304f, 386f);
+		p.AddQuadCurveToPoint (1404f, 288f, 1404f, 151f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1404f, 151f);
+		return p;
+	}
+
+	static CGPath icon_save_path ()
+	{
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 0f);
 		p.AddLineToPoint (1152f, 0f);
 		p.AddLineToPoint (1152f, 384f);
@@ -11384,9 +11980,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_sign_blank_path ()
+	static CGPath icon_sign_blank_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1536f, 1120f);
 		p.AddLineToPoint (1536f, 160f);
 		p.AddQuadCurveToPoint (1536f, 41f, 1451.5f, -43.5f);
@@ -11405,9 +12001,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_reorder_path ()
+	static CGPath icon_reorder_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1536f, 192f);
 		p.AddLineToPoint (1536f, 64f);
 		p.AddQuadCurveToPoint (1536f, 38f, 1517f, 19f);
@@ -11456,9 +12052,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_list_ul_path ()
+	static CGPath icon_list_ul_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 128f);
 		p.AddQuadCurveToPoint (384f, 48f, 328f, -8f);
 		p.AddQuadCurveToPoint (272f, -64f, 192f, -64f);
@@ -11540,9 +12136,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_list_ol_path ()
+	static CGPath icon_list_ol_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (381f, -84f);
 		p.AddQuadCurveToPoint (381f, -164f, 326.5f, -210f);
 		p.AddQuadCurveToPoint (272f, -256f, 191f, -256f);
@@ -11660,9 +12256,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_strikethrough_path ()
+	static CGPath icon_strikethrough_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1760f, 640f);
 		p.AddQuadCurveToPoint (1774f, 640f, 1783f, 631f);
 		p.AddQuadCurveToPoint (1792f, 622f, 1792f, 608f);
@@ -11736,9 +12332,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_underline_path ()
+	static CGPath icon_underline_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (48f, 1313f);
 		p.AddQuadCurveToPoint (11f, 1315f, 3f, 1317f);
 		p.AddLineToPoint (0f, 1405f);
@@ -11819,9 +12415,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_table_path ()
+	static CGPath icon_table_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (512f, 160f);
 		p.AddLineToPoint (512f, 352f);
 		p.AddQuadCurveToPoint (512f, 366f, 503f, 375f);
@@ -11975,9 +12571,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_magic_path ()
+	static CGPath icon_magic_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1190f, 955f);
 		p.AddLineToPoint (1483f, 1248f);
 		p.AddLineToPoint (1376f, 1355f);
@@ -12042,9 +12638,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_truck_path ()
+	static CGPath icon_truck_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 128f);
 		p.AddQuadCurveToPoint (640f, 180f, 602f, 218f);
 		p.AddQuadCurveToPoint (564f, 256f, 512f, 256f);
@@ -12127,9 +12723,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_pinterest_path ()
+	static CGPath icon_pinterest_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1536f, 640f);
 		p.AddQuadCurveToPoint (1536f, 431f, 1433f, 254.5f);
 		p.AddQuadCurveToPoint (1330f, 78f, 1153.5f, -25f);
@@ -12188,9 +12784,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_pinterest_sign_path ()
+	static CGPath icon_pinterest_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1248f, 1408f);
 		p.AddQuadCurveToPoint (1367f, 1408f, 1451.5f, 1323.5f);
 		p.AddQuadCurveToPoint (1536f, 1239f, 1536f, 1120f);
@@ -12250,9 +12846,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_google_plus_sign_path ()
+	static CGPath icon_google_plus_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (678f, -57f);
 		p.AddQuadCurveToPoint (678f, -95f, 668f, -128f);
 		p.AddLineToPoint (288f, -128f);
@@ -12350,9 +12946,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_google_plus_path ()
+	static CGPath icon_google_plus_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (876f, 71f);
 		p.AddQuadCurveToPoint (876f, 92f, 871.5f, 111.5f);
 		p.AddQuadCurveToPoint (867f, 131f, 862f, 147.5f);
@@ -12457,9 +13053,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_money_path ()
+	static CGPath icon_money_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 384f);
 		p.AddLineToPoint (1152f, 384f);
 		p.AddLineToPoint (1152f, 480f);
@@ -12527,9 +13123,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_caret_down_path ()
+	static CGPath icon_caret_down_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 832f);
 		p.AddQuadCurveToPoint (1024f, 806f, 1005f, 787f);
 		p.AddLineToPoint (557f, 339f);
@@ -12547,9 +13143,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_caret_up_path ()
+	static CGPath icon_caret_up_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 320f);
 		p.AddQuadCurveToPoint (1024f, 294f, 1005f, 275f);
 		p.AddQuadCurveToPoint (986f, 256f, 960f, 256f);
@@ -12567,9 +13163,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_caret_left_path ()
+	static CGPath icon_caret_left_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 1088f);
 		p.AddLineToPoint (640f, 192f);
 		p.AddQuadCurveToPoint (640f, 166f, 621f, 147f);
@@ -12587,9 +13183,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_caret_right_path ()
+	static CGPath icon_caret_right_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (576f, 640f);
 		p.AddQuadCurveToPoint (576f, 614f, 557f, 595f);
 		p.AddLineToPoint (109f, 147f);
@@ -12607,9 +13203,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_columns_path ()
+	static CGPath icon_columns_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (160f, 0f);
 		p.AddLineToPoint (768f, 0f);
 		p.AddLineToPoint (768f, 1152f);
@@ -12646,9 +13242,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_sort_path ()
+	static CGPath icon_sort_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 448f);
 		p.AddQuadCurveToPoint (1024f, 422f, 1005f, 403f);
 		p.AddLineToPoint (557f, -45f);
@@ -12680,9 +13276,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_sort_down_path ()
+	static CGPath icon_sort_down_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 448f);
 		p.AddQuadCurveToPoint (1024f, 422f, 1005f, 403f);
 		p.AddLineToPoint (557f, -45f);
@@ -12700,9 +13296,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_sort_up_path ()
+	static CGPath icon_sort_up_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 832f);
 		p.AddQuadCurveToPoint (1024f, 806f, 1005f, 787f);
 		p.AddQuadCurveToPoint (986f, 768f, 960f, 768f);
@@ -12720,9 +13316,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_envelope_path ()
+	static CGPath icon_envelope_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1792f, 826f);
 		p.AddLineToPoint (1792f, 32f);
 		p.AddQuadCurveToPoint (1792f, -34f, 1745f, -81f);
@@ -12775,9 +13371,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_linkedin_path ()
+	static CGPath icon_linkedin_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (349f, 911f);
 		p.AddLineToPoint (349f, -80f);
 		p.AddLineToPoint (19f, -80f);
@@ -12825,9 +13421,57 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_legal_path ()
+	static CGPath icon_undo_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
+		p.MoveToPoint (1536f, 640f);
+		p.AddQuadCurveToPoint (1536f, 484f, 1475f, 342f);
+		p.AddQuadCurveToPoint (1414f, 200f, 1311f, 97f);
+		p.AddQuadCurveToPoint (1208f, -6f, 1066f, -67f);
+		p.AddQuadCurveToPoint (924f, -128f, 768f, -128f);
+		p.AddQuadCurveToPoint (596f, -128f, 441f, -55.5f);
+		p.AddQuadCurveToPoint (286f, 17f, 177f, 149f);
+		p.AddQuadCurveToPoint (170f, 159f, 170.5f, 171.5f);
+		p.AddQuadCurveToPoint (171f, 184f, 179f, 192f);
+		p.AddLineToPoint (316f, 330f);
+		p.AddQuadCurveToPoint (326f, 339f, 341f, 339f);
+		p.AddQuadCurveToPoint (357f, 337f, 364f, 327f);
+		p.AddQuadCurveToPoint (437f, 232f, 543f, 180f);
+		p.AddQuadCurveToPoint (649f, 128f, 768f, 128f);
+		p.AddQuadCurveToPoint (872f, 128f, 966.5f, 168.5f);
+		p.AddQuadCurveToPoint (1061f, 209f, 1130f, 278f);
+		p.AddQuadCurveToPoint (1199f, 347f, 1239.5f, 441.5f);
+		p.AddQuadCurveToPoint (1280f, 536f, 1280f, 640f);
+		p.AddQuadCurveToPoint (1280f, 744f, 1239.5f, 838.5f);
+		p.AddQuadCurveToPoint (1199f, 933f, 1130f, 1002f);
+		p.AddQuadCurveToPoint (1061f, 1071f, 966.5f, 1111.5f);
+		p.AddQuadCurveToPoint (872f, 1152f, 768f, 1152f);
+		p.AddQuadCurveToPoint (670f, 1152f, 580f, 1116.5f);
+		p.AddQuadCurveToPoint (490f, 1081f, 420f, 1015f);
+		p.AddLineToPoint (557f, 877f);
+		p.AddQuadCurveToPoint (588f, 847f, 571f, 808f);
+		p.AddQuadCurveToPoint (554f, 768f, 512f, 768f);
+		p.AddLineToPoint (64f, 768f);
+		p.AddQuadCurveToPoint (38f, 768f, 19f, 787f);
+		p.AddQuadCurveToPoint (0f, 806f, 0f, 832f);
+		p.AddLineToPoint (0f, 1280f);
+		p.AddQuadCurveToPoint (0f, 1322f, 40f, 1339f);
+		p.AddQuadCurveToPoint (79f, 1356f, 109f, 1325f);
+		p.AddLineToPoint (239f, 1196f);
+		p.AddQuadCurveToPoint (346f, 1297f, 483.5f, 1352.5f);
+		p.AddQuadCurveToPoint (621f, 1408f, 768f, 1408f);
+		p.AddQuadCurveToPoint (924f, 1408f, 1066f, 1347f);
+		p.AddQuadCurveToPoint (1208f, 1286f, 1311f, 1183f);
+		p.AddQuadCurveToPoint (1414f, 1080f, 1475f, 938f);
+		p.AddQuadCurveToPoint (1536f, 796f, 1536f, 640f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1536f, 640f);
+		return p;
+	}
+
+	static CGPath icon_legal_path ()
+	{
+		CGPath p = new CGPath();
 		p.MoveToPoint (1771f, 0f);
 		p.AddQuadCurveToPoint (1771f, -53f, 1734f, -90f);
 		p.AddLineToPoint (1627f, -198f);
@@ -12920,9 +13564,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_dashboard_path ()
+	static CGPath icon_dashboard_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 384f);
 		p.AddQuadCurveToPoint (384f, 437f, 346.5f, 474.5f);
 		p.AddQuadCurveToPoint (309f, 512f, 256f, 512f);
@@ -13014,9 +13658,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_comment_alt_path ()
+	static CGPath icon_comment_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (896f, 1152f);
 		p.AddQuadCurveToPoint (692f, 1152f, 514.5f, 1082.5f);
 		p.AddQuadCurveToPoint (337f, 1013f, 232.5f, 895f);
@@ -13074,9 +13718,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_comments_alt_path ()
+	static CGPath icon_comments_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (704f, 1152f);
 		p.AddQuadCurveToPoint (551f, 1152f, 418f, 1100f);
 		p.AddQuadCurveToPoint (285f, 1048f, 206.5f, 959f);
@@ -13165,9 +13809,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_bolt_path ()
+	static CGPath icon_bolt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (885f, 970f);
 		p.AddQuadCurveToPoint (903f, 950f, 892f, 926f);
 		p.AddLineToPoint (352f, -231f);
@@ -13196,9 +13840,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_sitemap_path ()
+	static CGPath icon_sitemap_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1792f, 288f);
 		p.AddLineToPoint (1792f, -32f);
 		p.AddQuadCurveToPoint (1792f, -72f, 1764f, -100f);
@@ -13273,9 +13917,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_umbrella_path ()
+	static CGPath icon_umbrella_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (896f, 708f);
 		p.AddLineToPoint (896f, 128f);
 		p.AddQuadCurveToPoint (896f, 24f, 820f, -52f);
@@ -13351,9 +13995,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_paste_path ()
+	static CGPath icon_paste_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, -128f);
 		p.AddLineToPoint (1664f, -128f);
 		p.AddLineToPoint (1664f, 512f);
@@ -13413,9 +14057,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_lightbulb_path ()
+	static CGPath icon_lightbulb_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (736f, 960f);
 		p.AddQuadCurveToPoint (736f, 947f, 726.5f, 937.5f);
 		p.AddQuadCurveToPoint (717f, 928f, 704f, 928f);
@@ -13492,9 +14136,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_exchange_path ()
+	static CGPath icon_exchange_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1792f, 352f);
 		p.AddLineToPoint (1792f, 160f);
 		p.AddQuadCurveToPoint (1792f, 147f, 1782.5f, 137.5f);
@@ -13542,9 +14186,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_cloud_download_path ()
+	static CGPath icon_cloud_download_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 608f);
 		p.AddQuadCurveToPoint (1280f, 622f, 1271f, 631f);
 		p.AddQuadCurveToPoint (1262f, 640f, 1248f, 640f);
@@ -13591,9 +14235,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_cloud_upload_path ()
+	static CGPath icon_cloud_upload_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 672f);
 		p.AddQuadCurveToPoint (1280f, 686f, 1271f, 695f);
 		p.AddLineToPoint (919f, 1047f);
@@ -13640,9 +14284,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_user_md_path ()
+	static CGPath icon_user_md_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 192f);
 		p.AddQuadCurveToPoint (384f, 166f, 365f, 147f);
 		p.AddQuadCurveToPoint (346f, 128f, 320f, 128f);
@@ -13731,9 +14375,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_stethoscope_path ()
+	static CGPath icon_stethoscope_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 832f);
 		p.AddQuadCurveToPoint (1280f, 858f, 1261f, 877f);
 		p.AddQuadCurveToPoint (1242f, 896f, 1216f, 896f);
@@ -13803,9 +14447,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_suitcase_path ()
+	static CGPath icon_suitcase_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 1152f);
 		p.AddLineToPoint (1152f, 1152f);
 		p.AddLineToPoint (1152f, 1280f);
@@ -13853,9 +14497,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_bell_alt_path ()
+	static CGPath icon_bell_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (848f, -160f);
 		p.AddQuadCurveToPoint (848f, -144f, 832f, -144f);
 		p.AddQuadCurveToPoint (773f, -144f, 730.5f, -101.5f);
@@ -13897,9 +14541,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_coffee_path ()
+	static CGPath icon_coffee_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1664f, 896f);
 		p.AddQuadCurveToPoint (1664f, 976f, 1608f, 1032f);
 		p.AddQuadCurveToPoint (1552f, 1088f, 1472f, 1088f);
@@ -13940,9 +14584,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_food_path ()
+	static CGPath icon_food_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 1472f);
 		p.AddLineToPoint (640f, 832f);
 		p.AddQuadCurveToPoint (640f, 771f, 604.5f, 721f);
@@ -14005,9 +14649,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_file_text_alt_path ()
+	static CGPath icon_file_text_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 352f);
 		p.AddLineToPoint (1024f, 288f);
 		p.AddQuadCurveToPoint (1024f, 274f, 1015f, 265f);
@@ -14078,9 +14722,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_building_path ()
+	static CGPath icon_building_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 224f);
 		p.AddLineToPoint (384f, 160f);
 		p.AddQuadCurveToPoint (384f, 147f, 374.5f, 137.5f);
@@ -14384,9 +15028,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_hospital_path ()
+	static CGPath icon_hospital_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 224f);
 		p.AddLineToPoint (384f, 160f);
 		p.AddQuadCurveToPoint (384f, 147f, 374.5f, 137.5f);
@@ -14617,9 +15261,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_ambulance_path ()
+	static CGPath icon_ambulance_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 128f);
 		p.AddQuadCurveToPoint (640f, 181f, 602.5f, 218.5f);
 		p.AddQuadCurveToPoint (565f, 256f, 512f, 256f);
@@ -14720,9 +15364,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_medkit_path ()
+	static CGPath icon_medkit_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 416f);
 		p.AddLineToPoint (1280f, 608f);
 		p.AddQuadCurveToPoint (1280f, 622f, 1271f, 631f);
@@ -14801,9 +15445,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_fighter_jet_path ()
+	static CGPath icon_fighter_jet_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1920f, 576f);
 		p.AddQuadCurveToPoint (1919f, 544f, 1632f, 480f);
 		p.AddLineToPoint (1280f, 448f);
@@ -14863,9 +15507,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_beer_path ()
+	static CGPath icon_beer_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 640f);
 		p.AddLineToPoint (640f, 1024f);
 		p.AddLineToPoint (384f, 1024f);
@@ -14897,9 +15541,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_h_sign_path ()
+	static CGPath icon_h_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 192f);
 		p.AddLineToPoint (1280f, 1088f);
 		p.AddQuadCurveToPoint (1280f, 1114f, 1261f, 1133f);
@@ -14949,9 +15593,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_plus_sign_alt_path ()
+	static CGPath icon_plus_sign_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 576f);
 		p.AddLineToPoint (1280f, 704f);
 		p.AddQuadCurveToPoint (1280f, 730f, 1261f, 749f);
@@ -15001,9 +15645,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_double_angle_left_path ()
+	static CGPath icon_double_angle_left_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (627f, 160f);
 		p.AddQuadCurveToPoint (627f, 147f, 617f, 137f);
 		p.AddLineToPoint (567f, 87f);
@@ -15045,9 +15689,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_double_angle_right_path ()
+	static CGPath icon_double_angle_right_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (595f, 576f);
 		p.AddQuadCurveToPoint (595f, 563f, 585f, 553f);
 		p.AddLineToPoint (119f, 87f);
@@ -15089,9 +15733,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_double_angle_up_path ()
+	static CGPath icon_double_angle_up_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1075f, 224f);
 		p.AddQuadCurveToPoint (1075f, 211f, 1065f, 201f);
 		p.AddLineToPoint (1015f, 151f);
@@ -15133,9 +15777,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_double_angle_down_path ()
+	static CGPath icon_double_angle_down_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1075f, 672f);
 		p.AddQuadCurveToPoint (1075f, 659f, 1065f, 649f);
 		p.AddLineToPoint (599f, 183f);
@@ -15177,9 +15821,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_angle_left_path ()
+	static CGPath icon_angle_left_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (627f, 992f);
 		p.AddQuadCurveToPoint (627f, 979f, 617f, 969f);
 		p.AddLineToPoint (224f, 576f);
@@ -15202,9 +15846,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_angle_right_path ()
+	static CGPath icon_angle_right_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (595f, 576f);
 		p.AddQuadCurveToPoint (595f, 563f, 585f, 553f);
 		p.AddLineToPoint (119f, 87f);
@@ -15227,9 +15871,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_angle_up_path ()
+	static CGPath icon_angle_up_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1075f, 352f);
 		p.AddQuadCurveToPoint (1075f, 339f, 1065f, 329f);
 		p.AddLineToPoint (1015f, 279f);
@@ -15252,9 +15896,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_angle_down_path ()
+	static CGPath icon_angle_down_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1075f, 800f);
 		p.AddQuadCurveToPoint (1075f, 787f, 1065f, 777f);
 		p.AddLineToPoint (599f, 311f);
@@ -15277,9 +15921,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_desktop_path ()
+	static CGPath icon_desktop_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1792f, 544f);
 		p.AddLineToPoint (1792f, 1376f);
 		p.AddQuadCurveToPoint (1792f, 1389f, 1782.5f, 1398.5f);
@@ -15325,9 +15969,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_laptop_path ()
+	static CGPath icon_laptop_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (416f, 256f);
 		p.AddQuadCurveToPoint (350f, 256f, 303f, 303f);
 		p.AddQuadCurveToPoint (256f, 350f, 256f, 416f);
@@ -15383,9 +16027,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_tablet_path ()
+	static CGPath icon_tablet_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 128f);
 		p.AddQuadCurveToPoint (640f, 154f, 621f, 173f);
 		p.AddQuadCurveToPoint (602f, 192f, 576f, 192f);
@@ -15430,9 +16074,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_mobile_phone_path ()
+	static CGPath icon_mobile_phone_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (464f, 128f);
 		p.AddQuadCurveToPoint (464f, 161f, 440.5f, 184.5f);
 		p.AddQuadCurveToPoint (417f, 208f, 384f, 208f);
@@ -15486,9 +16130,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_circle_blank_path ()
+	static CGPath icon_circle_blank_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 1184f);
 		p.AddQuadCurveToPoint (620f, 1184f, 495f, 1111f);
 		p.AddQuadCurveToPoint (370f, 1038f, 297f, 913f);
@@ -15522,9 +16166,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_quote_left_path ()
+	static CGPath icon_quote_left_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 576f);
 		p.AddLineToPoint (768f, 192f);
 		p.AddQuadCurveToPoint (768f, 112f, 712f, 56f);
@@ -15586,9 +16230,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_quote_right_path ()
+	static CGPath icon_quote_right_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 1216f);
 		p.AddLineToPoint (768f, 512f);
 		p.AddQuadCurveToPoint (768f, 408f, 727.5f, 313.5f);
@@ -15650,9 +16294,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_spinner_path ()
+	static CGPath icon_spinner_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (496f, 192f);
 		p.AddQuadCurveToPoint (496f, 132f, 453.5f, 90f);
 		p.AddQuadCurveToPoint (411f, 48f, 352f, 48f);
@@ -15744,9 +16388,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_circle_path ()
+	static CGPath icon_circle_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1536f, 640f);
 		p.AddQuadCurveToPoint (1536f, 431f, 1433f, 254.5f);
 		p.AddQuadCurveToPoint (1330f, 78f, 1153.5f, -25f);
@@ -15765,9 +16409,51 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_github_alt_path ()
+	static CGPath icon_reply_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
+		p.MoveToPoint (1792f, 416f);
+		p.AddQuadCurveToPoint (1792f, 250f, 1665f, -35f);
+		p.AddQuadCurveToPoint (1662f, -42f, 1654.5f, -59f);
+		p.AddQuadCurveToPoint (1647f, -76f, 1641f, -89f);
+		p.AddQuadCurveToPoint (1635f, -102f, 1628f, -111f);
+		p.AddQuadCurveToPoint (1616f, -128f, 1600f, -128f);
+		p.AddQuadCurveToPoint (1585f, -128f, 1576.5f, -118f);
+		p.AddQuadCurveToPoint (1568f, -108f, 1568f, -93f);
+		p.AddQuadCurveToPoint (1568f, -84f, 1570.5f, -66.5f);
+		p.AddQuadCurveToPoint (1573f, -49f, 1573f, -43f);
+		p.AddQuadCurveToPoint (1578f, 25f, 1578f, 80f);
+		p.AddQuadCurveToPoint (1578f, 181f, 1560.5f, 261f);
+		p.AddQuadCurveToPoint (1543f, 341f, 1512f, 399.5f);
+		p.AddQuadCurveToPoint (1481f, 458f, 1432f, 500.5f);
+		p.AddQuadCurveToPoint (1383f, 543f, 1326.5f, 570f);
+		p.AddQuadCurveToPoint (1270f, 597f, 1193.5f, 612.5f);
+		p.AddQuadCurveToPoint (1117f, 628f, 1039.5f, 634f);
+		p.AddQuadCurveToPoint (962f, 640f, 864f, 640f);
+		p.AddLineToPoint (640f, 640f);
+		p.AddLineToPoint (640f, 384f);
+		p.AddQuadCurveToPoint (640f, 358f, 621f, 339f);
+		p.AddQuadCurveToPoint (602f, 320f, 576f, 320f);
+		p.AddQuadCurveToPoint (550f, 320f, 531f, 339f);
+		p.AddLineToPoint (19f, 851f);
+		p.AddQuadCurveToPoint (0f, 870f, 0f, 896f);
+		p.AddQuadCurveToPoint (0f, 922f, 19f, 941f);
+		p.AddLineToPoint (531f, 1453f);
+		p.AddQuadCurveToPoint (550f, 1472f, 576f, 1472f);
+		p.AddQuadCurveToPoint (602f, 1472f, 621f, 1453f);
+		p.AddQuadCurveToPoint (640f, 1434f, 640f, 1408f);
+		p.AddLineToPoint (640f, 1152f);
+		p.AddLineToPoint (864f, 1152f);
+		p.AddQuadCurveToPoint (1577f, 1152f, 1739f, 749f);
+		p.AddQuadCurveToPoint (1792f, 615f, 1792f, 416f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1792f, 416f);
+		return p;
+	}
+
+	static CGPath icon_github_alt_path ()
+	{
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 320f);
 		p.AddQuadCurveToPoint (640f, 280f, 627.5f, 238f);
 		p.AddQuadCurveToPoint (615f, 196f, 584.5f, 162f);
@@ -15851,9 +16537,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_folder_close_alt_path ()
+	static CGPath icon_folder_close_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1536f, 224f);
 		p.AddLineToPoint (1536f, 928f);
 		p.AddQuadCurveToPoint (1536f, 968f, 1508f, 996f);
@@ -15897,9 +16583,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_folder_open_alt_path ()
+	static CGPath icon_folder_open_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1781f, 605f);
 		p.AddQuadCurveToPoint (1781f, 640f, 1728f, 640f);
 		p.AddLineToPoint (640f, 640f);
@@ -15963,9 +16649,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_expand_alt_path ()
+	static CGPath icon_expand_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (896f, 608f);
 		p.AddLineToPoint (896f, 544f);
 		p.AddQuadCurveToPoint (896f, 530f, 887f, 521f);
@@ -16030,9 +16716,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_collapse_alt_path ()
+	static CGPath icon_collapse_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (928f, 1152f);
 		p.AddQuadCurveToPoint (1021f, 1152f, 1086.5f, 1086.5f);
 		p.AddQuadCurveToPoint (1152f, 1021f, 1152f, 928f);
@@ -16081,9 +16767,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_smile_path ()
+	static CGPath icon_smile_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1134f, 461f);
 		p.AddQuadCurveToPoint (1097f, 340f, 996f, 266f);
 		p.AddQuadCurveToPoint (895f, 192f, 768f, 192f);
@@ -16162,9 +16848,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_frown_path ()
+	static CGPath icon_frown_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1134f, 307f);
 		p.AddQuadCurveToPoint (1142f, 282f, 1130f, 258.5f);
 		p.AddQuadCurveToPoint (1118f, 235f, 1093f, 227f);
@@ -16243,9 +16929,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_meh_path ()
+	static CGPath icon_meh_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1152f, 448f);
 		p.AddQuadCurveToPoint (1152f, 422f, 1133f, 403f);
 		p.AddQuadCurveToPoint (1114f, 384f, 1088f, 384f);
@@ -16318,9 +17004,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_gamepad_path ()
+	static CGPath icon_gamepad_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (832f, 448f);
 		p.AddLineToPoint (832f, 576f);
 		p.AddQuadCurveToPoint (832f, 590f, 823f, 599f);
@@ -16392,9 +17078,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_keyboard_path ()
+	static CGPath icon_keyboard_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 368f);
 		p.AddLineToPoint (384f, 272f);
 		p.AddQuadCurveToPoint (384f, 256f, 368f, 256f);
@@ -16566,9 +17252,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_flag_alt_path ()
+	static CGPath icon_flag_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1664f, 491f);
 		p.AddLineToPoint (1664f, 1107f);
 		p.AddQuadCurveToPoint (1495f, 1016f, 1358f, 1016f);
@@ -16638,9 +17324,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_flag_checkered_path ()
+	static CGPath icon_flag_checkered_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (832f, 536f);
 		p.AddLineToPoint (832f, 728f);
 		p.AddQuadCurveToPoint (651f, 712f, 448f, 611f);
@@ -16740,9 +17426,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_terminal_path ()
+	static CGPath icon_terminal_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (585f, 553f);
 		p.AddLineToPoint (119f, 87f);
 		p.AddQuadCurveToPoint (109f, 77f, 96f, 77f);
@@ -16780,9 +17466,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_code_path ()
+	static CGPath icon_code_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (617f, 137f);
 		p.AddLineToPoint (567f, 87f);
 		p.AddQuadCurveToPoint (557f, 77f, 544f, 77f);
@@ -16839,9 +17525,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_mail_reply_all_path ()
+	static CGPath icon_reply_all_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 454f);
 		p.AddLineToPoint (640f, 384f);
 		p.AddQuadCurveToPoint (640f, 342f, 601f, 325f);
@@ -16889,9 +17575,53 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_location_arrow_path ()
+	static CGPath icon_star_half_empty_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
+		p.MoveToPoint (1186f, 579f);
+		p.AddLineToPoint (1443f, 829f);
+		p.AddLineToPoint (1087f, 881f);
+		p.AddLineToPoint (1021f, 891f);
+		p.AddLineToPoint (991f, 951f);
+		p.AddLineToPoint (832f, 1273f);
+		p.AddLineToPoint (832f, 310f);
+		p.AddLineToPoint (891f, 279f);
+		p.AddLineToPoint (1209f, 111f);
+		p.AddLineToPoint (1149f, 466f);
+		p.AddLineToPoint (1137f, 532f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1186f, 579f);
+		p.MoveToPoint (1638f, 841f);
+		p.AddLineToPoint (1275f, 487f);
+		p.AddLineToPoint (1361f, -13f);
+		p.AddQuadCurveToPoint (1366f, -46f, 1355f, -64.5f);
+		p.AddQuadCurveToPoint (1344f, -83f, 1321f, -83f);
+		p.AddQuadCurveToPoint (1304f, -83f, 1281f, -71f);
+		p.AddLineToPoint (832f, 165f);
+		p.AddLineToPoint (383f, -71f);
+		p.AddQuadCurveToPoint (360f, -83f, 343f, -83f);
+		p.AddQuadCurveToPoint (320f, -83f, 309f, -64.5f);
+		p.AddQuadCurveToPoint (298f, -46f, 303f, -13f);
+		p.AddLineToPoint (389f, 487f);
+		p.AddLineToPoint (25f, 841f);
+		p.AddQuadCurveToPoint (-7f, 873f, 2f, 900.5f);
+		p.AddQuadCurveToPoint (11f, 928f, 56f, 935f);
+		p.AddLineToPoint (558f, 1008f);
+		p.AddLineToPoint (783f, 1463f);
+		p.AddQuadCurveToPoint (803f, 1504f, 832f, 1504f);
+		p.AddQuadCurveToPoint (860f, 1504f, 881f, 1463f);
+		p.AddLineToPoint (1106f, 1008f);
+		p.AddLineToPoint (1608f, 935f);
+		p.AddQuadCurveToPoint (1653f, 928f, 1662f, 900.5f);
+		p.AddQuadCurveToPoint (1671f, 873f, 1638f, 841f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1638f, 841f);
+		return p;
+	}
+
+	static CGPath icon_location_arrow_path ()
+	{
+		CGPath p = new CGPath();
 		p.MoveToPoint (1401f, 1187f);
 		p.AddLineToPoint (761f, -93f);
 		p.AddQuadCurveToPoint (744f, -128f, 704f, -128f);
@@ -16914,9 +17644,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_crop_path ()
+	static CGPath icon_crop_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (557f, 256f);
 		p.AddLineToPoint (1152f, 256f);
 		p.AddLineToPoint (1152f, 851f);
@@ -16974,9 +17704,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_code_fork_path ()
+	static CGPath icon_code_fork_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (288f, 64f);
 		p.AddQuadCurveToPoint (288f, 104f, 260f, 132f);
 		p.AddQuadCurveToPoint (232f, 160f, 192f, 160f);
@@ -17054,9 +17784,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_unlink_path ()
+	static CGPath icon_unlink_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (439f, 265f);
 		p.AddLineToPoint (183f, 9f);
 		p.AddQuadCurveToPoint (173f, 0f, 160f, 0f);
@@ -17180,9 +17910,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_question_path ()
+	static CGPath icon_question_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (704f, 280f);
 		p.AddLineToPoint (704f, 40f);
 		p.AddQuadCurveToPoint (704f, 24f, 692f, 12f);
@@ -17235,9 +17965,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_info_path ()
+	static CGPath icon_info_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 192f);
 		p.AddLineToPoint (640f, 64f);
 		p.AddQuadCurveToPoint (640f, 38f, 621f, 19f);
@@ -17283,9 +18013,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_exclamation_path ()
+	static CGPath icon_exclamation_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (512f, 288f);
 		p.AddLineToPoint (512f, 64f);
 		p.AddQuadCurveToPoint (512f, 38f, 493f, 19f);
@@ -17319,9 +18049,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_superscript_path ()
+	static CGPath icon_superscript_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (897f, 167f);
 		p.AddLineToPoint (897f, 0f);
 		p.AddLineToPoint (649f, 0f);
@@ -17389,9 +18119,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_subscript_path ()
+	static CGPath icon_subscript_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (897f, 167f);
 		p.AddLineToPoint (897f, 0f);
 		p.AddLineToPoint (649f, 0f);
@@ -17458,9 +18188,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_eraser_path ()
+	static CGPath icon_eraser_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (896f, 128f);
 		p.AddLineToPoint (1232f, 512f);
 		p.AddLineToPoint (464f, 512f);
@@ -17488,9 +18218,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_puzzle_piece_path ()
+	static CGPath icon_puzzle_piece_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1664f, 438f);
 		p.AddQuadCurveToPoint (1664f, 357f, 1619.5f, 303f);
 		p.AddQuadCurveToPoint (1575f, 249f, 1496f, 249f);
@@ -17569,9 +18299,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_microphone_path ()
+	static CGPath icon_microphone_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1152f, 832f);
 		p.AddLineToPoint (1152f, 704f);
 		p.AddQuadCurveToPoint (1152f, 483f, 1004.5f, 319.5f);
@@ -17624,9 +18354,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_microphone_off_path ()
+	static CGPath icon_microphone_off_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (271f, 591f);
 		p.AddLineToPoint (170f, 490f);
 		p.AddQuadCurveToPoint (128f, 593f, 128f, 704f);
@@ -17697,9 +18427,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_shield_path ()
+	static CGPath icon_shield_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1088f, 576f);
 		p.AddLineToPoint (1088f, 1216f);
 		p.AddLineToPoint (640f, 1216f);
@@ -17737,9 +18467,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_calendar_empty_path ()
+	static CGPath icon_calendar_empty_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (128f, -128f);
 		p.AddLineToPoint (1536f, -128f);
 		p.AddLineToPoint (1536f, 896f);
@@ -17811,9 +18541,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_fire_extinguisher_path ()
+	static CGPath icon_fire_extinguisher_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (512f, 1344f);
 		p.AddQuadCurveToPoint (512f, 1370f, 493f, 1389f);
 		p.AddQuadCurveToPoint (474f, 1408f, 448f, 1408f);
@@ -17880,9 +18610,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_rocket_path ()
+	static CGPath icon_rocket_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1440f, 1088f);
 		p.AddQuadCurveToPoint (1440f, 1128f, 1412f, 1156f);
 		p.AddQuadCurveToPoint (1384f, 1184f, 1344f, 1184f);
@@ -17925,9 +18655,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_maxcdn_path ()
+	static CGPath icon_maxcdn_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1708f, 881f);
 		p.AddLineToPoint (1520f, 0f);
 		p.AddLineToPoint (1216f, 0f);
@@ -17952,9 +18682,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_chevron_sign_left_path ()
+	static CGPath icon_chevron_sign_left_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (909f, 141f);
 		p.AddLineToPoint (1011f, 243f);
 		p.AddQuadCurveToPoint (1030f, 262f, 1030f, 288f);
@@ -17992,9 +18722,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_chevron_sign_right_path ()
+	static CGPath icon_chevron_sign_right_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (717f, 141f);
 		p.AddLineToPoint (1171f, 595f);
 		p.AddQuadCurveToPoint (1190f, 614f, 1190f, 640f);
@@ -18032,9 +18762,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_chevron_sign_up_path ()
+	static CGPath icon_chevron_sign_up_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1165f, 397f);
 		p.AddLineToPoint (1267f, 499f);
 		p.AddQuadCurveToPoint (1286f, 518f, 1286f, 544f);
@@ -18072,9 +18802,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_chevron_sign_down_path ()
+	static CGPath icon_chevron_sign_down_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (813f, 237f);
 		p.AddLineToPoint (1267f, 691f);
 		p.AddQuadCurveToPoint (1286f, 710f, 1286f, 736f);
@@ -18112,9 +18842,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_html5_path ()
+	static CGPath icon_html5_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1130f, 939f);
 		p.AddLineToPoint (1146f, 1114f);
 		p.AddLineToPoint (262f, 1114f);
@@ -18146,9 +18876,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_css3_path ()
+	static CGPath icon_css3_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (275f, 1408f);
 		p.AddLineToPoint (1780f, 1408f);
 		p.AddLineToPoint (1514f, 75f);
@@ -18170,9 +18900,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_anchor_path ()
+	static CGPath icon_anchor_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (960f, 1280f);
 		p.AddQuadCurveToPoint (960f, 1306f, 941f, 1325f);
 		p.AddQuadCurveToPoint (922f, 1344f, 896f, 1344f);
@@ -18246,9 +18976,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_unlock_alt_path ()
+	static CGPath icon_unlock_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1056f, 768f);
 		p.AddQuadCurveToPoint (1096f, 768f, 1124f, 740f);
 		p.AddQuadCurveToPoint (1152f, 712f, 1152f, 672f);
@@ -18283,9 +19013,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_bullseye_path ()
+	static CGPath icon_bullseye_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 640f);
 		p.AddQuadCurveToPoint (1024f, 534f, 949f, 459f);
 		p.AddQuadCurveToPoint (874f, 384f, 768f, 384f);
@@ -18356,9 +19086,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_ellipsis_horizontal_path ()
+	static CGPath icon_ellipsis_horizontal_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 800f);
 		p.AddLineToPoint (384f, 608f);
 		p.AddQuadCurveToPoint (384f, 568f, 356f, 540f);
@@ -18407,9 +19137,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_ellipsis_vertical_path ()
+	static CGPath icon_ellipsis_vertical_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (384f, 288f);
 		p.AddLineToPoint (384f, 96f);
 		p.AddQuadCurveToPoint (384f, 56f, 356f, 28f);
@@ -18458,9 +19188,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_rss_sign_path ()
+	static CGPath icon_rss_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (512f, 256f);
 		p.AddQuadCurveToPoint (512f, 309f, 474.5f, 346.5f);
 		p.AddQuadCurveToPoint (437f, 384f, 384f, 384f);
@@ -18528,9 +19258,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_play_sign_path ()
+	static CGPath icon_play_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 1408f);
 		p.AddQuadCurveToPoint (977f, 1408f, 1153.5f, 1305f);
 		p.AddQuadCurveToPoint (1330f, 1202f, 1433f, 1025.5f);
@@ -18561,9 +19291,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_ticket_path ()
+	static CGPath icon_ticket_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 1084f);
 		p.AddLineToPoint (1340f, 768f);
 		p.AddLineToPoint (768f, 196f);
@@ -18613,9 +19343,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_minus_sign_alt_path ()
+	static CGPath icon_minus_sign_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 576f);
 		p.AddLineToPoint (1280f, 704f);
 		p.AddQuadCurveToPoint (1280f, 730f, 1261f, 749f);
@@ -18649,9 +19379,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_check_minus_path ()
+	static CGPath icon_check_minus_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1152f, 736f);
 		p.AddLineToPoint (1152f, 672f);
 		p.AddQuadCurveToPoint (1152f, 658f, 1143f, 649f);
@@ -18700,9 +19430,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_level_up_path ()
+	static CGPath icon_level_up_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1018f, 933f);
 		p.AddQuadCurveToPoint (1000f, 896f, 960f, 896f);
 		p.AddLineToPoint (768f, 896f);
@@ -18729,9 +19459,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_level_down_path ()
+	static CGPath icon_level_down_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (32f, 1280f);
 		p.AddLineToPoint (736f, 1280f);
 		p.AddQuadCurveToPoint (749f, 1280f, 758.5f, 1270.5f);
@@ -18758,9 +19488,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_check_sign_path ()
+	static CGPath icon_check_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (685f, 237f);
 		p.AddLineToPoint (1299f, 851f);
 		p.AddQuadCurveToPoint (1318f, 870f, 1318f, 896f);
@@ -18798,9 +19528,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_edit_sign_path ()
+	static CGPath icon_edit_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (404f, 428f);
 		p.AddLineToPoint (556f, 276f);
 		p.AddLineToPoint (504f, 224f);
@@ -18855,9 +19585,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_external_link_sign_path ()
+	static CGPath icon_external_link_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 608f);
 		p.AddLineToPoint (1280f, 1088f);
 		p.AddQuadCurveToPoint (1280f, 1114f, 1261f, 1133f);
@@ -18897,9 +19627,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_share_sign_path ()
+	static CGPath icon_share_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1005f, 435f);
 		p.AddLineToPoint (1357f, 787f);
 		p.AddQuadCurveToPoint (1376f, 806f, 1376f, 832f);
@@ -18946,9 +19676,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_compass_path ()
+	static CGPath icon_compass_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (640f, 448f);
 		p.AddLineToPoint (896f, 576f);
 		p.AddLineToPoint (640f, 704f);
@@ -18994,9 +19724,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_collapse_path ()
+	static CGPath icon_collapse_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1145f, 861f);
 		p.AddQuadCurveToPoint (1163f, 826f, 1140f, 795f);
 		p.AddLineToPoint (820f, 347f);
@@ -19042,9 +19772,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_collapse_top_path ()
+	static CGPath icon_collapse_top_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1145f, 419f);
 		p.AddQuadCurveToPoint (1128f, 384f, 1088f, 384f);
 		p.AddLineToPoint (448f, 384f);
@@ -19090,9 +19820,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_expand_path ()
+	static CGPath icon_expand_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1088f, 640f);
 		p.AddQuadCurveToPoint (1088f, 607f, 1061f, 588f);
 		p.AddLineToPoint (613f, 268f);
@@ -19138,9 +19868,89 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_gbp_path ()
+	static CGPath icon_eur_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
+		p.MoveToPoint (976f, 229f);
+		p.AddLineToPoint (1011f, 70f);
+		p.AddQuadCurveToPoint (1014f, 58f, 1008f, 47.5f);
+		p.AddQuadCurveToPoint (1002f, 37f, 991f, 33f);
+		p.AddLineToPoint (986f, 32f);
+		p.AddQuadCurveToPoint (982f, 30f, 975.5f, 28.5f);
+		p.AddQuadCurveToPoint (969f, 27f, 959.5f, 24f);
+		p.AddQuadCurveToPoint (950f, 21f, 938f, 18.5f);
+		p.AddQuadCurveToPoint (926f, 16f, 912.5f, 13.5f);
+		p.AddQuadCurveToPoint (899f, 11f, 882.5f, 8.5f);
+		p.AddQuadCurveToPoint (866f, 6f, 849f, 4f);
+		p.AddQuadCurveToPoint (832f, 2f, 812.5f, 1f);
+		p.AddQuadCurveToPoint (793f, 0f, 774f, 0f);
+		p.AddQuadCurveToPoint (540f, 0f, 365f, 130.5f);
+		p.AddQuadCurveToPoint (190f, 261f, 127f, 482f);
+		p.AddLineToPoint (32f, 482f);
+		p.AddQuadCurveToPoint (19f, 482f, 9.5f, 491.5f);
+		p.AddQuadCurveToPoint (0f, 501f, 0f, 514f);
+		p.AddLineToPoint (0f, 627f);
+		p.AddQuadCurveToPoint (0f, 640f, 9.5f, 649.5f);
+		p.AddQuadCurveToPoint (19f, 659f, 32f, 659f);
+		p.AddLineToPoint (98f, 659f);
+		p.AddQuadCurveToPoint (96f, 716f, 99f, 764f);
+		p.AddLineToPoint (32f, 764f);
+		p.AddQuadCurveToPoint (18f, 764f, 9f, 773f);
+		p.AddQuadCurveToPoint (0f, 782f, 0f, 796f);
+		p.AddLineToPoint (0f, 910f);
+		p.AddQuadCurveToPoint (0f, 924f, 9f, 933f);
+		p.AddQuadCurveToPoint (18f, 942f, 32f, 942f);
+		p.AddLineToPoint (130f, 942f);
+		p.AddQuadCurveToPoint (197f, 1152f, 373.5f, 1280f);
+		p.AddQuadCurveToPoint (550f, 1408f, 774f, 1408f);
+		p.AddQuadCurveToPoint (876f, 1408f, 968f, 1385f);
+		p.AddQuadCurveToPoint (979f, 1382f, 988f, 1370f);
+		p.AddQuadCurveToPoint (994f, 1359f, 991f, 1346f);
+		p.AddLineToPoint (948f, 1187f);
+		p.AddQuadCurveToPoint (945f, 1174f, 934f, 1167.5f);
+		p.AddQuadCurveToPoint (923f, 1161f, 910f, 1165f);
+		p.AddLineToPoint (906f, 1166f);
+		p.AddQuadCurveToPoint (902f, 1167f, 894.5f, 1168.5f);
+		p.AddLineToPoint (877f, 1172f);
+		p.AddQuadCurveToPoint (877f, 1172f, 854.5f, 1175.5f);
+		p.AddQuadCurveToPoint (832f, 1179f, 828.5f, 1178.5f);
+		p.AddQuadCurveToPoint (825f, 1178f, 799.5f, 1181f);
+		p.AddQuadCurveToPoint (774f, 1184f, 770f, 1182f);
+		p.AddQuadCurveToPoint (644f, 1182f, 544f, 1118f);
+		p.AddQuadCurveToPoint (444f, 1054f, 394f, 942f);
+		p.AddLineToPoint (862f, 942f);
+		p.AddQuadCurveToPoint (878f, 942f, 887f, 930f);
+		p.AddQuadCurveToPoint (897f, 918f, 894f, 904f);
+		p.AddLineToPoint (870f, 790f);
+		p.AddQuadCurveToPoint (865f, 764f, 838f, 764f);
+		p.AddLineToPoint (350f, 764f);
+		p.AddQuadCurveToPoint (347f, 727f, 350f, 659f);
+		p.AddLineToPoint (809f, 659f);
+		p.AddQuadCurveToPoint (824f, 659f, 834f, 647f);
+		p.AddQuadCurveToPoint (843f, 635f, 840f, 620f);
+		p.AddLineToPoint (816f, 508f);
+		p.AddQuadCurveToPoint (814f, 497f, 805f, 489.5f);
+		p.AddQuadCurveToPoint (796f, 482f, 785f, 482f);
+		p.AddLineToPoint (398f, 482f);
+		p.AddQuadCurveToPoint (446f, 365f, 547.5f, 296.5f);
+		p.AddQuadCurveToPoint (649f, 228f, 776f, 228f);
+		p.AddQuadCurveToPoint (794f, 228f, 812f, 229.5f);
+		p.AddQuadCurveToPoint (830f, 231f, 845.5f, 233f);
+		p.AddQuadCurveToPoint (861f, 235f, 875f, 237.5f);
+		p.AddQuadCurveToPoint (889f, 240f, 899.5f, 242.5f);
+		p.AddQuadCurveToPoint (910f, 245f, 918f, 247f);
+		p.AddLineToPoint (930f, 250f);
+		p.AddLineToPoint (935f, 252f);
+		p.AddQuadCurveToPoint (948f, 257f, 961f, 250f);
+		p.AddQuadCurveToPoint (973f, 243f, 976f, 229f);
+		p.CloseSubpath ();
+		p.MoveToPoint (976f, 229f);
+		return p;
+	}
+
+	static CGPath icon_gbp_path ()
+	{
+		CGPath p = new CGPath();
 		p.MoveToPoint (1020f, 399f);
 		p.AddLineToPoint (1020f, 32f);
 		p.AddQuadCurveToPoint (1020f, 18f, 1011f, 9f);
@@ -19195,9 +20005,494 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_file_path ()
+	static CGPath icon_usd_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
+		p.MoveToPoint (978f, 351f);
+		p.AddQuadCurveToPoint (978f, 198f, 878.5f, 87.5f);
+		p.AddQuadCurveToPoint (779f, -23f, 620f, -49f);
+		p.AddLineToPoint (620f, -224f);
+		p.AddQuadCurveToPoint (620f, -238f, 611f, -247f);
+		p.AddQuadCurveToPoint (602f, -256f, 588f, -256f);
+		p.AddLineToPoint (453f, -256f);
+		p.AddQuadCurveToPoint (440f, -256f, 430.5f, -246.5f);
+		p.AddQuadCurveToPoint (421f, -237f, 421f, -224f);
+		p.AddLineToPoint (421f, -49f);
+		p.AddQuadCurveToPoint (355f, -40f, 293.5f, -18f);
+		p.AddQuadCurveToPoint (232f, 4f, 192f, 26.5f);
+		p.AddQuadCurveToPoint (152f, 49f, 118f, 74.5f);
+		p.AddQuadCurveToPoint (84f, 100f, 71.5f, 112f);
+		p.AddQuadCurveToPoint (59f, 124f, 54f, 130f);
+		p.AddQuadCurveToPoint (37f, 151f, 52f, 171f);
+		p.AddLineToPoint (155f, 306f);
+		p.AddQuadCurveToPoint (162f, 316f, 178f, 318f);
+		p.AddQuadCurveToPoint (193f, 320f, 202f, 309f);
+		p.AddLineToPoint (204f, 307f);
+		p.AddQuadCurveToPoint (317f, 208f, 447f, 182f);
+		p.AddQuadCurveToPoint (484f, 174f, 521f, 174f);
+		p.AddQuadCurveToPoint (602f, 174f, 663.5f, 217f);
+		p.AddQuadCurveToPoint (725f, 260f, 725f, 339f);
+		p.AddQuadCurveToPoint (725f, 367f, 710f, 392f);
+		p.AddQuadCurveToPoint (695f, 417f, 676.5f, 434f);
+		p.AddQuadCurveToPoint (658f, 451f, 618f, 471.5f);
+		p.AddQuadCurveToPoint (578f, 492f, 552f, 503.5f);
+		p.AddQuadCurveToPoint (526f, 515f, 472f, 536f);
+		p.AddQuadCurveToPoint (433f, 552f, 410.5f, 561f);
+		p.AddQuadCurveToPoint (388f, 570f, 349f, 587.5f);
+		p.AddQuadCurveToPoint (310f, 605f, 286.5f, 618.5f);
+		p.AddQuadCurveToPoint (263f, 632f, 230f, 654f);
+		p.AddQuadCurveToPoint (197f, 676f, 176.5f, 696.5f);
+		p.AddQuadCurveToPoint (156f, 717f, 133f, 745.5f);
+		p.AddQuadCurveToPoint (110f, 774f, 97.5f, 803.5f);
+		p.AddQuadCurveToPoint (85f, 833f, 76.5f, 870f);
+		p.AddQuadCurveToPoint (68f, 907f, 68f, 948f);
+		p.AddQuadCurveToPoint (68f, 1086f, 166f, 1190f);
+		p.AddQuadCurveToPoint (264f, 1294f, 421f, 1324f);
+		p.AddLineToPoint (421f, 1504f);
+		p.AddQuadCurveToPoint (421f, 1517f, 430.5f, 1526.5f);
+		p.AddQuadCurveToPoint (440f, 1536f, 453f, 1536f);
+		p.AddLineToPoint (588f, 1536f);
+		p.AddQuadCurveToPoint (602f, 1536f, 611f, 1527f);
+		p.AddQuadCurveToPoint (620f, 1518f, 620f, 1504f);
+		p.AddLineToPoint (620f, 1328f);
+		p.AddQuadCurveToPoint (677f, 1322f, 730.5f, 1305f);
+		p.AddQuadCurveToPoint (784f, 1288f, 817.5f, 1271.5f);
+		p.AddQuadCurveToPoint (851f, 1255f, 881f, 1234f);
+		p.AddQuadCurveToPoint (911f, 1213f, 920f, 1205f);
+		p.AddQuadCurveToPoint (929f, 1197f, 935f, 1191f);
+		p.AddQuadCurveToPoint (952f, 1173f, 940f, 1153f);
+		p.AddLineToPoint (859f, 1007f);
+		p.AddQuadCurveToPoint (851f, 992f, 836f, 991f);
+		p.AddQuadCurveToPoint (822f, 988f, 809f, 998f);
+		p.AddQuadCurveToPoint (806f, 1001f, 794.5f, 1010f);
+		p.AddQuadCurveToPoint (783f, 1019f, 755.5f, 1036.5f);
+		p.AddQuadCurveToPoint (728f, 1054f, 697f, 1068.5f);
+		p.AddQuadCurveToPoint (666f, 1083f, 622.5f, 1094.5f);
+		p.AddQuadCurveToPoint (579f, 1106f, 537f, 1106f);
+		p.AddQuadCurveToPoint (442f, 1106f, 382f, 1063f);
+		p.AddQuadCurveToPoint (322f, 1020f, 322f, 952f);
+		p.AddQuadCurveToPoint (322f, 926f, 330.5f, 904f);
+		p.AddQuadCurveToPoint (339f, 882f, 360f, 862.5f);
+		p.AddQuadCurveToPoint (381f, 843f, 399.5f, 829.5f);
+		p.AddQuadCurveToPoint (418f, 816f, 455.5f, 798.5f);
+		p.AddQuadCurveToPoint (493f, 781f, 516f, 771.5f);
+		p.AddQuadCurveToPoint (539f, 762f, 586f, 744f);
+		p.AddQuadCurveToPoint (639f, 724f, 667f, 712.5f);
+		p.AddQuadCurveToPoint (695f, 701f, 743f, 677.5f);
+		p.AddQuadCurveToPoint (791f, 654f, 818.5f, 635f);
+		p.AddQuadCurveToPoint (846f, 616f, 880.5f, 585f);
+		p.AddQuadCurveToPoint (915f, 554f, 933.5f, 521.5f);
+		p.AddQuadCurveToPoint (952f, 489f, 965f, 445f);
+		p.AddQuadCurveToPoint (978f, 401f, 978f, 351f);
+		p.CloseSubpath ();
+		p.MoveToPoint (978f, 351f);
+		return p;
+	}
+
+	static CGPath icon_inr_path ()
+	{
+		CGPath p = new CGPath();
+		p.MoveToPoint (898f, 1066f);
+		p.AddLineToPoint (898f, 964f);
+		p.AddQuadCurveToPoint (898f, 950f, 889f, 941f);
+		p.AddQuadCurveToPoint (880f, 932f, 866f, 932f);
+		p.AddLineToPoint (698f, 932f);
+		p.AddQuadCurveToPoint (675f, 788f, 569f, 698f);
+		p.AddQuadCurveToPoint (463f, 608f, 293f, 588f);
+		p.AddQuadCurveToPoint (460f, 410f, 752f, 52f);
+		p.AddQuadCurveToPoint (766f, 36f, 756f, 18f);
+		p.AddQuadCurveToPoint (748f, 0f, 727f, 0f);
+		p.AddLineToPoint (532f, 0f);
+		p.AddQuadCurveToPoint (516f, 0f, 507f, 12f);
+		p.AddQuadCurveToPoint (201f, 379f, 9f, 583f);
+		p.AddQuadCurveToPoint (0f, 592f, 0f, 605f);
+		p.AddLineToPoint (0f, 732f);
+		p.AddQuadCurveToPoint (0f, 745f, 9.5f, 754.5f);
+		p.AddQuadCurveToPoint (19f, 764f, 32f, 764f);
+		p.AddLineToPoint (144f, 764f);
+		p.AddQuadCurveToPoint (276f, 764f, 356.5f, 807f);
+		p.AddQuadCurveToPoint (437f, 850f, 459f, 932f);
+		p.AddLineToPoint (32f, 932f);
+		p.AddQuadCurveToPoint (18f, 932f, 9f, 941f);
+		p.AddQuadCurveToPoint (0f, 950f, 0f, 964f);
+		p.AddLineToPoint (0f, 1066f);
+		p.AddQuadCurveToPoint (0f, 1080f, 9f, 1089f);
+		p.AddQuadCurveToPoint (18f, 1098f, 32f, 1098f);
+		p.AddLineToPoint (445f, 1098f);
+		p.AddQuadCurveToPoint (388f, 1211f, 177f, 1211f);
+		p.AddLineToPoint (32f, 1211f);
+		p.AddQuadCurveToPoint (19f, 1211f, 9.5f, 1220.5f);
+		p.AddQuadCurveToPoint (0f, 1230f, 0f, 1243f);
+		p.AddLineToPoint (0f, 1376f);
+		p.AddQuadCurveToPoint (0f, 1390f, 9f, 1399f);
+		p.AddQuadCurveToPoint (18f, 1408f, 32f, 1408f);
+		p.AddLineToPoint (864f, 1408f);
+		p.AddQuadCurveToPoint (878f, 1408f, 887f, 1399f);
+		p.AddQuadCurveToPoint (896f, 1390f, 896f, 1376f);
+		p.AddLineToPoint (896f, 1274f);
+		p.AddQuadCurveToPoint (896f, 1260f, 887f, 1251f);
+		p.AddQuadCurveToPoint (878f, 1242f, 864f, 1242f);
+		p.AddLineToPoint (631f, 1242f);
+		p.AddQuadCurveToPoint (678f, 1181f, 695f, 1098f);
+		p.AddLineToPoint (866f, 1098f);
+		p.AddQuadCurveToPoint (880f, 1098f, 889f, 1089f);
+		p.AddQuadCurveToPoint (898f, 1080f, 898f, 1066f);
+		p.CloseSubpath ();
+		p.MoveToPoint (898f, 1066f);
+		return p;
+	}
+
+	static CGPath icon_jpy_path ()
+	{
+		CGPath p = new CGPath();
+		p.MoveToPoint (603f, 0f);
+		p.AddLineToPoint (431f, 0f);
+		p.AddQuadCurveToPoint (418f, 0f, 408.5f, 9f);
+		p.AddQuadCurveToPoint (399f, 18f, 399f, 32f);
+		p.AddLineToPoint (399f, 362f);
+		p.AddLineToPoint (111f, 362f);
+		p.AddQuadCurveToPoint (98f, 362f, 88.5f, 371f);
+		p.AddQuadCurveToPoint (79f, 380f, 79f, 394f);
+		p.AddLineToPoint (79f, 497f);
+		p.AddQuadCurveToPoint (79f, 510f, 88.5f, 519.5f);
+		p.AddQuadCurveToPoint (98f, 529f, 111f, 529f);
+		p.AddLineToPoint (399f, 529f);
+		p.AddLineToPoint (399f, 614f);
+		p.AddLineToPoint (111f, 614f);
+		p.AddQuadCurveToPoint (98f, 614f, 88.5f, 623f);
+		p.AddQuadCurveToPoint (79f, 632f, 79f, 646f);
+		p.AddLineToPoint (79f, 750f);
+		p.AddQuadCurveToPoint (79f, 763f, 88.5f, 772.5f);
+		p.AddQuadCurveToPoint (98f, 782f, 111f, 782f);
+		p.AddLineToPoint (325f, 782f);
+		p.AddLineToPoint (4f, 1360f);
+		p.AddQuadCurveToPoint (-4f, 1376f, 4f, 1392f);
+		p.AddQuadCurveToPoint (14f, 1408f, 32f, 1408f);
+		p.AddLineToPoint (226f, 1408f);
+		p.AddQuadCurveToPoint (245f, 1408f, 255f, 1390f);
+		p.AddLineToPoint (470f, 965f);
+		p.AddQuadCurveToPoint (489f, 927f, 526f, 840f);
+		p.AddQuadCurveToPoint (536f, 864f, 556.5f, 908f);
+		p.AddQuadCurveToPoint (577f, 952f, 584f, 969f);
+		p.AddLineToPoint (775f, 1389f);
+		p.AddQuadCurveToPoint (783f, 1408f, 804f, 1408f);
+		p.AddLineToPoint (995f, 1408f);
+		p.AddQuadCurveToPoint (1012f, 1408f, 1022f, 1392f);
+		p.AddQuadCurveToPoint (1031f, 1378f, 1023f, 1361f);
+		p.AddLineToPoint (710f, 782f);
+		p.AddLineToPoint (925f, 782f);
+		p.AddQuadCurveToPoint (938f, 782f, 947.5f, 772.5f);
+		p.AddQuadCurveToPoint (957f, 763f, 957f, 750f);
+		p.AddLineToPoint (957f, 646f);
+		p.AddQuadCurveToPoint (957f, 632f, 947.5f, 623f);
+		p.AddQuadCurveToPoint (938f, 614f, 925f, 614f);
+		p.AddLineToPoint (635f, 614f);
+		p.AddLineToPoint (635f, 529f);
+		p.AddLineToPoint (925f, 529f);
+		p.AddQuadCurveToPoint (938f, 529f, 947.5f, 519.5f);
+		p.AddQuadCurveToPoint (957f, 510f, 957f, 497f);
+		p.AddLineToPoint (957f, 394f);
+		p.AddQuadCurveToPoint (957f, 380f, 947.5f, 371f);
+		p.AddQuadCurveToPoint (938f, 362f, 925f, 362f);
+		p.AddLineToPoint (635f, 362f);
+		p.AddLineToPoint (635f, 32f);
+		p.AddQuadCurveToPoint (635f, 19f, 625.5f, 9.5f);
+		p.AddQuadCurveToPoint (616f, 0f, 603f, 0f);
+		p.CloseSubpath ();
+		p.MoveToPoint (603f, 0f);
+		return p;
+	}
+
+	static CGPath icon_cny_path ()
+	{
+		CGPath p = new CGPath();
+		p.MoveToPoint (1664f, 352f);
+		p.AddLineToPoint (1664f, 320f);
+		p.AddQuadCurveToPoint (1664f, 188f, 1570f, 94f);
+		p.AddQuadCurveToPoint (1476f, 0f, 1344f, 0f);
+		p.AddLineToPoint (1216f, 0f);
+		p.AddQuadCurveToPoint (1084f, 0f, 990f, 94f);
+		p.AddQuadCurveToPoint (896f, 188f, 896f, 320f);
+		p.AddLineToPoint (896f, 800f);
+		p.AddLineToPoint (672f, 800f);
+		p.AddQuadCurveToPoint (670f, 698f, 657.5f, 609.5f);
+		p.AddQuadCurveToPoint (645f, 521f, 627f, 453.5f);
+		p.AddQuadCurveToPoint (609f, 386f, 578.5f, 327f);
+		p.AddQuadCurveToPoint (548f, 268f, 521.5f, 227.5f);
+		p.AddQuadCurveToPoint (495f, 187f, 454f, 150f);
+		p.AddQuadCurveToPoint (413f, 113f, 384.5f, 91.5f);
+		p.AddQuadCurveToPoint (356f, 70f, 310.5f, 47.5f);
+		p.AddQuadCurveToPoint (265f, 25f, 241.5f, 15.5f);
+		p.AddQuadCurveToPoint (218f, 6f, 176f, -10f);
+		p.AddQuadCurveToPoint (172f, -12f, 144f, -23f);
+		p.AddQuadCurveToPoint (136f, -25f, 132f, -25f);
+		p.AddQuadCurveToPoint (110f, -25f, 102f, -5f);
+		p.AddLineToPoint (31f, 173f);
+		p.AddQuadCurveToPoint (26f, 186f, 31f, 198f);
+		p.AddQuadCurveToPoint (36f, 210f, 48f, 215f);
+		p.AddQuadCurveToPoint (55f, 218f, 68f, 222.5f);
+		p.AddQuadCurveToPoint (81f, 227f, 86f, 229f);
+		p.AddQuadCurveToPoint (117f, 241f, 132.5f, 247.5f);
+		p.AddQuadCurveToPoint (148f, 254f, 177f, 267.5f);
+		p.AddQuadCurveToPoint (206f, 281f, 222.5f, 293.5f);
+		p.AddQuadCurveToPoint (239f, 306f, 264.5f, 326f);
+		p.AddQuadCurveToPoint (290f, 346f, 305f, 368.5f);
+		p.AddQuadCurveToPoint (320f, 391f, 339.5f, 422f);
+		p.AddQuadCurveToPoint (359f, 453f, 370f, 490.5f);
+		p.AddQuadCurveToPoint (381f, 528f, 392.5f, 574f);
+		p.AddQuadCurveToPoint (404f, 620f, 409.5f, 677f);
+		p.AddQuadCurveToPoint (415f, 734f, 416f, 800f);
+		p.AddLineToPoint (160f, 800f);
+		p.AddQuadCurveToPoint (146f, 800f, 137f, 809f);
+		p.AddQuadCurveToPoint (128f, 818f, 128f, 832f);
+		p.AddLineToPoint (128f, 992f);
+		p.AddQuadCurveToPoint (128f, 1006f, 137f, 1015f);
+		p.AddQuadCurveToPoint (146f, 1024f, 160f, 1024f);
+		p.AddLineToPoint (1376f, 1024f);
+		p.AddQuadCurveToPoint (1390f, 1024f, 1399f, 1015f);
+		p.AddQuadCurveToPoint (1408f, 1006f, 1408f, 992f);
+		p.AddLineToPoint (1408f, 832f);
+		p.AddQuadCurveToPoint (1408f, 818f, 1399f, 809f);
+		p.AddQuadCurveToPoint (1390f, 800f, 1376f, 800f);
+		p.AddLineToPoint (1152f, 800f);
+		p.AddLineToPoint (1152f, 288f);
+		p.AddQuadCurveToPoint (1152f, 262f, 1171f, 243f);
+		p.AddQuadCurveToPoint (1190f, 224f, 1216f, 224f);
+		p.AddLineToPoint (1344f, 224f);
+		p.AddQuadCurveToPoint (1370f, 224f, 1389f, 243f);
+		p.AddQuadCurveToPoint (1408f, 262f, 1408f, 288f);
+		p.AddLineToPoint (1408f, 352f);
+		p.AddQuadCurveToPoint (1408f, 366f, 1417f, 375f);
+		p.AddQuadCurveToPoint (1426f, 384f, 1440f, 384f);
+		p.AddLineToPoint (1632f, 384f);
+		p.AddQuadCurveToPoint (1646f, 384f, 1655f, 375f);
+		p.AddQuadCurveToPoint (1664f, 366f, 1664f, 352f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1664f, 352f);
+		p.MoveToPoint (1280f, 1376f);
+		p.AddLineToPoint (1280f, 1216f);
+		p.AddQuadCurveToPoint (1280f, 1202f, 1271f, 1193f);
+		p.AddQuadCurveToPoint (1262f, 1184f, 1248f, 1184f);
+		p.AddLineToPoint (288f, 1184f);
+		p.AddQuadCurveToPoint (274f, 1184f, 265f, 1193f);
+		p.AddQuadCurveToPoint (256f, 1202f, 256f, 1216f);
+		p.AddLineToPoint (256f, 1376f);
+		p.AddQuadCurveToPoint (256f, 1390f, 265f, 1399f);
+		p.AddQuadCurveToPoint (274f, 1408f, 288f, 1408f);
+		p.AddLineToPoint (1248f, 1408f);
+		p.AddQuadCurveToPoint (1262f, 1408f, 1271f, 1399f);
+		p.AddQuadCurveToPoint (1280f, 1390f, 1280f, 1376f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1280f, 1376f);
+		return p;
+	}
+
+	static CGPath icon_krw_path ()
+	{
+		CGPath p = new CGPath();
+		p.MoveToPoint (514f, 341f);
+		p.AddLineToPoint (595f, 640f);
+		p.AddLineToPoint (436f, 640f);
+		p.AddLineToPoint (511f, 340f);
+		p.AddQuadCurveToPoint (512f, 339f, 512f, 337f);
+		p.AddQuadCurveToPoint (512f, 335f, 513f, 334f);
+		p.AddQuadCurveToPoint (513f, 335f, 513.5f, 337.5f);
+		p.AddQuadCurveToPoint (514f, 340f, 514f, 341f);
+		p.CloseSubpath ();
+		p.MoveToPoint (514f, 341f);
+		p.MoveToPoint (630f, 768f);
+		p.AddLineToPoint (665f, 896f);
+		p.AddLineToPoint (373f, 896f);
+		p.AddLineToPoint (405f, 768f);
+		p.AddLineToPoint (630f, 768f);
+		p.CloseSubpath ();
+		p.MoveToPoint (630f, 768f);
+		p.MoveToPoint (822f, 768f);
+		p.AddLineToPoint (961f, 768f);
+		p.AddLineToPoint (926f, 896f);
+		p.AddLineToPoint (856f, 896f);
+		p.CloseSubpath ();
+		p.MoveToPoint (822f, 768f);
+		p.MoveToPoint (1271f, 340f);
+		p.AddLineToPoint (1349f, 640f);
+		p.AddLineToPoint (1187f, 640f);
+		p.AddLineToPoint (1268f, 341f);
+		p.AddQuadCurveToPoint (1268f, 340f, 1268.5f, 337.5f);
+		p.AddQuadCurveToPoint (1269f, 335f, 1270f, 334f);
+		p.AddQuadCurveToPoint (1270f, 335f, 1270.5f, 337f);
+		p.AddQuadCurveToPoint (1271f, 339f, 1271f, 340f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1271f, 340f);
+		p.MoveToPoint (1382f, 768f);
+		p.AddLineToPoint (1415f, 896f);
+		p.AddLineToPoint (1118f, 896f);
+		p.AddLineToPoint (1152f, 768f);
+		p.AddLineToPoint (1382f, 768f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1382f, 768f);
+		p.MoveToPoint (1792f, 736f);
+		p.AddLineToPoint (1792f, 672f);
+		p.AddQuadCurveToPoint (1792f, 658f, 1783f, 649f);
+		p.AddQuadCurveToPoint (1774f, 640f, 1760f, 640f);
+		p.AddLineToPoint (1547f, 640f);
+		p.AddLineToPoint (1383f, 24f);
+		p.AddQuadCurveToPoint (1376f, 0f, 1352f, 0f);
+		p.AddLineToPoint (1193f, 0f);
+		p.AddQuadCurveToPoint (1169f, 0f, 1162f, 24f);
+		p.AddLineToPoint (996f, 640f);
+		p.AddLineToPoint (787f, 640f);
+		p.AddLineToPoint (620f, 24f);
+		p.AddQuadCurveToPoint (613f, 0f, 589f, 0f);
+		p.AddLineToPoint (430f, 0f);
+		p.AddQuadCurveToPoint (419f, 0f, 410.5f, 7f);
+		p.AddQuadCurveToPoint (402f, 14f, 400f, 24f);
+		p.AddLineToPoint (240f, 640f);
+		p.AddLineToPoint (32f, 640f);
+		p.AddQuadCurveToPoint (18f, 640f, 9f, 649f);
+		p.AddQuadCurveToPoint (0f, 658f, 0f, 672f);
+		p.AddLineToPoint (0f, 736f);
+		p.AddQuadCurveToPoint (0f, 750f, 9f, 759f);
+		p.AddQuadCurveToPoint (18f, 768f, 32f, 768f);
+		p.AddLineToPoint (207f, 768f);
+		p.AddLineToPoint (174f, 896f);
+		p.AddLineToPoint (32f, 896f);
+		p.AddQuadCurveToPoint (18f, 896f, 9f, 905f);
+		p.AddQuadCurveToPoint (0f, 914f, 0f, 928f);
+		p.AddLineToPoint (0f, 992f);
+		p.AddQuadCurveToPoint (0f, 1006f, 9f, 1015f);
+		p.AddQuadCurveToPoint (18f, 1024f, 32f, 1024f);
+		p.AddLineToPoint (141f, 1024f);
+		p.AddLineToPoint (52f, 1368f);
+		p.AddQuadCurveToPoint (47f, 1383f, 57f, 1396f);
+		p.AddQuadCurveToPoint (67f, 1408f, 83f, 1408f);
+		p.AddLineToPoint (220f, 1408f);
+		p.AddQuadCurveToPoint (246f, 1408f, 251f, 1384f);
+		p.AddLineToPoint (341f, 1024f);
+		p.AddLineToPoint (700f, 1024f);
+		p.AddLineToPoint (797f, 1384f);
+		p.AddQuadCurveToPoint (804f, 1408f, 828f, 1408f);
+		p.AddLineToPoint (954f, 1408f);
+		p.AddQuadCurveToPoint (978f, 1408f, 985f, 1384f);
+		p.AddLineToPoint (1083f, 1024f);
+		p.AddLineToPoint (1448f, 1024f);
+		p.AddLineToPoint (1541f, 1384f);
+		p.AddQuadCurveToPoint (1546f, 1408f, 1572f, 1408f);
+		p.AddLineToPoint (1709f, 1408f);
+		p.AddQuadCurveToPoint (1725f, 1408f, 1735f, 1396f);
+		p.AddQuadCurveToPoint (1745f, 1383f, 1740f, 1368f);
+		p.AddLineToPoint (1649f, 1024f);
+		p.AddLineToPoint (1760f, 1024f);
+		p.AddQuadCurveToPoint (1774f, 1024f, 1783f, 1015f);
+		p.AddQuadCurveToPoint (1792f, 1006f, 1792f, 992f);
+		p.AddLineToPoint (1792f, 928f);
+		p.AddQuadCurveToPoint (1792f, 914f, 1783f, 905f);
+		p.AddQuadCurveToPoint (1774f, 896f, 1760f, 896f);
+		p.AddLineToPoint (1615f, 896f);
+		p.AddLineToPoint (1581f, 768f);
+		p.AddLineToPoint (1760f, 768f);
+		p.AddQuadCurveToPoint (1774f, 768f, 1783f, 759f);
+		p.AddQuadCurveToPoint (1792f, 750f, 1792f, 736f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1792f, 736f);
+		return p;
+	}
+
+	static CGPath icon_btc_path ()
+	{
+		CGPath p = new CGPath();
+		p.MoveToPoint (1167f, 896f);
+		p.AddQuadCurveToPoint (1185f, 714f, 1036f, 638f);
+		p.AddQuadCurveToPoint (1153f, 610f, 1211f, 535f);
+		p.AddQuadCurveToPoint (1269f, 460f, 1256f, 321f);
+		p.AddQuadCurveToPoint (1249f, 250f, 1223.5f, 196f);
+		p.AddQuadCurveToPoint (1198f, 142f, 1159f, 107f);
+		p.AddQuadCurveToPoint (1120f, 72f, 1062f, 48.5f);
+		p.AddQuadCurveToPoint (1004f, 25f, 940.5f, 14f);
+		p.AddQuadCurveToPoint (877f, 3f, 795f, -1f);
+		p.AddLineToPoint (795f, -256f);
+		p.AddLineToPoint (641f, -256f);
+		p.AddLineToPoint (641f, -5f);
+		p.AddQuadCurveToPoint (561f, -5f, 519f, -4f);
+		p.AddLineToPoint (519f, -256f);
+		p.AddLineToPoint (365f, -256f);
+		p.AddLineToPoint (365f, -1f);
+		p.AddQuadCurveToPoint (347f, -1f, 311f, -0.5f);
+		p.AddQuadCurveToPoint (275f, 0f, 256f, 0f);
+		p.AddLineToPoint (56f, 0f);
+		p.AddLineToPoint (87f, 183f);
+		p.AddLineToPoint (198f, 183f);
+		p.AddQuadCurveToPoint (248f, 183f, 256f, 234f);
+		p.AddLineToPoint (256f, 636f);
+		p.AddLineToPoint (272f, 636f);
+		p.AddQuadCurveToPoint (266f, 637f, 256f, 637f);
+		p.AddLineToPoint (256f, 924f);
+		p.AddQuadCurveToPoint (243f, 992f, 167f, 992f);
+		p.AddLineToPoint (56f, 992f);
+		p.AddLineToPoint (56f, 1156f);
+		p.AddLineToPoint (268f, 1155f);
+		p.AddQuadCurveToPoint (332f, 1155f, 365f, 1156f);
+		p.AddLineToPoint (365f, 1408f);
+		p.AddLineToPoint (519f, 1408f);
+		p.AddLineToPoint (519f, 1161f);
+		p.AddQuadCurveToPoint (601f, 1163f, 641f, 1163f);
+		p.AddLineToPoint (641f, 1408f);
+		p.AddLineToPoint (795f, 1408f);
+		p.AddLineToPoint (795f, 1156f);
+		p.AddQuadCurveToPoint (874f, 1149f, 935f, 1133.5f);
+		p.AddQuadCurveToPoint (996f, 1118f, 1048f, 1088.5f);
+		p.AddQuadCurveToPoint (1100f, 1059f, 1130.5f, 1010.5f);
+		p.AddQuadCurveToPoint (1161f, 962f, 1167f, 896f);
+		p.CloseSubpath ();
+		p.MoveToPoint (1167f, 896f);
+		p.MoveToPoint (952f, 351f);
+		p.AddQuadCurveToPoint (952f, 387f, 937f, 415f);
+		p.AddQuadCurveToPoint (922f, 443f, 900f, 461f);
+		p.AddQuadCurveToPoint (878f, 479f, 842.5f, 491.5f);
+		p.AddQuadCurveToPoint (807f, 504f, 777f, 510f);
+		p.AddQuadCurveToPoint (747f, 516f, 703f, 519f);
+		p.AddQuadCurveToPoint (659f, 522f, 634f, 522f);
+		p.AddQuadCurveToPoint (609f, 522f, 569.5f, 521f);
+		p.AddQuadCurveToPoint (530f, 520f, 522f, 520f);
+		p.AddLineToPoint (522f, 182f);
+		p.AddQuadCurveToPoint (530f, 182f, 559f, 181.5f);
+		p.AddQuadCurveToPoint (588f, 181f, 607f, 181f);
+		p.AddQuadCurveToPoint (626f, 181f, 660f, 182.5f);
+		p.AddQuadCurveToPoint (694f, 184f, 718.5f, 186.5f);
+		p.AddQuadCurveToPoint (743f, 189f, 775.5f, 195f);
+		p.AddQuadCurveToPoint (808f, 201f, 831f, 209f);
+		p.AddQuadCurveToPoint (854f, 217f, 878.5f, 230f);
+		p.AddQuadCurveToPoint (903f, 243f, 918f, 260f);
+		p.AddQuadCurveToPoint (933f, 277f, 942.5f, 300f);
+		p.AddQuadCurveToPoint (952f, 323f, 952f, 351f);
+		p.CloseSubpath ();
+		p.MoveToPoint (952f, 351f);
+		p.MoveToPoint (881f, 827f);
+		p.AddQuadCurveToPoint (881f, 860f, 868.5f, 885.5f);
+		p.AddQuadCurveToPoint (856f, 911f, 838f, 927.5f);
+		p.AddQuadCurveToPoint (820f, 944f, 790f, 955.5f);
+		p.AddQuadCurveToPoint (760f, 967f, 735f, 972f);
+		p.AddQuadCurveToPoint (710f, 977f, 673.5f, 980f);
+		p.AddQuadCurveToPoint (637f, 983f, 615.5f, 982.5f);
+		p.AddQuadCurveToPoint (594f, 982f, 561.5f, 981.5f);
+		p.AddQuadCurveToPoint (529f, 981f, 522f, 981f);
+		p.AddLineToPoint (522f, 674f);
+		p.AddQuadCurveToPoint (527f, 674f, 556.5f, 673.5f);
+		p.AddQuadCurveToPoint (586f, 673f, 603f, 673.5f);
+		p.AddQuadCurveToPoint (620f, 674f, 653f, 675.5f);
+		p.AddQuadCurveToPoint (686f, 677f, 708f, 681f);
+		p.AddQuadCurveToPoint (730f, 685f, 759.5f, 692f);
+		p.AddQuadCurveToPoint (789f, 699f, 808f, 710.5f);
+		p.AddQuadCurveToPoint (827f, 722f, 845f, 737.5f);
+		p.AddQuadCurveToPoint (863f, 753f, 872f, 776f);
+		p.AddQuadCurveToPoint (881f, 799f, 881f, 827f);
+		p.CloseSubpath ();
+		p.MoveToPoint (881f, 827f);
+		return p;
+	}
+
+	static CGPath icon_file_path ()
+	{
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 768f);
 		p.AddLineToPoint (1280f, -32f);
 		p.AddQuadCurveToPoint (1280f, -72f, 1252f, -100f);
@@ -19226,9 +20521,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_file_text_path ()
+	static CGPath icon_file_text_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 160f);
 		p.AddLineToPoint (1024f, 224f);
 		p.AddQuadCurveToPoint (1024f, 238f, 1015f, 247f);
@@ -19287,9 +20582,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_sort_by_alphabet_path ()
+	static CGPath icon_sort_by_alphabet_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1191f, 1128f);
 		p.AddLineToPoint (1368f, 1128f);
 		p.AddLineToPoint (1296f, 1346f);
@@ -19372,9 +20667,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_sort_by_alphabet_alt_path ()
+	static CGPath icon_sort_by_alphabet_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1191f, 104f);
 		p.AddLineToPoint (1368f, 104f);
 		p.AddLineToPoint (1296f, 322f);
@@ -19457,9 +20752,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_sort_by_attributes_path ()
+	static CGPath icon_sort_by_attributes_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (736f, 96f);
 		p.AddQuadCurveToPoint (736f, 84f, 726f, 72f);
 		p.AddLineToPoint (407f, -247f);
@@ -19544,9 +20839,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_sort_by_attributes_alt_path ()
+	static CGPath icon_sort_by_attributes_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1216f, -32f);
 		p.AddLineToPoint (1216f, -224f);
 		p.AddQuadCurveToPoint (1216f, -238f, 1207f, -247f);
@@ -19631,9 +20926,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_sort_by_order_path ()
+	static CGPath icon_sort_by_order_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1346f, 223f);
 		p.AddQuadCurveToPoint (1346f, 286f, 1302f, 339f);
 		p.AddQuadCurveToPoint (1258f, 392f, 1199f, 392f);
@@ -19713,9 +21008,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_sort_by_order_alt_path ()
+	static CGPath icon_sort_by_order_alt_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1346f, 1247f);
 		p.AddQuadCurveToPoint (1346f, 1310f, 1302f, 1363f);
 		p.AddQuadCurveToPoint (1258f, 1416f, 1199f, 1416f);
@@ -19795,9 +21090,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_thumbs_up_path ()
+	static CGPath icon_thumbs_up_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (256f, 192f);
 		p.AddQuadCurveToPoint (256f, 218f, 237f, 237f);
 		p.AddQuadCurveToPoint (218f, 256f, 192f, 256f);
@@ -19875,9 +21170,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_thumbs_down_path ()
+	static CGPath icon_thumbs_down_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (256f, 960f);
 		p.AddQuadCurveToPoint (256f, 934f, 237f, 915f);
 		p.AddQuadCurveToPoint (218f, 896f, 192f, 896f);
@@ -19955,9 +21250,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_youtube_sign_path ()
+	static CGPath icon_youtube_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (919f, 233f);
 		p.AddLineToPoint (919f, 390f);
 		p.AddQuadCurveToPoint (919f, 440f, 890f, 440f);
@@ -20131,9 +21426,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_youtube_path ()
+	static CGPath icon_youtube_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (971f, 292f);
 		p.AddLineToPoint (971f, 81f);
 		p.AddQuadCurveToPoint (971f, 14f, 932f, 14f);
@@ -20288,9 +21583,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_xing_path ()
+	static CGPath icon_xing_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (597f, 869f);
 		p.AddQuadCurveToPoint (587f, 851f, 340f, 413f);
 		p.AddQuadCurveToPoint (313f, 367f, 275f, 367f);
@@ -20325,9 +21620,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_xing_sign_path ()
+	static CGPath icon_xing_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (685f, 771f);
 		p.AddQuadCurveToPoint (685f, 772f, 559f, 993f);
 		p.AddQuadCurveToPoint (538f, 1027f, 507f, 1027f);
@@ -20377,9 +21672,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_youtube_play_path ()
+	static CGPath icon_youtube_play_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 640f);
 		p.AddQuadCurveToPoint (1280f, 677f, 1250f, 694f);
 		p.AddLineToPoint (738f, 1014f);
@@ -20423,9 +21718,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_dropbox_path ()
+	static CGPath icon_dropbox_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (402f, 829f);
 		p.AddLineToPoint (896f, 524f);
 		p.AddLineToPoint (554f, 239f);
@@ -20471,9 +21766,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_stackexchange_path ()
+	static CGPath icon_stackexchange_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (928f, 135f);
 		p.AddLineToPoint (928f, -16f);
 		p.AddLineToPoint (221f, -17f);
@@ -20528,9 +21823,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_instagram_path ()
+	static CGPath icon_instagram_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1362f, 110f);
 		p.AddLineToPoint (1362f, 758f);
 		p.AddLineToPoint (1227f, 758f);
@@ -20594,9 +21889,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_flickr_path ()
+	static CGPath icon_flickr_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1248f, 1408f);
 		p.AddQuadCurveToPoint (1367f, 1408f, 1451.5f, 1323.5f);
 		p.AddQuadCurveToPoint (1536f, 1239f, 1536f, 1120f);
@@ -20637,9 +21932,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_adn_path ()
+	static CGPath icon_adn_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (768f, 914f);
 		p.AddLineToPoint (969f, 608f);
 		p.AddLineToPoint (567f, 608f);
@@ -20672,9 +21967,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_bitbucket_path ()
+	static CGPath icon_bitbucket_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (815f, 677f);
 		p.AddQuadCurveToPoint (823f, 614f, 764.5f, 576f);
 		p.AddQuadCurveToPoint (706f, 538f, 653f, 570f);
@@ -20767,9 +22062,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_bitbucket_sign_path ()
+	static CGPath icon_bitbucket_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (848f, 666f);
 		p.AddQuadCurveToPoint (848f, 709f, 807f, 732f);
 		p.AddQuadCurveToPoint (766f, 755f, 730f, 733f);
@@ -20864,9 +22159,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_tumblr_path ()
+	static CGPath icon_tumblr_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (390f, 1408f);
 		p.AddLineToPoint (609f, 1408f);
 		p.AddLineToPoint (609f, 1020f);
@@ -20896,9 +22191,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_tumblr_sign_path ()
+	static CGPath icon_tumblr_sign_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1123f, 127f);
 		p.AddLineToPoint (1123f, 308f);
 		p.AddQuadCurveToPoint (1035f, 252f, 949f, 252f);
@@ -20943,9 +22238,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_long_arrow_down_path ()
+	static CGPath icon_long_arrow_down_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (765f, 237f);
 		p.AddQuadCurveToPoint (773f, 218f, 760f, 202f);
 		p.AddLineToPoint (410f, -182f);
@@ -20969,9 +22264,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_long_arrow_up_path ()
+	static CGPath icon_long_arrow_up_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (765f, 1043f);
 		p.AddQuadCurveToPoint (756f, 1024f, 736f, 1024f);
 		p.AddLineToPoint (512f, 1024f);
@@ -20995,9 +22290,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_long_arrow_left_path ()
+	static CGPath icon_long_arrow_left_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1792f, 736f);
 		p.AddLineToPoint (1792f, 544f);
 		p.AddQuadCurveToPoint (1792f, 530f, 1783f, 521f);
@@ -21021,9 +22316,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_long_arrow_right_path ()
+	static CGPath icon_long_arrow_right_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1728f, 643f);
 		p.AddQuadCurveToPoint (1728f, 629f, 1718f, 619f);
 		p.AddLineToPoint (1334f, 265f);
@@ -21047,9 +22342,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_apple_path ()
+	static CGPath icon_apple_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1393f, 321f);
 		p.AddQuadCurveToPoint (1354f, 196f, 1270f, 71f);
 		p.AddQuadCurveToPoint (1141f, -125f, 1013f, -125f);
@@ -21089,9 +22384,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_windows_path ()
+	static CGPath icon_windows_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (682f, 530f);
 		p.AddLineToPoint (682f, -121f);
 		p.AddLineToPoint (0f, -27f);
@@ -21121,9 +22416,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_android_path ()
+	static CGPath icon_android_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (493f, 1053f);
 		p.AddQuadCurveToPoint (509f, 1053f, 520.5f, 1064.5f);
 		p.AddQuadCurveToPoint (532f, 1076f, 532f, 1092f);
@@ -21217,9 +22512,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_linux_path ()
+	static CGPath icon_linux_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (663f, 1125f);
 		p.AddQuadCurveToPoint (652f, 1124f, 647.5f, 1114.5f);
 		p.AddQuadCurveToPoint (643f, 1105f, 639f, 1105f);
@@ -21592,9 +22887,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_dribbble_path ()
+	static CGPath icon_dribbble_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 36f);
 		p.AddQuadCurveToPoint (982f, 277f, 884f, 534f);
 		p.AddLineToPoint (882f, 534f);
@@ -21692,9 +22987,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_skype_path ()
+	static CGPath icon_skype_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1173f, 473f);
 		p.AddQuadCurveToPoint (1173f, 523f, 1153.5f, 564.5f);
 		p.AddQuadCurveToPoint (1134f, 606f, 1105f, 633f);
@@ -21772,9 +23067,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_foursquare_path ()
+	static CGPath icon_foursquare_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1483f, 512f);
 		p.AddLineToPoint (896f, -75f);
 		p.AddQuadCurveToPoint (844f, -128f, 768.5f, -128f);
@@ -21828,9 +23123,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_trello_path ()
+	static CGPath icon_trello_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (704f, 192f);
 		p.AddLineToPoint (704f, 1216f);
 		p.AddQuadCurveToPoint (704f, 1230f, 695f, 1239f);
@@ -21879,9 +23174,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_female_path ()
+	static CGPath icon_female_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1280f, 480f);
 		p.AddQuadCurveToPoint (1280f, 440f, 1252f, 412f);
 		p.AddQuadCurveToPoint (1224f, 384f, 1184f, 384f);
@@ -21935,9 +23230,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_male_path ()
+	static CGPath icon_male_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1024f, 832f);
 		p.AddLineToPoint (1024f, 416f);
 		p.AddQuadCurveToPoint (1024f, 376f, 996f, 348f);
@@ -21987,9 +23282,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_gittip_path ()
+	static CGPath icon_gittip_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (773f, 234f);
 		p.AddLineToPoint (1123f, 707f);
 		p.AddQuadCurveToPoint (1139f, 729f, 1147.5f, 766f);
@@ -22026,9 +23321,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_sun_path ()
+	static CGPath icon_sun_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1472f, 640f);
 		p.AddQuadCurveToPoint (1472f, 757f, 1426.5f, 863.5f);
 		p.AddQuadCurveToPoint (1381f, 970f, 1303.5f, 1047.5f);
@@ -22094,9 +23389,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_moon_path ()
+	static CGPath icon_moon_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1262f, 233f);
 		p.AddQuadCurveToPoint (1208f, 224f, 1152f, 224f);
 		p.AddQuadCurveToPoint (970f, 224f, 815f, 314f);
@@ -22140,9 +23435,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_archive_path ()
+	static CGPath icon_archive_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1088f, 704f);
 		p.AddQuadCurveToPoint (1088f, 730f, 1069f, 749f);
 		p.AddQuadCurveToPoint (1050f, 768f, 1024f, 768f);
@@ -22189,9 +23484,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_bug_path ()
+	static CGPath icon_bug_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1632f, 576f);
 		p.AddQuadCurveToPoint (1632f, 550f, 1613f, 531f);
 		p.AddQuadCurveToPoint (1594f, 512f, 1568f, 512f);
@@ -22260,9 +23555,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_vk_path ()
+	static CGPath icon_vk_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (1917f, 1016f);
 		p.AddQuadCurveToPoint (1940f, 952f, 1767f, 722f);
 		p.AddQuadCurveToPoint (1743f, 690f, 1702f, 637f);
@@ -22369,9 +23664,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_weibo_path ()
+	static CGPath icon_weibo_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (675f, 252f);
 		p.AddQuadCurveToPoint (696f, 286f, 686f, 321f);
 		p.AddQuadCurveToPoint (676f, 356f, 641f, 371f);
@@ -22488,9 +23783,9 @@ namespace Poupou.Awesome.Demo {
 		return p;
 	}
 
-	public static CGPath icon_renren_path ()
+	static CGPath icon_renren_path ()
 	{
-		CGPath p = new CGPath()
+		CGPath p = new CGPath();
 		p.MoveToPoint (805f, 163f);
 		p.AddQuadCurveToPoint (683f, 96f, 544f, 96f);
 		p.AddQuadCurveToPoint (403f, 96f, 283f, 163f);
