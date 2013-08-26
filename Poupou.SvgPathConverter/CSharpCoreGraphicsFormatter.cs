@@ -23,45 +23,47 @@ namespace Poupou.SvgPathConverter {
 		
 		public void Prologue (string name)
 		{
-			writer.WriteLine ("\tstatic void {0} (CGContext c)", name);
+			writer.WriteLine ("\static CGPath {0}_path ()", name);
 			writer.WriteLine ("\t{");
+            writer.WriteLine("\t\tCGPath p = new CGPath();");
 		}
 	
 		public void Epilogue ()
 		{
-			writer.WriteLine ("\t\tc.FillPath ();");
-			writer.WriteLine ("\t\tc.StrokePath ();");
+			//writer.WriteLine ("\t\tc.FillPath ();");
+			//writer.WriteLine ("\t\tc.StrokePath ();");
+            writer.WriteLine("\t\treturn p;");
 			writer.WriteLine ("\t}");
 			writer.WriteLine ();
 		}
 	
 		public void MoveTo (PointF pt)
 		{
-			writer.WriteLine ("\t\tc.MoveTo ({0}f, {1}f);", pt.X.ToString (CultureInfo.InvariantCulture), 
+			writer.WriteLine ("\t\tp.MoveToPoint ({0}f, {1}f);", pt.X.ToString (CultureInfo.InvariantCulture), 
 				pt.Y.ToString (CultureInfo.InvariantCulture));
 		}
 	
 		public void LineTo (PointF pt)
 		{
-			writer.WriteLine ("\t\tc.AddLineToPoint ({0}f, {1}f);", pt.X.ToString (CultureInfo.InvariantCulture), 
+			writer.WriteLine ("\t\tp.AddLineToPoint ({0}f, {1}f);", pt.X.ToString (CultureInfo.InvariantCulture), 
 			 	pt.Y.ToString (CultureInfo.InvariantCulture));
 		}
 	
 		public void ClosePath ()
 		{
-			writer.WriteLine ("\t\tc.ClosePath ();");
+			writer.WriteLine ("\t\tp.CloseSubpath ();");
 		}
 	
 		public void QuadCurveTo (PointF pt1, PointF pt2)
 		{
-			writer.WriteLine ("\t\tc.AddQuadCurveToPoint ({0}f, {1}f, {2}f, {3}f);", 
+			writer.WriteLine ("\t\tp.AddQuadCurveToPoint ({0}f, {1}f, {2}f, {3}f);", 
 				pt1.X.ToString (CultureInfo.InvariantCulture), pt1.Y.ToString (CultureInfo.InvariantCulture),
 				pt2.X.ToString (CultureInfo.InvariantCulture), pt2.Y.ToString (CultureInfo.InvariantCulture));
 		}
 
 		public void CurveTo (PointF pt1, PointF pt2, PointF pt3)
 		{
-			writer.WriteLine ("\t\tc.AddCurveToPoint ({0}f, {1}f, {2}f, {3}f, {4}f, {5}f);", 
+			writer.WriteLine ("\t\tp.AddCurveToPoint ({0}f, {1}f, {2}f, {3}f, {4}f, {5}f);", 
 				pt1.X.ToString (CultureInfo.InvariantCulture), pt1.Y.ToString (CultureInfo.InvariantCulture),
 				pt2.X.ToString (CultureInfo.InvariantCulture), pt2.Y.ToString (CultureInfo.InvariantCulture),
 				pt3.X.ToString (CultureInfo.InvariantCulture), pt3.Y.ToString (CultureInfo.InvariantCulture));

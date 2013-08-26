@@ -144,7 +144,8 @@ namespace Poupou.SvgPathConverter {
 			double cos_theta1 = Math.Cos (theta1);
 			double sin_theta1 = Math.Sin (theta1);
 
-			PointF c1, c2;
+			PointF c1 = PointF.Empty
+                , c2 = PointF.Empty;
 			
 			int i;
 			for (i = 0; i < segments; ++i) {

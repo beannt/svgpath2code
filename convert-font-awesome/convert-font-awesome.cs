@@ -6,6 +6,7 @@
 // Licensed under the GNU LGPL 2 license only (no "later versions")
 
 using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.IO;
 using Poupou.SvgPathConverter;
@@ -52,21 +53,24 @@ class Program {
 		writer.WriteLine ("\tpublic partial class Elements {");
 
 		Dictionary<string,string> names = new Dictionary<string,string> ();
-		foreach (string line in File.ReadLines (css_file)) {
+        string[] lines = File.ReadLines(css_file).ToArray();
+		for (int i = 0; i < lines.Length; i++) {
+            string line = lines[i];
 			if (!line.StartsWith (".icon-", StringComparison.Ordinal))
 				continue;
 			int p = line.IndexOf (':');
 			if (p == -1)
 				continue;
 			string name = line.Substring (1, p - 1).Replace ('-', '_');
-			p = line.IndexOf ("content: \"\\", StringComparison.Ordinal);
+            line = lines[++i];
+            p = line.IndexOf("content: \"\\", StringComparison.Ordinal);
 			if (p == -1)
 				continue;
 			string value = line.Substring (p + 11, 4);
 			writer.WriteLine ("\t\t// {0} : {1}", name, value);
-			writer.WriteLine ("\t\tImageStringElement {0}_element = new ImageStringElement (\"{0}\", GetAwesomeIcon ({0}));", name);
+            writer.WriteLine("\t\tpublic static UIImage {0} = {{ get {{ return Get ({0}_path); }} }}", name);
 			writer.WriteLine ();
-			names.Add (value, name);
+			names[value] = name;
 		}
 		writer.WriteLine ("\t\t// total: {0}", names.Count);
 		writer.WriteLine ();
