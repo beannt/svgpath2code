@@ -15,7 +15,7 @@ using Poupou.SvgPathConverter;
 // based application to show them all. Since MonoTouch uses C# and iOS is CoreGraphics based then the parameters (and
 // the extra code generation) are hardcoded inside the sample.
 
-class Program {
+/*class Program {
 
 	static void Usage (string error, params string[] values)
 	{
@@ -114,4 +114,4 @@ class Program {
 
 		return 0;
 	}
-}
+}*/
