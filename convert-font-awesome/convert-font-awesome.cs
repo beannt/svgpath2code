@@ -35,7 +35,7 @@ class Program {
 		if (!File.Exists (css_file))
 			Usage ("error: Missing '{0}' file.", css_file);
 
-		string svg_file = Path.Combine (font_dir, "font/fontawesome-webfont.svg");
+		string svg_file = Path.Combine (font_dir, "fonts/fontawesome-webfont.svg");
 		if (!File.Exists (svg_file))
 			Usage ("error: Missing '{0}' file.", svg_file);
 
@@ -69,7 +69,7 @@ class Program {
 			for (int j = i - 1; j >= 0; j--)
 			{
 				line = lines[j];
-				if (!line.StartsWith(".icon-", StringComparison.Ordinal))
+				if (!line.StartsWith(".fa-", StringComparison.Ordinal))
 					break;
 
 				p = line.IndexOf(':');
@@ -83,7 +83,7 @@ class Program {
 				}
 
 				writer.WriteLine("\t\t// {0} : {1}", name, value);
-				writer.WriteLine("\t\tpublic static UIImage {0} {{ get {{ return Get ({1}_path); }} }}", curName, name);
+				writer.WriteLine("\t\tpublic UIImage {0} {{ get {{ return Get ({1}_path); }} }}", curName, name);
 				writer.WriteLine();
 			}
 		}
@@ -112,6 +112,7 @@ class Program {
 		writer.WriteLine ("}");
 		writer.Close ();
 
+		Console.WriteLine("Done");
 		return 0;
 	}
 }
