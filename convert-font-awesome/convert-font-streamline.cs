@@ -38,9 +38,11 @@ class Program {
 		if (!File.Exists (css_file))
 			Usage ("error: Missing '{0}' file.", css_file);
 
-		string svg_file = Path.Combine (font_dir, "fonts/streamline-30px.svg");
-		if (!File.Exists (svg_file))
-			Usage ("error: Missing '{0}' file.", svg_file);
+		string[] svgFiles = System.IO.Directory.GetFiles(font_dir, "*.svg", SearchOption.AllDirectories);
+		if( svgFiles.Length == 0 )
+			Usage ("error: Can not found any svg file.");
+		string svg_file = svgFiles[0];
+
 
 		var output = args [1];
 		if( string.IsNullOrEmpty(output) )
@@ -53,7 +55,7 @@ class Program {
 		writer.WriteLine ("using MonoTouch.Foundation;");
 		writer.WriteLine ("using MonoTouch.UIKit;");
 		writer.WriteLine ();
-		writer.WriteLine ("namespace UI.Utilities {");
+		writer.WriteLine ("namespace UI.Icons {");
 		writer.WriteLine ();
 		writer.WriteLine ("\t[Preserve]");
 		writer.WriteLine("\tpublic partial class StreamlineIcons {");
